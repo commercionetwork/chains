@@ -1,6 +1,8 @@
 # Getting Started
 
-First off, you’ll need to setup a server! This guide is writing over Digital ocean VM provider, but is applicable in any other provider.     
+First off, you’ll need to setup a server! This guide is writing over Digital ocean VM provider, but is applicable in any other provider.
+
+Here's a friendly Digital Ocean $50 credit Coupon link https://m.do.co/c/132ef6958ef7
 
 We selected this type of server:   
 
