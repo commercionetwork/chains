@@ -68,7 +68,9 @@ wget https://github.com/commercionetwork/chains/raw/master/commercio-testnet2000
 
 Change persistent peers in `config.toml` file
 ```
-sed -e "s|persistent_peers = \"\"|persistent_peers = \"3a71a89d7b808a5a940fea4d5ec063416d017e3f@167.71.39.115:26656,8b062a296a4dede07333dc32ee105dd1677dc3cd@167.71.62.24:26656,ad067538c5994093f80712130ecba1fa651286b2@167.71.49.105:26656,9cc2d5ca3262f9a99965c963a2cebe420931148a@167.71.56.41:26656\"|g" ~/.cnd/config/config.toml
+sed -e "s|persistent_peers = \".*\"|persistent_peers = \"3a71a89d7b808a5a940fea4d5ec063416d017e3f@167.71.39.115:26656,8b062a296a4dede07333dc32ee105dd1677dc3cd@167.71.62.24:26656,ad067538c5994093f80712130ecba1fa651286b2@167.71.49.105:26656,9cc2d5ca3262f9a99965c963a2cebe420931148a@167.71.56.41:26656\"|g" ~/.cnd/config/config.toml > ~/.cnd/config/config.toml.tmp
+
+mv ~/.cnd/config/config.toml.tmp  ~/.cnd/config/config.toml
 ```
 
 # Configure service
@@ -96,15 +98,21 @@ Now you can start full node. Enable and try to start service
 
 ```shell
 # Start the node  
-sudo systemctl enable cnd  
-sudo systemctl start cnd
+systemctl enable cnd  
+systemctl start cnd
 ```
 
 Control if the sync was started. Use `ctrl+c` to interrupt `tail` command
 
 ```shell
 tail -100f /var/log/syslog
-# ##
+# OUTPUT SHOULD BE LIKE BELOW
+#
+# Aug 13 16:30:20 commerciotestnet-node4 cnd[351]: I[2019-08-13|16:30:20.722] Executed block                               module=state height=1 validTxs=0 invalidTxs=0
+# Aug 13 16:30:20 commerciotestnet-node4 cnd[351]: I[2019-08-13|16:30:20.728] Committed state                              module=state height=1 txs=0 appHash=9815044185EB222CE9084AA467A156DFE6B4A0B1BAAC6751DE86BB31C83C4B08
+# Aug 13 16:30:20 commerciotestnet-node4 cnd[351]: I[2019-08-13|16:30:20.745] Executed block                               module=state height=2 validTxs=0 invalidTxs=0
+# Aug 13 16:30:20 commerciotestnet-node4 cnd[351]: I[2019-08-13|16:30:20.751] Committed state                              module=state height=2 txs=0 appHash=96BFD9C8714A79193A7913E5F091470691B195E1E6F028BC46D6B1423F7508A5
+# Aug 13 16:30:20 commerciotestnet-node4 cnd[351]: I[2019-08-13|16:30:20.771] Executed block                               module=state height=3 validTxs=0 invalidTxs=0
 ```
 
 # Add wallet key, get tokens and create validator
@@ -131,7 +139,7 @@ After you have the confirm about transaction, control if you have tokens in your
 
 ```shell
 cncli query account <your pub addr> --chain-id commercio-testnet2000
-# Output should show like this
+# Output should like this
 # ...
 #   - denom: ucommercio
 #    amount: "52000000000"
@@ -155,5 +163,11 @@ cncli tx staking create-validator \
   --commission-max-change-rate="0.01" --min-self-delegation="1" \
   --from=<your pub addr> \
   -y
-  ```
+# Output should like this
+# ...
+# rawlog: '[{"msg_index":0,"success":true,"log":""}]'
+# ...
+```
+
+
 
