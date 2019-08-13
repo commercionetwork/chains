@@ -1,0 +1,3849 @@
+{
+    "app_hash": "", 
+    "app_state": {
+      "accounts": [
+        {
+          "account_number": "0", 
+          "address": "comnet1qw8z2flsspxn03csj8qtxnkg0m2s08kmyrcrv0", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1qh5pza27uqg58f9d4tym7xgzvf0p9pndfqngll", 
+          "coins": [
+            {
+              "amount": "101000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1pn7ywzmlm82kx6nxzkve4jrm078d7hgk5q0sg0", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1zdycheqh468lhew8c9l8n0ruq9qsngz0l5lgd4", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1zdgqdwk667lt94kxxjfy0dz2yeewhddtgl6m4t", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1z45nzqpcq3me6chy96pwyp7k0rz5pc7vslqk3s", 
+          "coins": [
+            {
+              "amount": "55000000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1zkkueamsfhw7wzrru5hlwxtccuuxd970ktfmgv", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1zczpr36fsntqwgpa44yksls6t3ds0f77pvjt9e", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1zch4e2y42ye0a2pr3d4y8r0xe3ls9l94w2u4dy", 
+          "coins": [
+            {
+              "amount": "70998000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1zlpgud7lkws75tumqghdpfa0kzuy8706qzgz4x", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1zl5ezv0qcj83rv53fgjtzxaesx28yqelzz2yyk", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1rzxa0ntzrmnez9l46cspvlkj4tjevgc59vnmlm", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1r24qlfqgsut6gee7j6m3dzdah4qz9pmc3dtajp", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1r7clpxcnxna5q7d6ux7dp9jqeu6rqv49rxuwh2", 
+          "coins": [
+            {
+              "amount": "1000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "102", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1ypza8yksvqyuwyaegzrwlzjshmmc9ejhl6r32f", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1yx0aweqf4nf7tz8rzjd2demrvnhktete34h67f", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1x3qmacg9da7pjeyu2wxayhp0ce7fax0jq0ckz9", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet18ppqjd6x8gzdym2vjqcmuxpdktccgjp4yq8lk6", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet188uppvxx6xsx3u7e4pmfvq98nyutgl6j3nv0xv", 
+          "coins": [
+            {
+              "amount": "99000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "4", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet18t4jx5rcst4lpaxjpwx0lkpc77ez9gnecwzrz9", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet18w2mljkvznjnqvw0zwaf6gexcarexr8llghrn9", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1802fnt33ydcahzty4x0ycn4xlwd8u7ejm9ulc0", 
+          "coins": [
+            {
+              "amount": "99000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet18uh4pg4hhhxanym837de9x9eux39446rs0r4mx", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet18a2qe5qr6jc8h0uf70s46lmgwa88wmfp7es7kf", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1gyy7nyw03kuqk56gr9jjgstwe0kjjdwp9qa2fl", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1gxcnkdv9hkd4v7xkwyddtt09v37tt855cds09m", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1gvzmy0v49llys488uv4gkrxyruukj99qgyxj3t", 
+          "coins": [
+            {
+              "amount": "99000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1glddm3huu74mq9p3ec5x64rm2886ust0t3udkf", 
+          "coins": [
+            {
+              "amount": "4999996250", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet12vv8u4lfwa406kd9hpz53ye3njkn2dtk3q5v7s", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet12czmhpg0gc3fmgm57pd6wa38gulaef5t0a5jdw", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1t8xx727yrvep0w7ylunz609vn2sarf5cn976fh", 
+          "coins": [
+            {
+              "amount": "4276", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "8", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1tgl67r8tcxkcjc7ncuyfp8fpysvnp8vlzwsq0z", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1tjvtxpqhxw8ml4c7zde3l07myksju4gztjmy34", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1thymmwdgl0lsw4wjddp2uuxpp90ja97qs025xa", 
+          "coins": [], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1tmck04ydepltw0d2pfk7awwv8ffkgza20jcte9", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1vps5deyq9w4fg2tct7xpmta0f9r0dj0uzjx7j0", 
+          "coins": [
+            {
+              "amount": "188000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1vp3mqrg3p2tyxf5kqr0qyal3ew54vpqz6muyfx", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1vr03uwsgxxd9ysvpx4yh6ztkej86gn52unn2gv", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1v2e7dy9jly8jnvkh4ymst0r5y9ppkk0q0gcgc5", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1d8akr5mnpcrn9z2frtllpu9l25h7tmr3uzms6u", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1df0k4asysxcgh0dvqalqkp8ml2wf6j2e2mtey5", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1dhdx2vt3yghuw8rxjf8gm4gvmdxz48fgc5zfce", 
+          "coins": [
+            {
+              "amount": "101000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1dlge9c9vud7qgnqwg9p5zaeqjc3vacrkcphjqg", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1wp9zglavjcfzjgar26lfsdqp8f9u5uk234jh2c", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1wyh23mp3khk8a5wc749mf5ny9myp282029fz8y", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1w0xr2aex993a44twj9mfnf5jytx3vu78rupjv8", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1w3j09c8ngew88tpelwd2uxwed2lg88pc6x5tzp", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1w5pzkvdnz37tpda0cxkfkcpm7qmrhhsfq87q8l", 
+          "coins": [
+            {
+              "amount": "99996000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "3", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1w7r8rt764n7khu7xkw4wthzl5fca5a8fzsv75u", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet10ze7xt46yzedgutkh4ne6r4mhd0t3pawr88dk2", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet10yjxslnn8gxrxcmgk4ynm7k33mwcgg3j4sg3a3", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet10x5k4ycuesdjtcr0taaxrjumfakkqefhwn9m4p", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet10ev36s2v9ek8wcevrvv79l5xz04qxqmjjhulgj", 
+          "coins": [
+            {
+              "amount": "98000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet10ua79td2zzhakllvn4xp8zn6wc5emt02zvx2vy", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1srd6nufsr527cdaw4mjem40hq9dywclyxsqwtq", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1sdgphzj5cvz7vcqt7h9ymv99lu99qcng5rdpzq", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1swczzacsn94kqmdv2z2xw2m846aq9q22cpekn9", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1smjc0llclhx9dmk2hz5unlnr253jgyh2lljy6k", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet13gd724g32jjplu50lh2t9f0jzlc4cf9lzr0wma", 
+          "coins": [
+            {
+              "amount": "99000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet13f6frfwkxn94kxglpxg4cwzlnjv0aq0vu3gxeq", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1333radn4cy76pccnkz7ywqwhtysqy3fyr254nj", 
+          "coins": [
+            {
+              "amount": "59425000000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "3", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1jrfc9ft7858d92vk6x4jxf8s4jyz0ulwwz4g0n", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1jgh93q9208lkh0zalmvhj83w2dx868l0tawcu9", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1je8m3p208d6dkyuehsexm6f0zjylxqjtf2v3aw", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1n9vtkh62j0n8n0earzekwyknxd0309afqhvxk4", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1nntrsfdtveu8lngxc3pw7mslqatwe98vpfnusk", 
+          "coins": [
+            {
+              "amount": "101000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1nhu0phday3vup4jlmzepfzyjvgjh06vnt7dj2u", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1nmrtwkg36rgctqkv3y8nyahayxduurh75wxmqy", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1n7ssqdxc3sz8s70tkgyxl58cvx7u35kff9hf5u", 
+          "coins": [], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet15jn0emgxhcsgyfzlkhfwpqzhrq6mlva6st6unr", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet15jmz0dv2vqseg60e3830xu06qk2ev9n2amsjl7", 
+          "coins": [
+            {
+              "amount": "101000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet157cvrfppa7jkw9tpq8ex6p78wkl7wkl2avyd5f", 
+          "coins": [
+            {
+              "amount": "101000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet14szzeqfjv3kytz7g0yu68gx05f23p76qtk0eng", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet14mqp46d5xtec7mnzmrhslqxrlwfqwl66dqrzan", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet14mkw0p8kwh98unjdv8xdwluayc5n5qh9wlnqsw", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet14ln3nrz4gznp6jmk3hp05fcr96ma4tyq9x5fmf", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1k8kec0e3l8w7lh78yjxf8tjrc2m45fm77pz7dz", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1kfsy737wn0xsl2fzu6scfstcz7w43vkyn2gwse", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1kh6t59n32pnj43ptqmtn6wdwclmxsfv8v94pwk", 
+          "coins": [
+            {
+              "amount": "89985000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "4", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1kma5c0z72cwpyzmtkgv06swdw36vfd58j6n4f8", 
+          "coins": [
+            {
+              "amount": "55000000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1h2ltzjrlwxcahvzwmrhdvpy7czksqpvjg8zp2l", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1hw0z3ghpdw679zhehldw7m5xldq0y9kcnpp593", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1hcwdxmxwkxc4xzs2hn2j0j8qjrj0ukmmlnpkmt", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1c9nke6rjg7s5znmxpn6kzkn0matgpwym72ecnx", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1e5ezhcgvahpje80mwp2w46m44dm5dknka2330y", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1emgjlpm2975900dyv24w7tl5pa0rpxmz2zqsp0", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet16rxudalh36audz3j99a68kfv97pwz0ktcq7w36", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet168qgl2672j384qwc49pfgccqrlyq38sug9j0s2", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet16nepq28h2aqdwuc9zmujd6ssv87867lgvzarng", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1uqtulakgxsettdlwy7ejlvzkskrrt7h5h99s5u", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1ufvnt55j9zj5nxxe702de3dksrvr5pvgazl3rh", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1uv075ptk269kalaxhreafcvwuwxr72ngx7w0ds", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1uwzgm8vzzd6pcp042sq8dj6aj2nken4chj8dn8", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1uhtcusl6n6tsqnds898d64de92qlfzuf5vf0tn", 
+          "coins": [
+            {
+              "amount": "89996000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "3", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1uhv4wqxfacuu4k8urq9xf77g8l0c3s54d02y3a", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1uh3y3vuxw0pd4rd48as9r0cfpu4nnc8e7u73ah", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1avdgt46t8p9fn33rex3t4cy38p68qvsd2uwuca", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "2", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1aet9eszwaglxam3rdusgljdry59dnws4y2cjdl", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1ae724nkvex5cgrp6d4xpyt7a365xpmk6u08w3y", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet17x6ufhmmlra7pvjnkq7gllgujajv94fs73l4qk", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1785kpuaregu6gff8krukw9wnqh5sxk9qgj76nc", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet17f4r6xhcnx5et95mq7apg50t9rwuk22h5qtysp", 
+          "coins": [
+            {
+              "amount": "99000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet17d5g4e5q42k6e07klet4gpm0dxlja2mtjh9qfd", 
+          "coins": [
+            {
+              "amount": "3099995000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "5", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet17ekp4k40sw2qqfy9v4emrn595843hm9aeprcpg", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet17el4a026kt2280mg44madmp8xchd36k8f9zcva", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1lpfh6m2aw6zsfzcvlm7pjs67jw34xw23jdug89", 
+          "coins": [
+            {
+              "amount": "101000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1l9dnng0hr9hhmklmag3nlc4gy2zeyk4u7f6ntc", 
+          "coins": [
+            {
+              "amount": "100000000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "1", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1l0xuxycj63gqdcru06fhpr98v0lexnzzd5nxt2", 
+          "coins": [
+            {
+              "amount": "10987247", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "", 
+          "module_permissions": [], 
+          "original_vesting": [], 
+          "sequence_number": "11", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet17xpfvakm2amg962yls6f84z3kell8c5lgehaun", 
+          "coins": [], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "fee_collector", 
+          "module_permissions": [
+            "basic"
+          ], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet10d07y265gmmuvt4z0w9aw880jnsr700jzz8cpa", 
+          "coins": [], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "gov", 
+          "module_permissions": [
+            "burner"
+          ], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8llsp73", 
+          "coins": [
+            {
+              "amount": "42227", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "distribution", 
+          "module_permissions": [
+            "basic"
+          ], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1fl48vsnmsdzcv85q5d2q4z5ajdha8yu3dmajwe", 
+          "coins": [
+            {
+              "amount": "442148630000", 
+              "denom": "ucommercio"
+            }
+          ], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "bonded_tokens_pool", 
+          "module_permissions": [
+            "burner", 
+            "staking"
+          ], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1tygms3xhhs3yv487phx3dw4a95jn7t7lemprcd", 
+          "coins": [], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "not_bonded_tokens_pool", 
+          "module_permissions": [
+            "burner", 
+            "staking"
+          ], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }, 
+        {
+          "account_number": "0", 
+          "address": "comnet1m3h30wlvsf8llruxtpukdvsy0km2kum8s3n9sw", 
+          "coins": [], 
+          "delegated_free": [], 
+          "delegated_vesting": [], 
+          "end_time": "0", 
+          "module_name": "mint", 
+          "module_permissions": [
+            "minter"
+          ], 
+          "original_vesting": [], 
+          "sequence_number": "0", 
+          "start_time": "0"
+        }
+      ], 
+      "auth": {
+        "params": {
+          "max_memo_characters": "256", 
+          "sig_verify_cost_ed25519": "590", 
+          "sig_verify_cost_secp256k1": "1000", 
+          "tx_sig_limit": "7", 
+          "tx_size_cost_per_byte": "10"
+        }
+      }, 
+      "bank": {
+        "send_enabled": true
+      }, 
+      "crisis": {
+        "constant_fee": {
+          "amount": "1000", 
+          "denom": "ucommercio"
+        }
+      }, 
+      "distribution": {
+        "base_proposer_reward": "0.010000000000000000", 
+        "bonus_proposer_reward": "0.040000000000000000", 
+        "community_tax": "0.020000000000000000", 
+        "delegator_starting_infos": [
+          {
+            "delegator_address": "comnet1r7clpxcnxna5q7d6ux7dp9jqeu6rqv49rxuwh2", 
+            "starting_info": {
+              "height": "0", 
+              "previous_period": "1", 
+              "stake": "100000000000.000000000000000000"
+            }, 
+            "validator_address": "comnetvaloper1r7clpxcnxna5q7d6ux7dp9jqeu6rqv49xqwfpf"
+          }, 
+          {
+            "delegator_address": "comnet1glddm3huu74mq9p3ec5x64rm2886ust0t3udkf", 
+            "starting_info": {
+              "height": "728638", 
+              "previous_period": "1", 
+              "stake": "50000000000.000000000000000000"
+            }, 
+            "validator_address": "comnetvaloper1glddm3huu74mq9p3ec5x64rm2886ust0whw2q2"
+          }, 
+          {
+            "delegator_address": "comnet1t8xx727yrvep0w7ylunz609vn2sarf5cn976fh", 
+            "starting_info": {
+              "height": "389480", 
+              "previous_period": "6", 
+              "stake": "97029908999.091000908999091001"
+            }, 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5"
+          }, 
+          {
+            "delegator_address": "comnet1uhtcusl6n6tsqnds898d64de92qlfzuf5vf0tn", 
+            "starting_info": {
+              "height": "165799", 
+              "previous_period": "3", 
+              "stake": "9999999.999999999999999999"
+            }, 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5"
+          }, 
+          {
+            "delegator_address": "comnet1n7ssqdxc3sz8s70tkgyxl58cvx7u35kff9hf5u", 
+            "starting_info": {
+              "height": "0", 
+              "previous_period": "1", 
+              "stake": "100000000000.000000000000000000"
+            }, 
+            "validator_address": "comnetvaloper1n7ssqdxc3sz8s70tkgyxl58cvx7u35kfvr9wzl"
+          }, 
+          {
+            "delegator_address": "comnet1zch4e2y42ye0a2pr3d4y8r0xe3ls9l94w2u4dy", 
+            "starting_info": {
+              "height": "165812", 
+              "previous_period": "10", 
+              "stake": "30000000.000000000000000000"
+            }, 
+            "validator_address": "comnetvaloper17d5g4e5q42k6e07klet4gpm0dxlja2mth3h8lw"
+          }, 
+          {
+            "delegator_address": "comnet1kh6t59n32pnj43ptqmtn6wdwclmxsfv8v94pwk", 
+            "starting_info": {
+              "height": "459234", 
+              "previous_period": "12", 
+              "stake": "10000000.000000000000000000"
+            }, 
+            "validator_address": "comnetvaloper17d5g4e5q42k6e07klet4gpm0dxlja2mth3h8lw"
+          }, 
+          {
+            "delegator_address": "comnet17d5g4e5q42k6e07klet4gpm0dxlja2mtjh9qfd", 
+            "starting_info": {
+              "height": "165677", 
+              "previous_period": "4", 
+              "stake": "97000000000.000000000000000000"
+            }, 
+            "validator_address": "comnetvaloper17d5g4e5q42k6e07klet4gpm0dxlja2mth3h8lw"
+          }
+        ], 
+        "delegator_withdraw_infos": null, 
+        "fee_pool": {
+          "community_pool": [
+            {
+              "amount": "931.506191115290087264", 
+              "denom": "ucommercio"
+            }
+          ]
+        }, 
+        "outstanding_rewards": [
+          {
+            "outstanding_rewards": [
+              {
+                "amount": "11995.351809026072923347", 
+                "denom": "ucommercio"
+              }
+            ], 
+            "validator_address": "comnetvaloper1r7clpxcnxna5q7d6ux7dp9jqeu6rqv49xqwfpf"
+          }, 
+          {
+            "outstanding_rewards": null, 
+            "validator_address": "comnetvaloper1glddm3huu74mq9p3ec5x64rm2886ust0whw2q2"
+          }, 
+          {
+            "outstanding_rewards": [
+              {
+                "amount": "6656.645378295071050172", 
+                "denom": "ucommercio"
+              }
+            ], 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5"
+          }, 
+          {
+            "outstanding_rewards": [
+              {
+                "amount": "11282.851809026072923347", 
+                "denom": "ucommercio"
+              }
+            ], 
+            "validator_address": "comnetvaloper1n7ssqdxc3sz8s70tkgyxl58cvx7u35kfvr9wzl"
+          }, 
+          {
+            "outstanding_rewards": [
+              {
+                "amount": "11360.644812537493015870", 
+                "denom": "ucommercio"
+              }
+            ], 
+            "validator_address": "comnetvaloper17d5g4e5q42k6e07klet4gpm0dxlja2mth3h8lw"
+          }
+        ], 
+        "previous_proposer": "comnetvalcons1l98z5a0wszu6a9epjfre47v8ah3k3td0l4h28p", 
+        "validator_accumulated_commissions": [
+          {
+            "accumulated": [
+              {
+                "amount": "1199.535180902607292334", 
+                "denom": "ucommercio"
+              }
+            ], 
+            "validator_address": "comnetvaloper1r7clpxcnxna5q7d6ux7dp9jqeu6rqv49xqwfpf"
+          }, 
+          {
+            "accumulated": null, 
+            "validator_address": "comnetvaloper1glddm3huu74mq9p3ec5x64rm2886ust0whw2q2"
+          }, 
+          {
+            "accumulated": [
+              {
+                "amount": "1093.336204544107105017", 
+                "denom": "ucommercio"
+              }
+            ], 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5"
+          }, 
+          {
+            "accumulated": [
+              {
+                "amount": "1128.285180902607292334", 
+                "denom": "ucommercio"
+              }
+            ], 
+            "validator_address": "comnetvaloper1n7ssqdxc3sz8s70tkgyxl58cvx7u35kfvr9wzl"
+          }, 
+          {
+            "accumulated": [
+              {
+                "amount": "1136.137433650678301586", 
+                "denom": "ucommercio"
+              }
+            ], 
+            "validator_address": "comnetvaloper17d5g4e5q42k6e07klet4gpm0dxlja2mth3h8lw"
+          }
+        ], 
+        "validator_current_rewards": [
+          {
+            "rewards": {
+              "period": "2", 
+              "rewards": [
+                {
+                  "amount": "10795.816628123465631013", 
+                  "denom": "ucommercio"
+                }
+              ]
+            }, 
+            "validator_address": "comnetvaloper1r7clpxcnxna5q7d6ux7dp9jqeu6rqv49xqwfpf"
+          }, 
+          {
+            "rewards": {
+              "period": "2", 
+              "rewards": null
+            }, 
+            "validator_address": "comnetvaloper1glddm3huu74mq9p3ec5x64rm2886ust0whw2q2"
+          }, 
+          {
+            "rewards": {
+              "period": "9", 
+              "rewards": [
+                {
+                  "amount": "761.243803359955932240", 
+                  "denom": "ucommercio"
+                }
+              ]
+            }, 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5"
+          }, 
+          {
+            "rewards": {
+              "period": "2", 
+              "rewards": [
+                {
+                  "amount": "10154.566628123465631013", 
+                  "denom": "ucommercio"
+                }
+              ]
+            }, 
+            "validator_address": "comnetvaloper1n7ssqdxc3sz8s70tkgyxl58cvx7u35kfvr9wzl"
+          }, 
+          {
+            "rewards": {
+              "period": "13", 
+              "rewards": [
+                {
+                  "amount": "4559.601915625889194673", 
+                  "denom": "ucommercio"
+                }
+              ]
+            }, 
+            "validator_address": "comnetvaloper17d5g4e5q42k6e07klet4gpm0dxlja2mth3h8lw"
+          }
+        ], 
+        "validator_historical_rewards": [
+          {
+            "period": "1", 
+            "rewards": {
+              "cumulative_reward_ratio": null, 
+              "reference_count": 2
+            }, 
+            "validator_address": "comnetvaloper1r7clpxcnxna5q7d6ux7dp9jqeu6rqv49xqwfpf"
+          }, 
+          {
+            "period": "1", 
+            "rewards": {
+              "cumulative_reward_ratio": null, 
+              "reference_count": 2
+            }, 
+            "validator_address": "comnetvaloper1glddm3huu74mq9p3ec5x64rm2886ust0whw2q2"
+          }, 
+          {
+            "period": "2", 
+            "rewards": {
+              "cumulative_reward_ratio": null, 
+              "reference_count": 1
+            }, 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5"
+          }, 
+          {
+            "period": "3", 
+            "rewards": {
+              "cumulative_reward_ratio": [
+                {
+                  "amount": "0.000000034700012163", 
+                  "denom": "ucommercio"
+                }
+              ], 
+              "reference_count": 1
+            }, 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5"
+          }, 
+          {
+            "period": "4", 
+            "rewards": {
+              "cumulative_reward_ratio": [
+                {
+                  "amount": "0.000000043199158254", 
+                  "denom": "ucommercio"
+                }
+              ], 
+              "reference_count": 1
+            }, 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5"
+          }, 
+          {
+            "period": "5", 
+            "rewards": {
+              "cumulative_reward_ratio": [
+                {
+                  "amount": "0.000000043199158254", 
+                  "denom": "ucommercio"
+                }
+              ], 
+              "reference_count": 1
+            }, 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5"
+          }, 
+          {
+            "period": "6", 
+            "rewards": {
+              "cumulative_reward_ratio": [
+                {
+                  "amount": "0.000000043199158254", 
+                  "denom": "ucommercio"
+                }
+              ], 
+              "reference_count": 1
+            }, 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5"
+          }, 
+          {
+            "period": "7", 
+            "rewards": {
+              "cumulative_reward_ratio": [
+                {
+                  "amount": "0.000000092683852497", 
+                  "denom": "ucommercio"
+                }
+              ], 
+              "reference_count": 1
+            }, 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5"
+          }, 
+          {
+            "period": "8", 
+            "rewards": {
+              "cumulative_reward_ratio": [
+                {
+                  "amount": "0.000000092683852497", 
+                  "denom": "ucommercio"
+                }
+              ], 
+              "reference_count": 2
+            }, 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5"
+          }, 
+          {
+            "period": "1", 
+            "rewards": {
+              "cumulative_reward_ratio": null, 
+              "reference_count": 2
+            }, 
+            "validator_address": "comnetvaloper1n7ssqdxc3sz8s70tkgyxl58cvx7u35kfvr9wzl"
+          }, 
+          {
+            "period": "4", 
+            "rewards": {
+              "cumulative_reward_ratio": null, 
+              "reference_count": 1
+            }, 
+            "validator_address": "comnetvaloper17d5g4e5q42k6e07klet4gpm0dxlja2mth3h8lw"
+          }, 
+          {
+            "period": "10", 
+            "rewards": {
+              "cumulative_reward_ratio": [
+                {
+                  "amount": "0.000000042764503211", 
+                  "denom": "ucommercio"
+                }
+              ], 
+              "reference_count": 1
+            }, 
+            "validator_address": "comnetvaloper17d5g4e5q42k6e07klet4gpm0dxlja2mth3h8lw"
+          }, 
+          {
+            "period": "12", 
+            "rewards": {
+              "cumulative_reward_ratio": [
+                {
+                  "amount": "0.000000058396252684", 
+                  "denom": "ucommercio"
+                }
+              ], 
+              "reference_count": 2
+            }, 
+            "validator_address": "comnetvaloper17d5g4e5q42k6e07klet4gpm0dxlja2mth3h8lw"
+          }
+        ], 
+        "validator_slash_events": [
+          {
+            "height": "67484", 
+            "period": "2", 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5", 
+            "validator_slash_event": {
+              "fraction": "0.010000000000000000", 
+              "validator_period": "2"
+            }
+          }, 
+          {
+            "height": "344854", 
+            "period": "4", 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5", 
+            "validator_slash_event": {
+              "fraction": "0.010000000000000000", 
+              "validator_period": "4"
+            }
+          }, 
+          {
+            "height": "346646", 
+            "period": "5", 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5", 
+            "validator_slash_event": {
+              "fraction": "0.009999908181910000", 
+              "validator_period": "5"
+            }
+          }, 
+          {
+            "height": "586104", 
+            "period": "7", 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5", 
+            "validator_slash_event": {
+              "fraction": "0.009999926834076483", 
+              "validator_period": "7"
+            }
+          }, 
+          {
+            "height": "682140", 
+            "period": "8", 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5", 
+            "validator_slash_event": {
+              "fraction": "0.009999966690718744", 
+              "validator_period": "8"
+            }
+          }
+        ], 
+        "withdraw_addr_enabled": true
+      }, 
+      "gentxs": null, 
+      "gov": {
+        "deposit_params": {
+          "max_deposit_period": "172800000000000", 
+          "min_deposit": [
+            {
+              "amount": "50000000000", 
+              "denom": "ucommercio"
+            }
+          ]
+        }, 
+        "deposits": [], 
+        "proposals": [], 
+        "starting_proposal_id": "1", 
+        "tally_params": {
+          "quorum": "0.334000000000000000", 
+          "threshold": "0.500000000000000000", 
+          "veto": "0.334000000000000000"
+        }, 
+        "votes": [], 
+        "voting_params": {
+          "voting_period": "172800000000000"
+        }
+      }, 
+      "mint": {
+        "minter": {
+          "annual_provisions": "0.000000000000000000", 
+          "inflation": "0.000000000000000000"
+        }, 
+        "params": {
+          "blocks_per_year": "6311520", 
+          "goal_bonded": "0.000000000000000001", 
+          "inflation_max": "0.000000000000000001", 
+          "inflation_min": "0.000000000000000000", 
+          "inflation_rate_change": "0.000000000000000001", 
+          "mint_denom": "ucommercio"
+        }
+      }, 
+      "slashing": {
+        "missed_blocks": {
+          "comnetvalcons165txkg940hmvq3v2gseg99vwdr9q6a6nf4ps0q": [
+            {
+              "index": "9", 
+              "missed": false
+            }, 
+            {
+              "index": "10", 
+              "missed": false
+            }, 
+            {
+              "index": "11", 
+              "missed": false
+            }, 
+            {
+              "index": "12", 
+              "missed": false
+            }, 
+            {
+              "index": "13", 
+              "missed": false
+            }, 
+            {
+              "index": "52", 
+              "missed": false
+            }, 
+            {
+              "index": "53", 
+              "missed": false
+            }, 
+            {
+              "index": "86", 
+              "missed": false
+            }, 
+            {
+              "index": "94", 
+              "missed": false
+            }, 
+            {
+              "index": "95", 
+              "missed": false
+            }
+          ], 
+          "comnetvalcons1avwju3y9cvwtkyee8nkj22jdle7te5jd0zvsaq": [
+            {
+              "index": "8", 
+              "missed": false
+            }, 
+            {
+              "index": "23", 
+              "missed": false
+            }, 
+            {
+              "index": "24", 
+              "missed": false
+            }, 
+            {
+              "index": "25", 
+              "missed": false
+            }, 
+            {
+              "index": "26", 
+              "missed": false
+            }, 
+            {
+              "index": "63", 
+              "missed": false
+            }, 
+            {
+              "index": "81", 
+              "missed": false
+            }, 
+            {
+              "index": "88", 
+              "missed": false
+            }
+          ], 
+          "comnetvalcons1h0u0qaemsd08rkmxv660p8ee8j3rr64z4zx0gy": [
+            {
+              "index": "0", 
+              "missed": false
+            }, 
+            {
+              "index": "1", 
+              "missed": false
+            }, 
+            {
+              "index": "2", 
+              "missed": false
+            }, 
+            {
+              "index": "3", 
+              "missed": false
+            }, 
+            {
+              "index": "4", 
+              "missed": false
+            }, 
+            {
+              "index": "6", 
+              "missed": false
+            }, 
+            {
+              "index": "7", 
+              "missed": false
+            }, 
+            {
+              "index": "9", 
+              "missed": false
+            }, 
+            {
+              "index": "10", 
+              "missed": false
+            }, 
+            {
+              "index": "11", 
+              "missed": false
+            }, 
+            {
+              "index": "12", 
+              "missed": false
+            }, 
+            {
+              "index": "13", 
+              "missed": false
+            }, 
+            {
+              "index": "14", 
+              "missed": false
+            }, 
+            {
+              "index": "15", 
+              "missed": false
+            }, 
+            {
+              "index": "16", 
+              "missed": false
+            }, 
+            {
+              "index": "18", 
+              "missed": false
+            }, 
+            {
+              "index": "19", 
+              "missed": false
+            }, 
+            {
+              "index": "20", 
+              "missed": false
+            }, 
+            {
+              "index": "21", 
+              "missed": false
+            }, 
+            {
+              "index": "22", 
+              "missed": false
+            }, 
+            {
+              "index": "23", 
+              "missed": false
+            }, 
+            {
+              "index": "24", 
+              "missed": false
+            }, 
+            {
+              "index": "25", 
+              "missed": false
+            }, 
+            {
+              "index": "26", 
+              "missed": false
+            }, 
+            {
+              "index": "28", 
+              "missed": false
+            }, 
+            {
+              "index": "29", 
+              "missed": false
+            }, 
+            {
+              "index": "30", 
+              "missed": false
+            }, 
+            {
+              "index": "31", 
+              "missed": false
+            }, 
+            {
+              "index": "32", 
+              "missed": false
+            }, 
+            {
+              "index": "33", 
+              "missed": false
+            }, 
+            {
+              "index": "35", 
+              "missed": false
+            }, 
+            {
+              "index": "36", 
+              "missed": false
+            }, 
+            {
+              "index": "37", 
+              "missed": false
+            }, 
+            {
+              "index": "38", 
+              "missed": false
+            }, 
+            {
+              "index": "39", 
+              "missed": false
+            }, 
+            {
+              "index": "40", 
+              "missed": false
+            }, 
+            {
+              "index": "41", 
+              "missed": false
+            }, 
+            {
+              "index": "42", 
+              "missed": false
+            }, 
+            {
+              "index": "45", 
+              "missed": false
+            }, 
+            {
+              "index": "47", 
+              "missed": false
+            }, 
+            {
+              "index": "48", 
+              "missed": false
+            }, 
+            {
+              "index": "49", 
+              "missed": false
+            }, 
+            {
+              "index": "50", 
+              "missed": false
+            }, 
+            {
+              "index": "51", 
+              "missed": false
+            }, 
+            {
+              "index": "52", 
+              "missed": false
+            }, 
+            {
+              "index": "53", 
+              "missed": false
+            }, 
+            {
+              "index": "54", 
+              "missed": false
+            }, 
+            {
+              "index": "55", 
+              "missed": false
+            }, 
+            {
+              "index": "56", 
+              "missed": false
+            }, 
+            {
+              "index": "57", 
+              "missed": false
+            }, 
+            {
+              "index": "59", 
+              "missed": false
+            }, 
+            {
+              "index": "61", 
+              "missed": false
+            }, 
+            {
+              "index": "62", 
+              "missed": false
+            }, 
+            {
+              "index": "63", 
+              "missed": false
+            }, 
+            {
+              "index": "64", 
+              "missed": false
+            }, 
+            {
+              "index": "65", 
+              "missed": false
+            }, 
+            {
+              "index": "66", 
+              "missed": false
+            }, 
+            {
+              "index": "67", 
+              "missed": false
+            }, 
+            {
+              "index": "68", 
+              "missed": false
+            }, 
+            {
+              "index": "69", 
+              "missed": false
+            }, 
+            {
+              "index": "70", 
+              "missed": false
+            }, 
+            {
+              "index": "71", 
+              "missed": false
+            }, 
+            {
+              "index": "72", 
+              "missed": false
+            }, 
+            {
+              "index": "76", 
+              "missed": false
+            }, 
+            {
+              "index": "77", 
+              "missed": false
+            }, 
+            {
+              "index": "80", 
+              "missed": false
+            }, 
+            {
+              "index": "81", 
+              "missed": false
+            }, 
+            {
+              "index": "82", 
+              "missed": false
+            }, 
+            {
+              "index": "83", 
+              "missed": false
+            }, 
+            {
+              "index": "84", 
+              "missed": false
+            }, 
+            {
+              "index": "86", 
+              "missed": false
+            }, 
+            {
+              "index": "87", 
+              "missed": false
+            }, 
+            {
+              "index": "89", 
+              "missed": false
+            }, 
+            {
+              "index": "90", 
+              "missed": false
+            }, 
+            {
+              "index": "92", 
+              "missed": false
+            }, 
+            {
+              "index": "93", 
+              "missed": false
+            }, 
+            {
+              "index": "94", 
+              "missed": false
+            }, 
+            {
+              "index": "95", 
+              "missed": false
+            }, 
+            {
+              "index": "96", 
+              "missed": false
+            }, 
+            {
+              "index": "97", 
+              "missed": false
+            }, 
+            {
+              "index": "98", 
+              "missed": false
+            }, 
+            {
+              "index": "99", 
+              "missed": false
+            }
+          ], 
+          "comnetvalcons1j0cyd8h8mjr5x6r5ep3dddh5d3zl3t0n6v520f": [
+            {
+              "index": "0", 
+              "missed": false
+            }, 
+            {
+              "index": "1", 
+              "missed": false
+            }, 
+            {
+              "index": "2", 
+              "missed": false
+            }, 
+            {
+              "index": "3", 
+              "missed": false
+            }, 
+            {
+              "index": "4", 
+              "missed": false
+            }, 
+            {
+              "index": "5", 
+              "missed": false
+            }, 
+            {
+              "index": "6", 
+              "missed": false
+            }, 
+            {
+              "index": "7", 
+              "missed": false
+            }, 
+            {
+              "index": "8", 
+              "missed": false
+            }, 
+            {
+              "index": "9", 
+              "missed": false
+            }, 
+            {
+              "index": "10", 
+              "missed": false
+            }, 
+            {
+              "index": "11", 
+              "missed": false
+            }, 
+            {
+              "index": "12", 
+              "missed": false
+            }, 
+            {
+              "index": "13", 
+              "missed": false
+            }, 
+            {
+              "index": "14", 
+              "missed": false
+            }, 
+            {
+              "index": "17", 
+              "missed": false
+            }, 
+            {
+              "index": "18", 
+              "missed": false
+            }, 
+            {
+              "index": "19", 
+              "missed": false
+            }, 
+            {
+              "index": "22", 
+              "missed": false
+            }, 
+            {
+              "index": "25", 
+              "missed": false
+            }, 
+            {
+              "index": "26", 
+              "missed": false
+            }, 
+            {
+              "index": "27", 
+              "missed": false
+            }, 
+            {
+              "index": "28", 
+              "missed": false
+            }, 
+            {
+              "index": "30", 
+              "missed": false
+            }, 
+            {
+              "index": "31", 
+              "missed": false
+            }, 
+            {
+              "index": "33", 
+              "missed": false
+            }, 
+            {
+              "index": "34", 
+              "missed": false
+            }, 
+            {
+              "index": "35", 
+              "missed": false
+            }, 
+            {
+              "index": "36", 
+              "missed": false
+            }, 
+            {
+              "index": "37", 
+              "missed": false
+            }, 
+            {
+              "index": "38", 
+              "missed": false
+            }, 
+            {
+              "index": "39", 
+              "missed": false
+            }, 
+            {
+              "index": "40", 
+              "missed": false
+            }, 
+            {
+              "index": "41", 
+              "missed": false
+            }, 
+            {
+              "index": "42", 
+              "missed": false
+            }, 
+            {
+              "index": "43", 
+              "missed": false
+            }, 
+            {
+              "index": "44", 
+              "missed": false
+            }, 
+            {
+              "index": "45", 
+              "missed": false
+            }, 
+            {
+              "index": "46", 
+              "missed": false
+            }, 
+            {
+              "index": "47", 
+              "missed": false
+            }, 
+            {
+              "index": "48", 
+              "missed": false
+            }, 
+            {
+              "index": "49", 
+              "missed": false
+            }, 
+            {
+              "index": "50", 
+              "missed": false
+            }, 
+            {
+              "index": "51", 
+              "missed": false
+            }, 
+            {
+              "index": "52", 
+              "missed": false
+            }, 
+            {
+              "index": "53", 
+              "missed": false
+            }, 
+            {
+              "index": "54", 
+              "missed": false
+            }, 
+            {
+              "index": "55", 
+              "missed": false
+            }, 
+            {
+              "index": "56", 
+              "missed": false
+            }, 
+            {
+              "index": "57", 
+              "missed": false
+            }, 
+            {
+              "index": "58", 
+              "missed": false
+            }, 
+            {
+              "index": "59", 
+              "missed": false
+            }, 
+            {
+              "index": "60", 
+              "missed": false
+            }, 
+            {
+              "index": "61", 
+              "missed": false
+            }, 
+            {
+              "index": "62", 
+              "missed": false
+            }, 
+            {
+              "index": "63", 
+              "missed": false
+            }, 
+            {
+              "index": "64", 
+              "missed": false
+            }, 
+            {
+              "index": "65", 
+              "missed": false
+            }, 
+            {
+              "index": "66", 
+              "missed": false
+            }, 
+            {
+              "index": "67", 
+              "missed": false
+            }, 
+            {
+              "index": "68", 
+              "missed": false
+            }, 
+            {
+              "index": "69", 
+              "missed": false
+            }, 
+            {
+              "index": "70", 
+              "missed": false
+            }, 
+            {
+              "index": "71", 
+              "missed": false
+            }, 
+            {
+              "index": "72", 
+              "missed": false
+            }, 
+            {
+              "index": "73", 
+              "missed": false
+            }, 
+            {
+              "index": "74", 
+              "missed": false
+            }, 
+            {
+              "index": "75", 
+              "missed": false
+            }, 
+            {
+              "index": "76", 
+              "missed": false
+            }, 
+            {
+              "index": "77", 
+              "missed": false
+            }, 
+            {
+              "index": "78", 
+              "missed": false
+            }, 
+            {
+              "index": "79", 
+              "missed": false
+            }, 
+            {
+              "index": "80", 
+              "missed": false
+            }, 
+            {
+              "index": "81", 
+              "missed": false
+            }, 
+            {
+              "index": "82", 
+              "missed": false
+            }, 
+            {
+              "index": "83", 
+              "missed": false
+            }, 
+            {
+              "index": "84", 
+              "missed": false
+            }, 
+            {
+              "index": "85", 
+              "missed": false
+            }, 
+            {
+              "index": "86", 
+              "missed": false
+            }, 
+            {
+              "index": "87", 
+              "missed": false
+            }, 
+            {
+              "index": "88", 
+              "missed": false
+            }, 
+            {
+              "index": "89", 
+              "missed": false
+            }, 
+            {
+              "index": "90", 
+              "missed": false
+            }, 
+            {
+              "index": "91", 
+              "missed": false
+            }, 
+            {
+              "index": "92", 
+              "missed": false
+            }, 
+            {
+              "index": "93", 
+              "missed": false
+            }, 
+            {
+              "index": "94", 
+              "missed": false
+            }, 
+            {
+              "index": "95", 
+              "missed": false
+            }, 
+            {
+              "index": "96", 
+              "missed": false
+            }, 
+            {
+              "index": "97", 
+              "missed": false
+            }, 
+            {
+              "index": "98", 
+              "missed": false
+            }, 
+            {
+              "index": "99", 
+              "missed": false
+            }
+          ], 
+          "comnetvalcons1l98z5a0wszu6a9epjfre47v8ah3k3td0l4h28p": [
+            {
+              "index": "0", 
+              "missed": false
+            }, 
+            {
+              "index": "1", 
+              "missed": false
+            }, 
+            {
+              "index": "2", 
+              "missed": false
+            }, 
+            {
+              "index": "4", 
+              "missed": false
+            }, 
+            {
+              "index": "5", 
+              "missed": false
+            }, 
+            {
+              "index": "6", 
+              "missed": false
+            }, 
+            {
+              "index": "8", 
+              "missed": false
+            }, 
+            {
+              "index": "9", 
+              "missed": false
+            }, 
+            {
+              "index": "13", 
+              "missed": false
+            }, 
+            {
+              "index": "14", 
+              "missed": false
+            }, 
+            {
+              "index": "15", 
+              "missed": false
+            }, 
+            {
+              "index": "16", 
+              "missed": false
+            }, 
+            {
+              "index": "17", 
+              "missed": false
+            }, 
+            {
+              "index": "19", 
+              "missed": false
+            }, 
+            {
+              "index": "20", 
+              "missed": false
+            }, 
+            {
+              "index": "21", 
+              "missed": false
+            }, 
+            {
+              "index": "22", 
+              "missed": false
+            }, 
+            {
+              "index": "24", 
+              "missed": false
+            }, 
+            {
+              "index": "25", 
+              "missed": false
+            }, 
+            {
+              "index": "27", 
+              "missed": false
+            }, 
+            {
+              "index": "28", 
+              "missed": false
+            }, 
+            {
+              "index": "29", 
+              "missed": false
+            }, 
+            {
+              "index": "34", 
+              "missed": false
+            }, 
+            {
+              "index": "36", 
+              "missed": false
+            }, 
+            {
+              "index": "37", 
+              "missed": false
+            }, 
+            {
+              "index": "38", 
+              "missed": false
+            }, 
+            {
+              "index": "39", 
+              "missed": false
+            }, 
+            {
+              "index": "41", 
+              "missed": false
+            }, 
+            {
+              "index": "42", 
+              "missed": false
+            }, 
+            {
+              "index": "43", 
+              "missed": false
+            }, 
+            {
+              "index": "45", 
+              "missed": false
+            }, 
+            {
+              "index": "46", 
+              "missed": false
+            }, 
+            {
+              "index": "48", 
+              "missed": false
+            }, 
+            {
+              "index": "50", 
+              "missed": false
+            }, 
+            {
+              "index": "52", 
+              "missed": false
+            }, 
+            {
+              "index": "55", 
+              "missed": false
+            }, 
+            {
+              "index": "57", 
+              "missed": false
+            }, 
+            {
+              "index": "59", 
+              "missed": false
+            }, 
+            {
+              "index": "60", 
+              "missed": false
+            }, 
+            {
+              "index": "61", 
+              "missed": false
+            }, 
+            {
+              "index": "63", 
+              "missed": false
+            }, 
+            {
+              "index": "64", 
+              "missed": false
+            }, 
+            {
+              "index": "65", 
+              "missed": false
+            }, 
+            {
+              "index": "66", 
+              "missed": false
+            }, 
+            {
+              "index": "67", 
+              "missed": false
+            }, 
+            {
+              "index": "70", 
+              "missed": false
+            }, 
+            {
+              "index": "72", 
+              "missed": false
+            }, 
+            {
+              "index": "80", 
+              "missed": false
+            }, 
+            {
+              "index": "82", 
+              "missed": false
+            }, 
+            {
+              "index": "86", 
+              "missed": false
+            }, 
+            {
+              "index": "89", 
+              "missed": false
+            }, 
+            {
+              "index": "90", 
+              "missed": false
+            }, 
+            {
+              "index": "95", 
+              "missed": false
+            }, 
+            {
+              "index": "96", 
+              "missed": false
+            }, 
+            {
+              "index": "97", 
+              "missed": false
+            }, 
+            {
+              "index": "98", 
+              "missed": false
+            }, 
+            {
+              "index": "99", 
+              "missed": false
+            }
+          ]
+        }, 
+        "params": {
+          "downtime_jail_duration": "600000000000", 
+          "max_evidence_age": "120000000000", 
+          "min_signed_per_window": "0.500000000000000000", 
+          "signed_blocks_window": "100", 
+          "slash_fraction_double_sign": "0.050000000000000000", 
+          "slash_fraction_downtime": "0.010000000000000000"
+        }, 
+        "signing_infos": {
+          "comnetvalcons165txkg940hmvq3v2gseg99vwdr9q6a6nf4ps0q": {
+            "index_offset": "1360", 
+            "jailed_until": "1970-01-01T00:00:00Z", 
+            "missed_blocks_counter": "0", 
+            "start_height": "728638", 
+            "tombstoned": false
+          }, 
+          "comnetvalcons1avwju3y9cvwtkyee8nkj22jdle7te5jd0zvsaq": {
+            "index_offset": "729999", 
+            "jailed_until": "1970-01-01T00:00:00Z", 
+            "missed_blocks_counter": "0", 
+            "start_height": "0", 
+            "tombstoned": false
+          }, 
+          "comnetvalcons1h0u0qaemsd08rkmxv660p8ee8j3rr64z4zx0gy": {
+            "index_offset": "33984", 
+            "jailed_until": "2019-08-01T14:23:00.235398596Z", 
+            "missed_blocks_counter": "0", 
+            "start_height": "0", 
+            "tombstoned": false
+          }, 
+          "comnetvalcons1j0cyd8h8mjr5x6r5ep3dddh5d3zl3t0n6v520f": {
+            "index_offset": "729999", 
+            "jailed_until": "1970-01-01T00:00:00Z", 
+            "missed_blocks_counter": "0", 
+            "start_height": "0", 
+            "tombstoned": false
+          }, 
+          "comnetvalcons1l98z5a0wszu6a9epjfre47v8ah3k3td0l4h28p": {
+            "index_offset": "729999", 
+            "jailed_until": "1970-01-01T00:00:00Z", 
+            "missed_blocks_counter": "0", 
+            "start_height": "0", 
+            "tombstoned": false
+          }
+        }
+      }, 
+      "staking": {
+        "delegations": [
+          {
+            "delegator_address": "comnet1zch4e2y42ye0a2pr3d4y8r0xe3ls9l94w2u4dy", 
+            "shares": "30000000.000000000000000000", 
+            "validator_address": "comnetvaloper17d5g4e5q42k6e07klet4gpm0dxlja2mth3h8lw"
+          }, 
+          {
+            "delegator_address": "comnet1r7clpxcnxna5q7d6ux7dp9jqeu6rqv49rxuwh2", 
+            "shares": "100000000000.000000000000000000", 
+            "validator_address": "comnetvaloper1r7clpxcnxna5q7d6ux7dp9jqeu6rqv49xqwfpf"
+          }, 
+          {
+            "delegator_address": "comnet1glddm3huu74mq9p3ec5x64rm2886ust0t3udkf", 
+            "shares": "50000000000.000000000000000000", 
+            "validator_address": "comnetvaloper1glddm3huu74mq9p3ec5x64rm2886ust0whw2q2"
+          }, 
+          {
+            "delegator_address": "comnet1t8xx727yrvep0w7ylunz609vn2sarf5cn976fh", 
+            "shares": "100000000000.000000000000000000", 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5"
+          }, 
+          {
+            "delegator_address": "comnet1n7ssqdxc3sz8s70tkgyxl58cvx7u35kff9hf5u", 
+            "shares": "100000000000.000000000000000000", 
+            "validator_address": "comnetvaloper1n7ssqdxc3sz8s70tkgyxl58cvx7u35kfvr9wzl"
+          }, 
+          {
+            "delegator_address": "comnet1kh6t59n32pnj43ptqmtn6wdwclmxsfv8v94pwk", 
+            "shares": "10000000.000000000000000000", 
+            "validator_address": "comnetvaloper17d5g4e5q42k6e07klet4gpm0dxlja2mth3h8lw"
+          }, 
+          {
+            "delegator_address": "comnet1uhtcusl6n6tsqnds898d64de92qlfzuf5vf0tn", 
+            "shares": "10101010.101010101010101010", 
+            "validator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5"
+          }, 
+          {
+            "delegator_address": "comnet17d5g4e5q42k6e07klet4gpm0dxlja2mtjh9qfd", 
+            "shares": "97000000000.000000000000000000", 
+            "validator_address": "comnetvaloper17d5g4e5q42k6e07klet4gpm0dxlja2mth3h8lw"
+          }
+        ], 
+        "exported": true, 
+        "last_total_power": "442148", 
+        "last_validator_powers": [
+          {
+            "Address": "comnetvaloper1r7clpxcnxna5q7d6ux7dp9jqeu6rqv49xqwfpf", 
+            "Power": "100000"
+          }, 
+          {
+            "Address": "comnetvaloper1glddm3huu74mq9p3ec5x64rm2886ust0whw2q2", 
+            "Power": "50000"
+          }, 
+          {
+            "Address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5", 
+            "Power": "95108"
+          }, 
+          {
+            "Address": "comnetvaloper1n7ssqdxc3sz8s70tkgyxl58cvx7u35kfvr9wzl", 
+            "Power": "100000"
+          }, 
+          {
+            "Address": "comnetvaloper17d5g4e5q42k6e07klet4gpm0dxlja2mth3h8lw", 
+            "Power": "97040"
+          }
+        ], 
+        "params": {
+          "bond_denom": "ucommercio", 
+          "max_entries": 7, 
+          "max_validators": 100, 
+          "unbonding_time": "259200000000000"
+        }, 
+        "redelegations": null, 
+        "unbonding_delegations": null, 
+        "validators": [
+          {
+            "commission": {
+              "commission_rates": {
+                "max_change_rate": "0.010000000000000000", 
+                "max_rate": "0.200000000000000000", 
+                "rate": "0.100000000000000000"
+              }, 
+              "update_time": "2019-06-13T16:39:26.092005078Z"
+            }, 
+            "consensus_pubkey": "comnetvalconspub1zcjduepqns2vkarjgum855awzqms668624ey27ggl2eawkf2vlj0kqqmrljqeumejn", 
+            "delegator_shares": "100000000000.000000000000000000", 
+            "description": {
+              "details": "", 
+              "identity": "", 
+              "moniker": "bono", 
+              "website": ""
+            }, 
+            "jailed": false, 
+            "min_self_delegation": "1", 
+            "operator_address": "comnetvaloper1r7clpxcnxna5q7d6ux7dp9jqeu6rqv49xqwfpf", 
+            "status": 2, 
+            "tokens": "100000000000", 
+            "unbonding_height": "0", 
+            "unbonding_time": "1970-01-01T00:00:00Z"
+          }, 
+          {
+            "commission": {
+              "commission_rates": {
+                "max_change_rate": "0.010000000000000000", 
+                "max_rate": "0.200000000000000000", 
+                "rate": "0.100000000000000000"
+              }, 
+              "update_time": "2019-08-04T21:44:32.07594073Z"
+            }, 
+            "consensus_pubkey": "comnetvalconspub1zcjduepqlth3rj6x9c4976rzxk9g9zpt0yg95gappppdf4klnk74uk0urgssywd60f", 
+            "delegator_shares": "50000000000.000000000000000000", 
+            "description": {
+              "details": "The Documents Blockchain", 
+              "identity": "", 
+              "moniker": "mick", 
+              "website": "https://commercio.network"
+            }, 
+            "jailed": false, 
+            "min_self_delegation": "1", 
+            "operator_address": "comnetvaloper1glddm3huu74mq9p3ec5x64rm2886ust0whw2q2", 
+            "status": 2, 
+            "tokens": "50000000000", 
+            "unbonding_height": "0", 
+            "unbonding_time": "1970-01-01T00:00:00Z"
+          }, 
+          {
+            "commission": {
+              "commission_rates": {
+                "max_change_rate": "0.010000000000000000", 
+                "max_rate": "0.200000000000000000", 
+                "rate": "0.100000000000000000"
+              }, 
+              "update_time": "2019-06-13T16:39:26.092005078Z"
+            }, 
+            "consensus_pubkey": "comnetvalconspub1zcjduepqpn387zv8vmpkahlewgptwn7vvjf2wqzu9gd24l47kvdtghk7kxmq0n7pfa", 
+            "delegator_shares": "100010101010.101010101010101010", 
+            "description": {
+              "details": "", 
+              "identity": "DE8E37240061B04E", 
+              "moniker": "adam", 
+              "website": ""
+            }, 
+            "jailed": false, 
+            "min_self_delegation": "1", 
+            "operator_address": "comnetvaloper1t8xx727yrvep0w7ylunz609vn2sarf5ckrval5", 
+            "status": 2, 
+            "tokens": "95108630000", 
+            "unbonding_height": "682140", 
+            "unbonding_time": "2019-08-04T14:13:00.235398596Z"
+          }, 
+          {
+            "commission": {
+              "commission_rates": {
+                "max_change_rate": "0.010000000000000000", 
+                "max_rate": "0.200000000000000000", 
+                "rate": "0.100000000000000000"
+              }, 
+              "update_time": "2019-06-13T16:39:26.092005078Z"
+            }, 
+            "consensus_pubkey": "comnetvalconspub1zcjduepqlqyjkqu8wkzj6ypmmz2twu6q78lt6lfm3vee9cc0a5ehemy7unpq46djpx", 
+            "delegator_shares": "100000000000.000000000000000000", 
+            "description": {
+              "details": "", 
+              "identity": "DA9C5AD3E308E426", 
+              "moniker": "larry", 
+              "website": ""
+            }, 
+            "jailed": false, 
+            "min_self_delegation": "1", 
+            "operator_address": "comnetvaloper1n7ssqdxc3sz8s70tkgyxl58cvx7u35kfvr9wzl", 
+            "status": 2, 
+            "tokens": "100000000000", 
+            "unbonding_height": "0", 
+            "unbonding_time": "1970-01-01T00:00:00Z"
+          }, 
+          {
+            "commission": {
+              "commission_rates": {
+                "max_change_rate": "0.010000000000000000", 
+                "max_rate": "0.200000000000000000", 
+                "rate": "0.100000000000000000"
+              }, 
+              "update_time": "2019-06-13T16:39:26.092005078Z"
+            }, 
+            "consensus_pubkey": "comnetvalconspub1zcjduepq2ljehzy83jzfjcfcn3wgt5qmjvuu6n259kzhrgem33xx63na72wqhwf9jf", 
+            "delegator_shares": "97040000000.000000000000000000", 
+            "description": {
+              "details": "", 
+              "identity": "AF2AC840EB904224", 
+              "moniker": "edge", 
+              "website": ""
+            }, 
+            "jailed": false, 
+            "min_self_delegation": "1", 
+            "operator_address": "comnetvaloper17d5g4e5q42k6e07klet4gpm0dxlja2mth3h8lw", 
+            "status": 2, 
+            "tokens": "97040000000", 
+            "unbonding_height": "0", 
+            "unbonding_time": "1970-01-01T00:00:00Z"
+          }
+        ]
+      }, 
+      "supply": {
+        "supply": []
+      }
+    }, 
+    "chain_id": "commercio-testnet1002", 
+    "consensus_params": {
+      "block": {
+        "max_bytes": "22020096", 
+        "max_gas": "-1", 
+        "time_iota_ms": "1000"
+      }, 
+      "evidence": {
+        "max_age": "100000"
+      }, 
+      "validator": {
+        "pub_key_types": [
+          "ed25519"
+        ]
+      }
+    }, 
+    "genesis_time": "2019-08-07T09:20:00Z", 
+    "validators": [
+      {
+        "address": "93F0469EE7DC87436874C862D6B6F46C45F8ADF3", 
+        "name": "bono", 
+        "power": "100000", 
+        "pub_key": {
+          "type": "tendermint/PubKeyEd25519", 
+          "value": "nBTLdHJHNnpTrhA3DWj6VXJFeQj6s9dZKmfk+wAbH+Q="
+        }
+      }, 
+      {
+        "address": "D5166B20B57DF6C0458A443282958E68CA0D7753", 
+        "name": "mick", 
+        "power": "50000", 
+        "pub_key": {
+          "type": "tendermint/PubKeyEd25519", 
+          "value": "+u8Ry0YuKl9oYjWKgogreRBaI6EIQtTW3529Xln8GiE="
+        }
+      }, 
+      {
+        "address": "BBF8F0773B835E71DB6666B4F09F393CA231EAA2", 
+        "name": "adam", 
+        "power": "95108", 
+        "pub_key": {
+          "type": "tendermint/PubKeyEd25519", 
+          "value": "DOJ/CYdmw27f+XICt0/MZJKnAFwqGqr+vrMatF7esbY="
+        }
+      }, 
+      {
+        "address": "EB1D2E4485C31CBB13393CED252A4DFE7CBCD24D", 
+        "name": "larry", 
+        "power": "100000", 
+        "pub_key": {
+          "type": "tendermint/PubKeyEd25519", 
+          "value": "+AkrA4d1hS0QO9iUt3NA8f69fTuLM5LjD+0zfOye5MI="
+        }
+      }, 
+      {
+        "address": "F94E2A75EE80B9AE972192479AF987EDE368ADAF", 
+        "name": "edge", 
+        "power": "97040", 
+        "pub_key": {
+          "type": "tendermint/PubKeyEd25519", 
+          "value": "V+WbiIeMhJlhOJxchdAbkznNTVQthXGjO4xMbUZ98pw="
+        }
+      }
+    ]
+  }
+  
