@@ -23,13 +23,17 @@ Also, we need to make sure the following requirements are met:
 * Have a static IP address
 * Have access to the root user
 
-## 2. Updating
+## 2. Installing requirements
 In order to update the OS so that you can work properly, execute the following commands:
 
 ```shell
-# Update Ubuntu  
 apt update && sudo apt upgrade -y
 apt install unzip
+apt install -y git gcc make
+snap install --classic go
+
+GOPATH=$HOME/go
+PATH=$GOPATH/bin:$PATH
 ```
 
 ## 3. Chain selection
@@ -63,15 +67,18 @@ cnd version
 Setup the validator node name. We will use the same name for node as well as the wallet key:
 
 ```shell
-export NODENAME="riccardo"
+export NODENAME="<your-moniker>"
+export CHAINID=commercio-$(cat .data | grep -oP 'Name\s+\K\S+')
 cat <<EOF >> ~/.profile
 export NODENAME="$NODENAME"
+export CHAINID="$CHAINID"
 EOF
 ```
 
 Init the `.cnd` folder with the basic configuration
 
 ```shell
+pkill cnd
 cnd unsafe-reset-all
 
 # If you get a error because .cnd folder is not present don't worry 
@@ -83,7 +90,7 @@ Install `genesis.json` file
 ```shell
 pkill cnd
 rm -rf ~/.cnd/config/genesis.json
-wget https://github.com/commercionetwork/chains/raw/master/commercio-$(cat .data | grep -oP 'Name\s+\K\S+')/genesis.json -P ~/.cnd/config
+cp genesis.json ~/.cnd/config
 ```
 
 Change the persistent peers inside `config.toml` file
@@ -127,6 +134,15 @@ systemctl enable cnd
 systemctl start cnd
 ```
 
+**Optional**. You can quick sync with the follow procedure:
+```shell
+wget "https://quicksync.commercio.network/$CHAINID.latest.tgz" -P ~/.cnd/
+# Check if the checksum matches the one present inside https://quicksync.commercio.network
+cd ~/.cnd/
+tar -zxf commercio-$(echo $CHAINID).latest.tgz
+```
+
+
 Control if the sync was started. Use `ctrl+c` to interrupt `tail` command
 
 ```shell
@@ -167,7 +183,7 @@ We will make sure to send them to you as soon as possible.
 
 Once you've been confirmed the successful transaction, please check using the following command:
 ```shell
-cncli query account <your pub addr> --chain-id commercio-testnet2000
+cncli query account <your pub addr> --chain-id $CHAINID
 # Output should like this
 # ...
 #   - denom: ucommercio
@@ -186,7 +202,7 @@ cncli tx staking create-validator \
   --amount=50000000000ucommercio \
   --pubkey=$(cnd tendermint show-validator) \
   --moniker="$NODENAME" \
-  --chain-id=commercio-testnet2000 \
+  --chain-id="$CHAINID" \
   --identity="" --website="" --details="" \
   --commission-rate="0.10" --commission-max-rate="0.20" \
   --commission-max-change-rate="0.01" --min-self-delegation="1" \
@@ -197,5 +213,13 @@ cncli tx staking create-validator \
 # rawlog: '[{"msg_index":0,"success":true,"log":""}]'
 # ...
 ```
+
+### 7. Confirm your validator is active
+Your validator is active if the following command returns anything:
+
+```shell
+cncli query staking validators --chain-id $CHAINID | fgrep $(cnd tendermint show-validator)
+```
+You should now see your validator inside the [Commercio.network explorer](https://test.explorer.commercio.network)
 
 ## Congratulations, you are now a Commercio.network validator 🎉
