@@ -116,7 +116,7 @@ After=network-online.target
 
 [Service]
 User=root
-ExecStart=/usr/bin/cnd start
+ExecStart=/root/go/bin/cnd start
 Restart=always
 RestartSec=3
 LimitNOFILE=4096
@@ -126,6 +126,15 @@ WantedBy=multi-user.target
 EOF
 ```
 
+**Optional**. You can quick sync with the follow procedure:
+```shell
+wget "https://quicksync.commercio.network/$CHAINID.latest.tgz" -P ~/.cnd/
+# Check if the checksum matches the one present inside https://quicksync.commercio.network
+cd ~/.cnd/
+tar -zxf commercio-$(echo $CHAINID).latest.tgz
+```
+
+
 Now you can start full node. Enable and try to start service
 
 ```shell
@@ -134,13 +143,6 @@ systemctl enable cnd
 systemctl start cnd
 ```
 
-**Optional**. You can quick sync with the follow procedure:
-```shell
-wget "https://quicksync.commercio.network/$CHAINID.latest.tgz" -P ~/.cnd/
-# Check if the checksum matches the one present inside https://quicksync.commercio.network
-cd ~/.cnd/
-tar -zxf commercio-$(echo $CHAINID).latest.tgz
-```
 
 
 Control if the sync was started. Use `ctrl+c` to interrupt `tail` command
