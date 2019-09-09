@@ -131,7 +131,7 @@ EOF
 wget "https://quicksync.commercio.network/$CHAINID.latest.tgz" -P ~/.cnd/
 # Check if the checksum matches the one present inside https://quicksync.commercio.network
 cd ~/.cnd/
-tar -zxf commercio-$(echo $CHAINID).latest.tgz
+tar -zxf $(echo $CHAINID).latest.tgz
 ```
 
 
