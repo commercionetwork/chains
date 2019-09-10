@@ -72,6 +72,8 @@ export CHAINID=commercio-$(cat .data | grep -oP 'Name\s+\K\S+')
 cat <<EOF >> ~/.profile
 export NODENAME="$NODENAME"
 export CHAINID="$CHAINID"
+export GOPATH="\$HOME/go"
+export PATH="\$GOPATH/bin:\$PATH"
 EOF
 ```
 
