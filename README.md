@@ -2,6 +2,9 @@
 This repository contains all the data related to the different chains that a Commercio.network validator can connect to.
 
 ## Getting Started
+**IMPORTANT BEFORE YOU START**: If you are already a validator you need see section [Update chain](#update-chain) procedure.    
+If you are thinking of creating a new server instantiate, use the following procedure.      
+      
 First off, you’ll need to setup a server. This guide is written for Digital Ocean, but it is applicable to any other
 cloud provider like Amazon AWS, Google Cloud, Microsoft Azure, Alibaba Cloud or Scaleway.
 
@@ -196,6 +199,7 @@ cncli query account <your pub addr> --chain-id $CHAINID
 # ...
 ```
 
+
 Now you can create validator. If you want you can fill follow parameters
 * `--details`: add a brief description about your node or your company
 * `--identity`: your [Keybase](https://keybase.io) identity
@@ -230,7 +234,7 @@ You should now see your validator inside the [Commercio.network explorer](https:
 ## Congratulations, you are now a Commercio.network validator 🎉
 
 # Update chain
-**IMPORTANT BEFORE YOU START**: If you are a new validator you need follow "Getting Started" procedure. __DON'T USE THESE UPDATE PROCEDURES__    
+**IMPORTANT BEFORE YOU START**: If you are a new validator you need follow ["Getting Started"](##getting-started) procedure. __DON'T USE THESE UPDATE PROCEDURES__    
       
 This section describe the procedures to update chain from a version to another.    
 Every update have a specific produre type.   
@@ -255,14 +259,14 @@ systemctl stop cnd
 pkill cnd #We want be sure that chain process was stopped ;)
 ```
 
-Delete `~/.cnd`
+Delete `~/.cnd` folder
 
 ```shell
 rm -rf ~/.cnd
 ```
 
 or move it (if you want keep the old testnet state for your porpouses). 
-Use `<previous-chain-version>` name for copy name
+Use `<previous-chain-version>` name for copy name for example
 
 ```shell
 cp -r ~/.cnd ~/.cnd.<previous-chain-version>
@@ -271,15 +275,15 @@ cp -r ~/.cnd ~/.cnd.<previous-chain-version>
 Now you can start follow "getting started" procedure.
 **ATTENTION**: before go haed with "getting started" procedure read follow changes about some steps
 
-In `step 1` in order to update the OS so that you can work properly, execute the following commands:
+In [`step 1`](##1-Setup) in order to update the OS so that you can work properly, execute the following commands:
 
 ```shell
 apt update && sudo apt upgrade -y
-snap refresh --classic go
+snap refresh --classic go # You need to update golang to last version
 ```
 
 
- In `step 4` you don't need to change the follow rows of your `~/.profile` file
+ In [`step 4`](##4-install-binaries-genesis-file-and-setup-configuration) you don't need to change the follow rows of your `~/.profile` file
 
 ```
 export GOPATH="\$HOME/go"
