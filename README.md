@@ -3,7 +3,7 @@ This repository contains all the data related to the different chains that a Com
 
 ## Getting Started
 **IMPORTANT BEFORE YOU START**: If you are already a validator you need see section [Update chain](#update-chain) procedure.    
-If you are thinking of creating a new server instantiate, use the following procedure.      
+If you are thinking of creating a new server instance, use the following procedure.      
       
 First off, you’ll need to setup a server. This guide is written for Digital Ocean, but it is applicable to any other
 cloud provider like Amazon AWS, Google Cloud, Microsoft Azure, Alibaba Cloud or Scaleway.
