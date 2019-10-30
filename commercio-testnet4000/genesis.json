@@ -1,0 +1,3223 @@
+{
+  "genesis_time": "2019-10-31T15:30:00Z",
+  "chain_id": "commercio-testnet4000",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "validators": [
+    {
+      "address": "485D2C4154DE89BAFCC37A49D55E67F77D19A76C",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "uINAp+jU94LrkhvQGN/uZzKPJuynD2ARPscAxTqrVbg="
+      },
+      "power": "100000",
+      "name": "larry"
+    },
+    {
+      "address": "95E4128DD1D1432D1613BCF705BCE8503C295110",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "nYoNwyon84ns+TmV0wSICI+KO1af79rqxsBXtscwd1E="
+      },
+      "power": "50000",
+      "name": "noder1a"
+    },
+    {
+      "address": "CD03BBB06E0A3E9E42C8CBEBD9CAD2BDEC579582",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "kuPE1XhiH1vYrM36vlKO8gCKlFVyCS5wtLPLu7gciik="
+      },
+      "power": "100000",
+      "name": "adam"
+    },
+    {
+      "address": "09DBAFE86E12AE3490426667E5E3E0875D09A5A9",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "Wvll3nwyh8q5Rn1qZBQBJE8KTIJQipqyb0h3l+bxfpU="
+      },
+      "power": "49501",
+      "name": "ArcoTestNode"
+    },
+    {
+      "address": "C6FE3334D0146D252CF37A0660749740D48151E7",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "W6/ybmVHztv5c3DPvfG27ld/6mF5wCFqUyOreZwp9d0="
+      },
+      "power": "100000",
+      "name": "bono"
+    },
+    {
+      "address": "F9742047DD71D328A1264B1FB0F63252D41852BB",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "JgEUACGGWfHqorKpGMEpLFUYBGucVr/AT901otlD5pE="
+      },
+      "power": "100000",
+      "name": "edge"
+    },
+    {
+      "address": "09F700F953E99803FD4A134096A65E394800638D",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "LapQWQbUHu5BBeB/kEfIMoXBahHJD3UktTQVDjzHHvI="
+      },
+      "power": "49750",
+      "name": "freddie"
+    },
+    {
+      "address": "E908964DC7EE039B391B46179E15B01E3EBCA930",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "l6EHelJKACg2+sPPxYux8ICU137bMREmAsfK4qHvD8c="
+      },
+      "power": "50000",
+      "name": "NYM"
+    },
+    {
+      "address": "23C5BB61F940DB68B11AE9A3F084D4D1AA456144",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "wUIEGLs7YzIYlVFsIT5BXz3TBLDxKn0HC8H9AeC8BNU="
+      },
+      "power": "49750",
+      "name": "fourservicesol"
+    }
+  ],
+  "app_hash": "",
+  "app_state": {
+    "bank": {
+      "send_enabled": true,
+      "blocked_accounts": [
+        "did:com:102aet32mr4l98ujzyrlal7q40un70jvcwfl6cn",
+        "did:com:1k3svpcjv5y743jem6k5jcn7w6vjxptt6uyxgp5"
+      ]
+    },
+    "id": {
+      "identities": null
+    },
+    "docs": {
+      "documents": [
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "7815696ecbf1c96e6894b779456d330e"
+          },
+          "content_uri": "https://www.vargroup.it/managed-security-services/",
+          "encryption_data": null,
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "1.0.0"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "6a881ef0-04da-4524-b7ca-6e5e3b7e61dc"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "7815696ecbf1c96e6894b779456d330e"
+          },
+          "content_uri": "https://www.vargroup.it/managed-security-services/",
+          "encryption_data": null,
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "1.1.0"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "688a1ef0-04da-4524-b7ca-6e5e3b7e61dc"
+        }
+      ],
+      "receipts": null,
+      "supported_metadata_schemes": [],
+      "trusted_metadata_schema_proposers": null
+    },
+    "supply": {
+      "supply": [
+        {
+          "amount": "47500000000000",
+          "denom": "ucommercio"
+        }
+      ]
+    },
+    "distribution": {
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "community_tax": "0.020000000000000000",
+      "delegator_starting_infos": [
+        {
+          "delegator_address": "did:com:1p8vdenej8y3lu7d9chnfp5xlthx00exdjefwfg",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "100000000000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper1p8vdenej8y3lu7d9chnfp5xlthx00exd36sgym"
+        },
+        {
+          "delegator_address": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "50000000000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4stah8l"
+        },
+        {
+          "delegator_address": "did:com:1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7aj4vrvl",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "100000000000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7a3k49pv"
+        },
+        {
+          "delegator_address": "did:com:1yzmp0quh3v6c945ltyet7zku7gqvhcdzjwq8um",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "49501250000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper1yzmp0quh3v6c945ltyet7zku7gqvhcdz3dep3g"
+        },
+        {
+          "delegator_address": "did:com:1xwd66m5jr74u28kvrgjswwru5y0rhvgkvwz3zs",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "100000000000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper1xwd66m5jr74u28kvrgjswwru5y0rhvgk0dmh0r"
+        },
+        {
+          "delegator_address": "did:com:1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxcty5jw",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "100000000000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxmgajla"
+        },
+        {
+          "delegator_address": "did:com:13ew9x73g687x8u4dacvw8g84rh04dv88pys8fl",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "49750000000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper13ew9x73g687x8u4dacvw8g84rh04dv88z8fpyv"
+        },
+        {
+          "delegator_address": "did:com:14zk9u8894eg7fhgw0dsesnqzmlrx85ga9rvnjc",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "50000000000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper14zk9u8894eg7fhgw0dsesnqzmlrx85gaxq44lt"
+        },
+        {
+          "delegator_address": "did:com:1hxsqapk7w6gv648hjdezyjrxz7pjm0clraf5qy",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "49750000000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper1hxsqapk7w6gv648hjdezyjrxz7pjm0clq7sjdh"
+        },
+        {
+          "delegator_address": "did:com:1l0xaatswnm5rpmpg4klatp6exkfm6khd08z52k",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "49750000000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper1l0xaatswnm5rpmpg4klatp6exkfm6khdvymj89"
+        }
+      ],
+      "delegator_withdraw_infos": [],
+      "fee_pool": {
+        "community_pool": null
+      },
+      "outstanding_rewards": [
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper1p8vdenej8y3lu7d9chnfp5xlthx00exd36sgym"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4stah8l"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7a3k49pv"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper1yzmp0quh3v6c945ltyet7zku7gqvhcdz3dep3g"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper1xwd66m5jr74u28kvrgjswwru5y0rhvgk0dmh0r"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxmgajla"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper13ew9x73g687x8u4dacvw8g84rh04dv88z8fpyv"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper14zk9u8894eg7fhgw0dsesnqzmlrx85gaxq44lt"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper1hxsqapk7w6gv648hjdezyjrxz7pjm0clq7sjdh"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper1l0xaatswnm5rpmpg4klatp6exkfm6khdvymj89"
+        }
+      ],
+      "previous_proposer": "did:com:valcons1fpwjcs25m6ym4lxr0fya2hn87a73nfmvcjsu2r",
+      "validator_accumulated_commissions": [
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper1p8vdenej8y3lu7d9chnfp5xlthx00exd36sgym"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4stah8l"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7a3k49pv"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper1yzmp0quh3v6c945ltyet7zku7gqvhcdz3dep3g"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper1xwd66m5jr74u28kvrgjswwru5y0rhvgk0dmh0r"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxmgajla"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper13ew9x73g687x8u4dacvw8g84rh04dv88z8fpyv"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper14zk9u8894eg7fhgw0dsesnqzmlrx85gaxq44lt"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper1hxsqapk7w6gv648hjdezyjrxz7pjm0clq7sjdh"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper1l0xaatswnm5rpmpg4klatp6exkfm6khdvymj89"
+        }
+      ],
+      "validator_current_rewards": [
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper1p8vdenej8y3lu7d9chnfp5xlthx00exd36sgym"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4stah8l"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7a3k49pv"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper1yzmp0quh3v6c945ltyet7zku7gqvhcdz3dep3g"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper1xwd66m5jr74u28kvrgjswwru5y0rhvgk0dmh0r"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxmgajla"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper13ew9x73g687x8u4dacvw8g84rh04dv88z8fpyv"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper14zk9u8894eg7fhgw0dsesnqzmlrx85gaxq44lt"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper1hxsqapk7w6gv648hjdezyjrxz7pjm0clq7sjdh"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper1l0xaatswnm5rpmpg4klatp6exkfm6khdvymj89"
+        }
+      ],
+      "validator_historical_rewards": [
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper1p8vdenej8y3lu7d9chnfp5xlthx00exd36sgym"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4stah8l"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7a3k49pv"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper1yzmp0quh3v6c945ltyet7zku7gqvhcdz3dep3g"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper1xwd66m5jr74u28kvrgjswwru5y0rhvgk0dmh0r"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxmgajla"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper13ew9x73g687x8u4dacvw8g84rh04dv88z8fpyv"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper14zk9u8894eg7fhgw0dsesnqzmlrx85gaxq44lt"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper1hxsqapk7w6gv648hjdezyjrxz7pjm0clq7sjdh"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper1l0xaatswnm5rpmpg4klatp6exkfm6khdvymj89"
+        }
+      ],
+      "validator_slash_events": [],
+      "withdraw_addr_enabled": true
+    },
+    "staking": {
+      "delegations": [
+        {
+          "delegator_address": "did:com:1p8vdenej8y3lu7d9chnfp5xlthx00exdjefwfg",
+          "shares": "100000000000.000000000000000000",
+          "validator_address": "did:com:valoper1p8vdenej8y3lu7d9chnfp5xlthx00exd36sgym"
+        },
+        {
+          "delegator_address": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "shares": "50000000000.000000000000000000",
+          "validator_address": "did:com:valoper1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4stah8l"
+        },
+        {
+          "delegator_address": "did:com:1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7aj4vrvl",
+          "shares": "100000000000.000000000000000000",
+          "validator_address": "did:com:valoper1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7a3k49pv"
+        },
+        {
+          "delegator_address": "did:com:1yzmp0quh3v6c945ltyet7zku7gqvhcdzjwq8um",
+          "shares": "50000000000.000000000000000000",
+          "validator_address": "did:com:valoper1yzmp0quh3v6c945ltyet7zku7gqvhcdz3dep3g"
+        },
+        {
+          "delegator_address": "did:com:1xwd66m5jr74u28kvrgjswwru5y0rhvgkvwz3zs",
+          "shares": "100000000000.000000000000000000",
+          "validator_address": "did:com:valoper1xwd66m5jr74u28kvrgjswwru5y0rhvgk0dmh0r"
+        },
+        {
+          "delegator_address": "did:com:1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxcty5jw",
+          "shares": "100000000000.000000000000000000",
+          "validator_address": "did:com:valoper1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxmgajla"
+        },
+        {
+          "delegator_address": "did:com:13ew9x73g687x8u4dacvw8g84rh04dv88pys8fl",
+          "shares": "50000000000.000000000000000000",
+          "validator_address": "did:com:valoper13ew9x73g687x8u4dacvw8g84rh04dv88z8fpyv"
+        },
+        {
+          "delegator_address": "did:com:14zk9u8894eg7fhgw0dsesnqzmlrx85ga9rvnjc",
+          "shares": "50000000000.000000000000000000",
+          "validator_address": "did:com:valoper14zk9u8894eg7fhgw0dsesnqzmlrx85gaxq44lt"
+        },
+        {
+          "delegator_address": "did:com:1hxsqapk7w6gv648hjdezyjrxz7pjm0clraf5qy",
+          "shares": "50000000000.000000000000000000",
+          "validator_address": "did:com:valoper1hxsqapk7w6gv648hjdezyjrxz7pjm0clq7sjdh"
+        },
+        {
+          "delegator_address": "did:com:1l0xaatswnm5rpmpg4klatp6exkfm6khd08z52k",
+          "shares": "50000000000.000000000000000000",
+          "validator_address": "did:com:valoper1l0xaatswnm5rpmpg4klatp6exkfm6khdvymj89"
+        }
+      ],
+      "exported": true,
+      "last_total_power": "649001",
+      "last_validator_powers": [
+        {
+          "Address": "did:com:valoper1p8vdenej8y3lu7d9chnfp5xlthx00exd36sgym",
+          "Power": "100000"
+        },
+        {
+          "Address": "did:com:valoper1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4stah8l",
+          "Power": "50000"
+        },
+        {
+          "Address": "did:com:valoper1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7a3k49pv",
+          "Power": "100000"
+        },
+        {
+          "Address": "did:com:valoper1yzmp0quh3v6c945ltyet7zku7gqvhcdz3dep3g",
+          "Power": "49501"
+        },
+        {
+          "Address": "did:com:valoper1xwd66m5jr74u28kvrgjswwru5y0rhvgk0dmh0r",
+          "Power": "100000"
+        },
+        {
+          "Address": "did:com:valoper1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxmgajla",
+          "Power": "100000"
+        },
+        {
+          "Address": "did:com:valoper13ew9x73g687x8u4dacvw8g84rh04dv88z8fpyv",
+          "Power": "49750"
+        },
+        {
+          "Address": "did:com:valoper14zk9u8894eg7fhgw0dsesnqzmlrx85gaxq44lt",
+          "Power": "50000"
+        },
+        {
+          "Address": "did:com:valoper1hxsqapk7w6gv648hjdezyjrxz7pjm0clq7sjdh",
+          "Power": "49750"
+        }
+      ],
+      "params": {
+        "bond_denom": "ucommercio",
+        "max_entries": 7,
+        "max_validators": 100,
+        "unbonding_time": "1814400000000000"
+      },
+      "redelegations": null,
+      "unbonding_delegations": null,
+      "validators": [
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-14T19:00:00Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepqhzp5pflg6nmc96ujr0gp3hlwvueg7fhv5u8kqyf7cuqv2w4t2kuqg3khm8",
+          "delegator_shares": "100000000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "larry",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper1p8vdenej8y3lu7d9chnfp5xlthx00exd36sgym",
+          "status": 2,
+          "tokens": "100000000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-20T08:49:16.283901643Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepqnk9qmse2ylecnm8e8x2axpygpz8c5w6knlha46kxcptmd3eswags8fmhxw",
+          "delegator_shares": "50000000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "noder1a",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4stah8l",
+          "status": 2,
+          "tokens": "50000000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-14T19:00:00Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepqjt3uf4tcvg04hk9vehatu55w7gqg49z4wgyjuu95k09mhwqu3g5set3krw",
+          "delegator_shares": "100000000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "adam",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7a3k49pv",
+          "status": 2,
+          "tokens": "100000000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-18T10:43:39.138201835Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepqttukthnux2ru4w2x044xg9qpy38s5nyz2z9f4vn0fpme0eh3062s3jqdva",
+          "delegator_shares": "50000000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "ArcoTestNode",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper1yzmp0quh3v6c945ltyet7zku7gqvhcdz3dep3g",
+          "status": 2,
+          "tokens": "49501250000",
+          "unbonding_height": "0",
+          "unbonding_time": "2019-10-25T17:28:15.988415539Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-14T19:00:00Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepqtwhlymn9gl8dh7tnwr8mmudkaethl6np08qzz6jnyw4hn8pf7hws4wczdy",
+          "delegator_shares": "100000000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "bono",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper1xwd66m5jr74u28kvrgjswwru5y0rhvgk0dmh0r",
+          "status": 2,
+          "tokens": "100000000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-14T19:00:00Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepqycq3gqppsevlr64zk2533sff9323sprtn3ttlsz0m5669k2ru6gsq2fyzf",
+          "delegator_shares": "100000000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "edge",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxmgajla",
+          "status": 2,
+          "tokens": "100000000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-15T03:50:55.693338866Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepq9k49qkgx6s0wusg9upleq37gx2zuz6s3ey8h2f94xs2su0x8rmeq52rn4x",
+          "delegator_shares": "50000000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "freddie",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper13ew9x73g687x8u4dacvw8g84rh04dv88z8fpyv",
+          "status": 2,
+          "tokens": "49750000000",
+          "unbonding_height": "0",
+          "unbonding_time": "2019-10-25T09:40:26.202508903Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-18T13:04:53.373746331Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepqj7ssw7jjfgqzsdh6c08utza37zqff4m7mvc3zfszcl9w9g00plrsmk7usj",
+          "delegator_shares": "50000000000.000000000000000000",
+          "description": {
+            "details": "Milan based start up, working on decentralized web",
+            "identity": "",
+            "moniker": "NYM",
+            "security_contact": "",
+            "website": "https://www.nymlab.it"
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper14zk9u8894eg7fhgw0dsesnqzmlrx85gaxq44lt",
+          "status": 2,
+          "tokens": "50000000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-30T13:20:08.668436259Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepqc9pqgx9m8d3nyxy429kzz0jptu7axp9s7y486pctc87src9uqn2sqd8vvv",
+          "delegator_shares": "50000000000.000000000000000000",
+          "description": {
+            "details": "Solutions for Document Capture \u0026 Recognition",
+            "identity": "cappe73",
+            "moniker": "fourservicesol",
+            "security_contact": "",
+            "website": "www.4servicesolution.it"
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper1hxsqapk7w6gv648hjdezyjrxz7pjm0clq7sjdh",
+          "status": 2,
+          "tokens": "49750000000",
+          "unbonding_height": "0",
+          "unbonding_time": "2019-10-28T22:00:35.862392312Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-10-15T11:45:05.733365132Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepq73e0enphy4qhxdenfcdh8e7p6a954crsfatpxuk6cgg42z0knw6q8a90v8",
+          "delegator_shares": "50000000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "LFNODE",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": true,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper1l0xaatswnm5rpmpg4klatp6exkfm6khdvymj89",
+          "status": 1,
+          "tokens": "49750000000",
+          "unbonding_height": "0",
+          "unbonding_time": "2019-11-05T14:10:38.861308462Z"
+        }
+      ]
+    },
+    "crisis": {
+      "constant_fee": {
+        "amount": "1000",
+        "denom": "ucommercio"
+      }
+    },
+    "nft": {
+      "collections": {},
+      "owners": null
+    },
+    "gov": {
+      "deposit_params": {
+        "max_deposit_period": "1209600000000000",
+        "min_deposit": [
+          {
+            "amount": "100000000",
+            "denom": "ucommercio"
+          }
+        ]
+      },
+      "deposits": null,
+      "proposals": [],
+      "starting_proposal_id": "1",
+      "tally_params": {
+        "quorum": "0.510000000000000000",
+        "threshold": "0.510000000000000000",
+        "veto": "0.334000000000000000"
+      },
+      "votes": null,
+      "voting_params": {
+        "voting_period": "1209600000000000"
+      }
+    },
+    "genutil": null,
+    "tbr": {
+      "pool_amount": [
+        {
+          "amount": "12500000000000.000000000000000000",
+          "denom": "ucommercio"
+        }
+      ],
+      "reward_denom": "ucommercio",
+      "year_number": "0",
+      "yearly_pool_amount": null
+    },
+    "slashing": {
+      "missed_blocks": {
+        "did:com:valcons16hl9t3zsx690u5f7p4djpqy2efshtukxxs7g6l": [
+          {
+            "index": "0",
+            "missed": true
+          },
+          {
+            "index": "1",
+            "missed": true
+          }
+        ],
+        "did:com:valcons1ayyfvnw8acpekwgmgcteu9dsrclte2fsg7ye4n": [
+          {
+            "index": "0",
+            "missed": false
+          },
+          {
+            "index": "1",
+            "missed": false
+          },
+          {
+            "index": "2",
+            "missed": false
+          },
+          {
+            "index": "3",
+            "missed": false
+          },
+          {
+            "index": "4",
+            "missed": false
+          },
+          {
+            "index": "5",
+            "missed": false
+          },
+          {
+            "index": "6",
+            "missed": false
+          },
+          {
+            "index": "7",
+            "missed": false
+          },
+          {
+            "index": "8",
+            "missed": false
+          },
+          {
+            "index": "9",
+            "missed": false
+          },
+          {
+            "index": "10",
+            "missed": false
+          },
+          {
+            "index": "11",
+            "missed": false
+          },
+          {
+            "index": "12",
+            "missed": false
+          },
+          {
+            "index": "13",
+            "missed": false
+          },
+          {
+            "index": "14",
+            "missed": false
+          },
+          {
+            "index": "15",
+            "missed": false
+          },
+          {
+            "index": "16",
+            "missed": false
+          },
+          {
+            "index": "17",
+            "missed": false
+          },
+          {
+            "index": "18",
+            "missed": false
+          },
+          {
+            "index": "19",
+            "missed": false
+          },
+          {
+            "index": "20",
+            "missed": false
+          },
+          {
+            "index": "21",
+            "missed": false
+          },
+          {
+            "index": "22",
+            "missed": false
+          },
+          {
+            "index": "23",
+            "missed": false
+          },
+          {
+            "index": "24",
+            "missed": false
+          },
+          {
+            "index": "25",
+            "missed": false
+          },
+          {
+            "index": "26",
+            "missed": false
+          },
+          {
+            "index": "27",
+            "missed": false
+          },
+          {
+            "index": "28",
+            "missed": false
+          },
+          {
+            "index": "29",
+            "missed": false
+          },
+          {
+            "index": "30",
+            "missed": false
+          },
+          {
+            "index": "31",
+            "missed": false
+          },
+          {
+            "index": "33",
+            "missed": false
+          },
+          {
+            "index": "34",
+            "missed": false
+          },
+          {
+            "index": "35",
+            "missed": false
+          },
+          {
+            "index": "36",
+            "missed": false
+          },
+          {
+            "index": "37",
+            "missed": false
+          },
+          {
+            "index": "38",
+            "missed": false
+          },
+          {
+            "index": "39",
+            "missed": false
+          },
+          {
+            "index": "40",
+            "missed": false
+          },
+          {
+            "index": "41",
+            "missed": false
+          },
+          {
+            "index": "42",
+            "missed": false
+          },
+          {
+            "index": "43",
+            "missed": false
+          },
+          {
+            "index": "44",
+            "missed": false
+          },
+          {
+            "index": "45",
+            "missed": false
+          },
+          {
+            "index": "46",
+            "missed": false
+          },
+          {
+            "index": "47",
+            "missed": false
+          },
+          {
+            "index": "48",
+            "missed": false
+          },
+          {
+            "index": "49",
+            "missed": false
+          },
+          {
+            "index": "50",
+            "missed": false
+          },
+          {
+            "index": "51",
+            "missed": false
+          },
+          {
+            "index": "52",
+            "missed": false
+          },
+          {
+            "index": "53",
+            "missed": false
+          },
+          {
+            "index": "54",
+            "missed": false
+          },
+          {
+            "index": "55",
+            "missed": false
+          },
+          {
+            "index": "56",
+            "missed": false
+          },
+          {
+            "index": "57",
+            "missed": false
+          },
+          {
+            "index": "58",
+            "missed": false
+          },
+          {
+            "index": "59",
+            "missed": false
+          },
+          {
+            "index": "60",
+            "missed": false
+          },
+          {
+            "index": "61",
+            "missed": false
+          },
+          {
+            "index": "62",
+            "missed": false
+          },
+          {
+            "index": "63",
+            "missed": false
+          },
+          {
+            "index": "64",
+            "missed": false
+          },
+          {
+            "index": "65",
+            "missed": false
+          },
+          {
+            "index": "66",
+            "missed": false
+          },
+          {
+            "index": "67",
+            "missed": false
+          },
+          {
+            "index": "68",
+            "missed": false
+          },
+          {
+            "index": "69",
+            "missed": false
+          },
+          {
+            "index": "70",
+            "missed": false
+          },
+          {
+            "index": "71",
+            "missed": false
+          },
+          {
+            "index": "72",
+            "missed": false
+          },
+          {
+            "index": "73",
+            "missed": false
+          },
+          {
+            "index": "74",
+            "missed": false
+          },
+          {
+            "index": "75",
+            "missed": false
+          },
+          {
+            "index": "76",
+            "missed": false
+          },
+          {
+            "index": "77",
+            "missed": false
+          },
+          {
+            "index": "78",
+            "missed": false
+          },
+          {
+            "index": "79",
+            "missed": false
+          },
+          {
+            "index": "80",
+            "missed": false
+          },
+          {
+            "index": "81",
+            "missed": false
+          },
+          {
+            "index": "82",
+            "missed": false
+          },
+          {
+            "index": "83",
+            "missed": false
+          },
+          {
+            "index": "84",
+            "missed": false
+          },
+          {
+            "index": "85",
+            "missed": false
+          },
+          {
+            "index": "86",
+            "missed": false
+          },
+          {
+            "index": "87",
+            "missed": false
+          },
+          {
+            "index": "88",
+            "missed": false
+          },
+          {
+            "index": "89",
+            "missed": false
+          },
+          {
+            "index": "90",
+            "missed": false
+          },
+          {
+            "index": "91",
+            "missed": false
+          },
+          {
+            "index": "92",
+            "missed": false
+          },
+          {
+            "index": "93",
+            "missed": false
+          },
+          {
+            "index": "94",
+            "missed": false
+          },
+          {
+            "index": "95",
+            "missed": false
+          },
+          {
+            "index": "96",
+            "missed": false
+          },
+          {
+            "index": "97",
+            "missed": false
+          },
+          {
+            "index": "98",
+            "missed": false
+          },
+          {
+            "index": "99",
+            "missed": false
+          }
+        ],
+        "did:com:valcons1cmlrxdxsz3kj2t8n0grxqayhgr2gz5089w680q": [
+          {
+            "index": "0",
+            "missed": false
+          },
+          {
+            "index": "1",
+            "missed": false
+          },
+          {
+            "index": "2",
+            "missed": false
+          },
+          {
+            "index": "3",
+            "missed": false
+          },
+          {
+            "index": "4",
+            "missed": false
+          },
+          {
+            "index": "5",
+            "missed": false
+          },
+          {
+            "index": "6",
+            "missed": false
+          },
+          {
+            "index": "7",
+            "missed": false
+          },
+          {
+            "index": "8",
+            "missed": false
+          },
+          {
+            "index": "9",
+            "missed": false
+          },
+          {
+            "index": "10",
+            "missed": false
+          },
+          {
+            "index": "11",
+            "missed": false
+          },
+          {
+            "index": "12",
+            "missed": false
+          },
+          {
+            "index": "13",
+            "missed": false
+          },
+          {
+            "index": "14",
+            "missed": false
+          },
+          {
+            "index": "15",
+            "missed": false
+          },
+          {
+            "index": "16",
+            "missed": false
+          },
+          {
+            "index": "17",
+            "missed": false
+          },
+          {
+            "index": "18",
+            "missed": false
+          },
+          {
+            "index": "19",
+            "missed": false
+          },
+          {
+            "index": "20",
+            "missed": false
+          },
+          {
+            "index": "21",
+            "missed": false
+          },
+          {
+            "index": "22",
+            "missed": false
+          },
+          {
+            "index": "23",
+            "missed": false
+          },
+          {
+            "index": "24",
+            "missed": false
+          },
+          {
+            "index": "25",
+            "missed": false
+          },
+          {
+            "index": "26",
+            "missed": false
+          },
+          {
+            "index": "27",
+            "missed": false
+          },
+          {
+            "index": "30",
+            "missed": false
+          },
+          {
+            "index": "31",
+            "missed": false
+          },
+          {
+            "index": "32",
+            "missed": false
+          },
+          {
+            "index": "33",
+            "missed": false
+          },
+          {
+            "index": "34",
+            "missed": false
+          },
+          {
+            "index": "35",
+            "missed": false
+          },
+          {
+            "index": "36",
+            "missed": false
+          },
+          {
+            "index": "37",
+            "missed": false
+          },
+          {
+            "index": "38",
+            "missed": false
+          },
+          {
+            "index": "39",
+            "missed": false
+          },
+          {
+            "index": "40",
+            "missed": false
+          },
+          {
+            "index": "41",
+            "missed": false
+          },
+          {
+            "index": "43",
+            "missed": false
+          },
+          {
+            "index": "44",
+            "missed": false
+          },
+          {
+            "index": "45",
+            "missed": false
+          },
+          {
+            "index": "46",
+            "missed": false
+          },
+          {
+            "index": "47",
+            "missed": false
+          },
+          {
+            "index": "48",
+            "missed": false
+          },
+          {
+            "index": "49",
+            "missed": false
+          },
+          {
+            "index": "50",
+            "missed": false
+          },
+          {
+            "index": "51",
+            "missed": false
+          },
+          {
+            "index": "52",
+            "missed": false
+          },
+          {
+            "index": "53",
+            "missed": false
+          },
+          {
+            "index": "54",
+            "missed": false
+          },
+          {
+            "index": "55",
+            "missed": false
+          },
+          {
+            "index": "56",
+            "missed": false
+          },
+          {
+            "index": "57",
+            "missed": false
+          },
+          {
+            "index": "58",
+            "missed": false
+          },
+          {
+            "index": "59",
+            "missed": false
+          },
+          {
+            "index": "60",
+            "missed": false
+          },
+          {
+            "index": "61",
+            "missed": false
+          },
+          {
+            "index": "62",
+            "missed": false
+          },
+          {
+            "index": "63",
+            "missed": false
+          },
+          {
+            "index": "64",
+            "missed": false
+          },
+          {
+            "index": "65",
+            "missed": false
+          },
+          {
+            "index": "66",
+            "missed": false
+          },
+          {
+            "index": "67",
+            "missed": false
+          },
+          {
+            "index": "68",
+            "missed": false
+          },
+          {
+            "index": "69",
+            "missed": false
+          },
+          {
+            "index": "70",
+            "missed": false
+          },
+          {
+            "index": "71",
+            "missed": false
+          },
+          {
+            "index": "72",
+            "missed": false
+          },
+          {
+            "index": "73",
+            "missed": false
+          },
+          {
+            "index": "74",
+            "missed": false
+          },
+          {
+            "index": "76",
+            "missed": false
+          },
+          {
+            "index": "77",
+            "missed": false
+          },
+          {
+            "index": "78",
+            "missed": false
+          },
+          {
+            "index": "79",
+            "missed": false
+          },
+          {
+            "index": "80",
+            "missed": false
+          },
+          {
+            "index": "81",
+            "missed": false
+          },
+          {
+            "index": "82",
+            "missed": false
+          },
+          {
+            "index": "83",
+            "missed": false
+          },
+          {
+            "index": "84",
+            "missed": false
+          },
+          {
+            "index": "85",
+            "missed": false
+          },
+          {
+            "index": "86",
+            "missed": false
+          },
+          {
+            "index": "88",
+            "missed": false
+          },
+          {
+            "index": "90",
+            "missed": false
+          },
+          {
+            "index": "91",
+            "missed": false
+          },
+          {
+            "index": "92",
+            "missed": false
+          },
+          {
+            "index": "93",
+            "missed": false
+          },
+          {
+            "index": "94",
+            "missed": false
+          },
+          {
+            "index": "95",
+            "missed": false
+          },
+          {
+            "index": "96",
+            "missed": false
+          },
+          {
+            "index": "97",
+            "missed": false
+          },
+          {
+            "index": "98",
+            "missed": false
+          },
+          {
+            "index": "99",
+            "missed": false
+          }
+        ],
+        "did:com:valcons1e5pmhvrwpglfuskge04anjkjhhk909vz0295mv": [
+          {
+            "index": "25",
+            "missed": false
+          },
+          {
+            "index": "98",
+            "missed": false
+          }
+        ],
+        "did:com:valcons1fpwjcs25m6ym4lxr0fya2hn87a73nfmvcjsu2r": [],
+        "did:com:valcons1jhjp9rw369pj69snhnmst08g2q7zj5gssneujz": [],
+        "did:com:valcons1l96zq37aw8fj3gfxfv0mpa3j2t2ps54mft0m6a": [
+          {
+            "index": "0",
+            "missed": false
+          },
+          {
+            "index": "1",
+            "missed": false
+          },
+          {
+            "index": "2",
+            "missed": false
+          },
+          {
+            "index": "3",
+            "missed": false
+          },
+          {
+            "index": "4",
+            "missed": false
+          },
+          {
+            "index": "5",
+            "missed": false
+          },
+          {
+            "index": "6",
+            "missed": false
+          },
+          {
+            "index": "7",
+            "missed": false
+          },
+          {
+            "index": "8",
+            "missed": false
+          },
+          {
+            "index": "9",
+            "missed": false
+          },
+          {
+            "index": "10",
+            "missed": false
+          },
+          {
+            "index": "11",
+            "missed": false
+          },
+          {
+            "index": "12",
+            "missed": false
+          },
+          {
+            "index": "13",
+            "missed": false
+          },
+          {
+            "index": "14",
+            "missed": false
+          },
+          {
+            "index": "15",
+            "missed": false
+          },
+          {
+            "index": "16",
+            "missed": false
+          },
+          {
+            "index": "17",
+            "missed": false
+          },
+          {
+            "index": "18",
+            "missed": false
+          },
+          {
+            "index": "19",
+            "missed": false
+          },
+          {
+            "index": "20",
+            "missed": false
+          },
+          {
+            "index": "21",
+            "missed": false
+          },
+          {
+            "index": "22",
+            "missed": false
+          },
+          {
+            "index": "23",
+            "missed": false
+          },
+          {
+            "index": "24",
+            "missed": false
+          },
+          {
+            "index": "25",
+            "missed": false
+          },
+          {
+            "index": "26",
+            "missed": false
+          },
+          {
+            "index": "27",
+            "missed": false
+          },
+          {
+            "index": "28",
+            "missed": false
+          },
+          {
+            "index": "29",
+            "missed": false
+          },
+          {
+            "index": "30",
+            "missed": false
+          },
+          {
+            "index": "31",
+            "missed": false
+          },
+          {
+            "index": "32",
+            "missed": false
+          },
+          {
+            "index": "33",
+            "missed": false
+          },
+          {
+            "index": "34",
+            "missed": false
+          },
+          {
+            "index": "35",
+            "missed": false
+          },
+          {
+            "index": "36",
+            "missed": false
+          },
+          {
+            "index": "37",
+            "missed": false
+          },
+          {
+            "index": "38",
+            "missed": false
+          },
+          {
+            "index": "39",
+            "missed": false
+          },
+          {
+            "index": "40",
+            "missed": false
+          },
+          {
+            "index": "41",
+            "missed": false
+          },
+          {
+            "index": "42",
+            "missed": false
+          },
+          {
+            "index": "43",
+            "missed": false
+          },
+          {
+            "index": "44",
+            "missed": false
+          },
+          {
+            "index": "45",
+            "missed": false
+          },
+          {
+            "index": "46",
+            "missed": false
+          },
+          {
+            "index": "47",
+            "missed": false
+          },
+          {
+            "index": "48",
+            "missed": false
+          },
+          {
+            "index": "49",
+            "missed": false
+          },
+          {
+            "index": "50",
+            "missed": false
+          },
+          {
+            "index": "51",
+            "missed": false
+          },
+          {
+            "index": "52",
+            "missed": false
+          },
+          {
+            "index": "53",
+            "missed": false
+          },
+          {
+            "index": "54",
+            "missed": false
+          },
+          {
+            "index": "55",
+            "missed": false
+          },
+          {
+            "index": "56",
+            "missed": false
+          },
+          {
+            "index": "57",
+            "missed": false
+          },
+          {
+            "index": "58",
+            "missed": false
+          },
+          {
+            "index": "59",
+            "missed": false
+          },
+          {
+            "index": "60",
+            "missed": false
+          },
+          {
+            "index": "61",
+            "missed": false
+          },
+          {
+            "index": "62",
+            "missed": false
+          },
+          {
+            "index": "63",
+            "missed": false
+          },
+          {
+            "index": "64",
+            "missed": false
+          },
+          {
+            "index": "65",
+            "missed": false
+          },
+          {
+            "index": "66",
+            "missed": false
+          },
+          {
+            "index": "67",
+            "missed": false
+          },
+          {
+            "index": "68",
+            "missed": false
+          },
+          {
+            "index": "69",
+            "missed": false
+          },
+          {
+            "index": "70",
+            "missed": false
+          },
+          {
+            "index": "71",
+            "missed": false
+          },
+          {
+            "index": "72",
+            "missed": false
+          },
+          {
+            "index": "73",
+            "missed": false
+          },
+          {
+            "index": "74",
+            "missed": false
+          },
+          {
+            "index": "75",
+            "missed": false
+          },
+          {
+            "index": "76",
+            "missed": false
+          },
+          {
+            "index": "77",
+            "missed": false
+          },
+          {
+            "index": "78",
+            "missed": false
+          },
+          {
+            "index": "79",
+            "missed": false
+          },
+          {
+            "index": "80",
+            "missed": false
+          },
+          {
+            "index": "81",
+            "missed": false
+          },
+          {
+            "index": "82",
+            "missed": false
+          },
+          {
+            "index": "83",
+            "missed": false
+          },
+          {
+            "index": "84",
+            "missed": false
+          },
+          {
+            "index": "85",
+            "missed": false
+          },
+          {
+            "index": "86",
+            "missed": false
+          },
+          {
+            "index": "87",
+            "missed": false
+          },
+          {
+            "index": "88",
+            "missed": false
+          },
+          {
+            "index": "89",
+            "missed": false
+          },
+          {
+            "index": "90",
+            "missed": false
+          },
+          {
+            "index": "91",
+            "missed": false
+          },
+          {
+            "index": "92",
+            "missed": false
+          },
+          {
+            "index": "93",
+            "missed": false
+          },
+          {
+            "index": "94",
+            "missed": false
+          },
+          {
+            "index": "95",
+            "missed": false
+          },
+          {
+            "index": "96",
+            "missed": false
+          },
+          {
+            "index": "97",
+            "missed": false
+          },
+          {
+            "index": "98",
+            "missed": false
+          },
+          {
+            "index": "99",
+            "missed": false
+          }
+        ],
+        "did:com:valcons1p8d6l6rwz2hrfyzzven7tclqsawsnfdfj9wf3v": [
+          {
+            "index": "0",
+            "missed": false
+          },
+          {
+            "index": "1",
+            "missed": false
+          },
+          {
+            "index": "8",
+            "missed": false
+          },
+          {
+            "index": "35",
+            "missed": false
+          },
+          {
+            "index": "37",
+            "missed": false
+          },
+          {
+            "index": "38",
+            "missed": false
+          },
+          {
+            "index": "39",
+            "missed": false
+          },
+          {
+            "index": "40",
+            "missed": false
+          },
+          {
+            "index": "41",
+            "missed": false
+          },
+          {
+            "index": "42",
+            "missed": false
+          },
+          {
+            "index": "43",
+            "missed": false
+          },
+          {
+            "index": "44",
+            "missed": false
+          },
+          {
+            "index": "45",
+            "missed": false
+          },
+          {
+            "index": "46",
+            "missed": false
+          },
+          {
+            "index": "47",
+            "missed": false
+          },
+          {
+            "index": "48",
+            "missed": false
+          },
+          {
+            "index": "49",
+            "missed": false
+          },
+          {
+            "index": "50",
+            "missed": false
+          },
+          {
+            "index": "51",
+            "missed": false
+          },
+          {
+            "index": "52",
+            "missed": false
+          },
+          {
+            "index": "53",
+            "missed": false
+          },
+          {
+            "index": "54",
+            "missed": false
+          },
+          {
+            "index": "55",
+            "missed": false
+          }
+        ],
+        "did:com:valcons1p8msp72naxvq8l22zdqfdfj789yqqcud9w8t7u": [
+          {
+            "index": "0",
+            "missed": false
+          },
+          {
+            "index": "1",
+            "missed": false
+          },
+          {
+            "index": "2",
+            "missed": false
+          },
+          {
+            "index": "3",
+            "missed": false
+          },
+          {
+            "index": "4",
+            "missed": false
+          },
+          {
+            "index": "5",
+            "missed": false
+          },
+          {
+            "index": "6",
+            "missed": false
+          },
+          {
+            "index": "7",
+            "missed": false
+          },
+          {
+            "index": "8",
+            "missed": false
+          },
+          {
+            "index": "9",
+            "missed": false
+          },
+          {
+            "index": "10",
+            "missed": false
+          },
+          {
+            "index": "11",
+            "missed": false
+          },
+          {
+            "index": "12",
+            "missed": false
+          },
+          {
+            "index": "13",
+            "missed": false
+          },
+          {
+            "index": "14",
+            "missed": false
+          },
+          {
+            "index": "15",
+            "missed": false
+          },
+          {
+            "index": "16",
+            "missed": false
+          },
+          {
+            "index": "17",
+            "missed": false
+          },
+          {
+            "index": "18",
+            "missed": false
+          },
+          {
+            "index": "19",
+            "missed": false
+          },
+          {
+            "index": "20",
+            "missed": false
+          },
+          {
+            "index": "21",
+            "missed": false
+          },
+          {
+            "index": "22",
+            "missed": false
+          },
+          {
+            "index": "23",
+            "missed": false
+          },
+          {
+            "index": "24",
+            "missed": false
+          },
+          {
+            "index": "25",
+            "missed": false
+          },
+          {
+            "index": "26",
+            "missed": false
+          },
+          {
+            "index": "27",
+            "missed": false
+          },
+          {
+            "index": "28",
+            "missed": false
+          },
+          {
+            "index": "29",
+            "missed": false
+          },
+          {
+            "index": "30",
+            "missed": false
+          },
+          {
+            "index": "31",
+            "missed": false
+          },
+          {
+            "index": "32",
+            "missed": false
+          },
+          {
+            "index": "33",
+            "missed": false
+          },
+          {
+            "index": "34",
+            "missed": false
+          },
+          {
+            "index": "35",
+            "missed": false
+          },
+          {
+            "index": "36",
+            "missed": false
+          },
+          {
+            "index": "37",
+            "missed": false
+          },
+          {
+            "index": "38",
+            "missed": false
+          },
+          {
+            "index": "39",
+            "missed": false
+          },
+          {
+            "index": "40",
+            "missed": false
+          },
+          {
+            "index": "41",
+            "missed": false
+          },
+          {
+            "index": "42",
+            "missed": false
+          },
+          {
+            "index": "43",
+            "missed": false
+          },
+          {
+            "index": "44",
+            "missed": false
+          },
+          {
+            "index": "45",
+            "missed": false
+          },
+          {
+            "index": "46",
+            "missed": false
+          },
+          {
+            "index": "47",
+            "missed": false
+          },
+          {
+            "index": "48",
+            "missed": false
+          },
+          {
+            "index": "49",
+            "missed": false
+          },
+          {
+            "index": "50",
+            "missed": false
+          },
+          {
+            "index": "51",
+            "missed": false
+          },
+          {
+            "index": "52",
+            "missed": false
+          },
+          {
+            "index": "53",
+            "missed": false
+          },
+          {
+            "index": "54",
+            "missed": false
+          },
+          {
+            "index": "55",
+            "missed": false
+          },
+          {
+            "index": "56",
+            "missed": false
+          },
+          {
+            "index": "57",
+            "missed": false
+          },
+          {
+            "index": "58",
+            "missed": false
+          },
+          {
+            "index": "59",
+            "missed": false
+          },
+          {
+            "index": "60",
+            "missed": false
+          },
+          {
+            "index": "61",
+            "missed": false
+          },
+          {
+            "index": "62",
+            "missed": false
+          },
+          {
+            "index": "63",
+            "missed": false
+          },
+          {
+            "index": "64",
+            "missed": false
+          },
+          {
+            "index": "65",
+            "missed": false
+          },
+          {
+            "index": "66",
+            "missed": false
+          },
+          {
+            "index": "67",
+            "missed": false
+          },
+          {
+            "index": "68",
+            "missed": false
+          },
+          {
+            "index": "69",
+            "missed": false
+          },
+          {
+            "index": "70",
+            "missed": false
+          },
+          {
+            "index": "71",
+            "missed": false
+          },
+          {
+            "index": "72",
+            "missed": false
+          },
+          {
+            "index": "73",
+            "missed": false
+          },
+          {
+            "index": "74",
+            "missed": false
+          },
+          {
+            "index": "75",
+            "missed": false
+          },
+          {
+            "index": "76",
+            "missed": false
+          },
+          {
+            "index": "77",
+            "missed": false
+          },
+          {
+            "index": "78",
+            "missed": false
+          },
+          {
+            "index": "79",
+            "missed": false
+          },
+          {
+            "index": "80",
+            "missed": false
+          },
+          {
+            "index": "81",
+            "missed": false
+          },
+          {
+            "index": "82",
+            "missed": false
+          },
+          {
+            "index": "83",
+            "missed": false
+          },
+          {
+            "index": "84",
+            "missed": false
+          },
+          {
+            "index": "85",
+            "missed": false
+          },
+          {
+            "index": "86",
+            "missed": false
+          },
+          {
+            "index": "87",
+            "missed": false
+          },
+          {
+            "index": "88",
+            "missed": false
+          },
+          {
+            "index": "89",
+            "missed": false
+          },
+          {
+            "index": "90",
+            "missed": false
+          },
+          {
+            "index": "91",
+            "missed": false
+          },
+          {
+            "index": "92",
+            "missed": false
+          },
+          {
+            "index": "93",
+            "missed": false
+          },
+          {
+            "index": "94",
+            "missed": false
+          },
+          {
+            "index": "95",
+            "missed": false
+          },
+          {
+            "index": "96",
+            "missed": false
+          },
+          {
+            "index": "97",
+            "missed": false
+          },
+          {
+            "index": "98",
+            "missed": false
+          },
+          {
+            "index": "99",
+            "missed": false
+          }
+        ],
+        "did:com:valcons1y0zmkc0egrdk3vg6ax3lppx56x4y2c2y0a70n4": [
+          {
+            "index": "0",
+            "missed": false
+          },
+          {
+            "index": "1",
+            "missed": false
+          },
+          {
+            "index": "83",
+            "missed": false
+          }
+        ]
+      },
+      "params": {
+        "downtime_jail_duration": "7200000000000",
+        "max_evidence_age": "120000000000",
+        "min_signed_per_window": "0.500000000000000000",
+        "signed_blocks_window": "100",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.005000000000000000"
+      },
+      "signing_infos": {
+        "did:com:valcons16hl9t3zsx690u5f7p4djpqy2efshtukxxs7g6l": {
+          "address": "did:com:valcons16hl9t3zsx690u5f7p4djpqy2efshtukxxs7g6l",
+          "index_offset": "2",
+          "jailed_until": "2019-10-15T16:10:38.861308462Z",
+          "missed_blocks_counter": "2",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1ayyfvnw8acpekwgmgcteu9dsrclte2fsg7ye4n": {
+          "address": "did:com:valcons1ayyfvnw8acpekwgmgcteu9dsrclte2fsg7ye4n",
+          "index_offset": "660062",
+          "jailed_until": "1970-01-01T00:00:00Z",
+          "missed_blocks_counter": "0",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1cmlrxdxsz3kj2t8n0grxqayhgr2gz5089w680q": {
+          "address": "did:com:valcons1cmlrxdxsz3kj2t8n0grxqayhgr2gz5089w680q",
+          "index_offset": "719999",
+          "jailed_until": "1970-01-01T00:00:00Z",
+          "missed_blocks_counter": "0",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1e5pmhvrwpglfuskge04anjkjhhk909vz0295mv": {
+          "address": "did:com:valcons1e5pmhvrwpglfuskge04anjkjhhk909vz0295mv",
+          "index_offset": "719999",
+          "jailed_until": "1970-01-01T00:00:00Z",
+          "missed_blocks_counter": "0",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1fpwjcs25m6ym4lxr0fya2hn87a73nfmvcjsu2r": {
+          "address": "did:com:valcons1fpwjcs25m6ym4lxr0fya2hn87a73nfmvcjsu2r",
+          "index_offset": "719999",
+          "jailed_until": "1970-01-01T00:00:00Z",
+          "missed_blocks_counter": "0",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1jhjp9rw369pj69snhnmst08g2q7zj5gssneujz": {
+          "address": "did:com:valcons1jhjp9rw369pj69snhnmst08g2q7zj5gssneujz",
+          "index_offset": "631059",
+          "jailed_until": "1970-01-01T00:00:00Z",
+          "missed_blocks_counter": "0",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1l96zq37aw8fj3gfxfv0mpa3j2t2ps54mft0m6a": {
+          "address": "did:com:valcons1l96zq37aw8fj3gfxfv0mpa3j2t2ps54mft0m6a",
+          "index_offset": "719999",
+          "jailed_until": "1970-01-01T00:00:00Z",
+          "missed_blocks_counter": "0",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1p8d6l6rwz2hrfyzzven7tclqsawsnfdfj9wf3v": {
+          "address": "did:com:valcons1p8d6l6rwz2hrfyzzven7tclqsawsnfdfj9wf3v",
+          "index_offset": "337709",
+          "jailed_until": "2019-10-04T19:28:15.988415539Z",
+          "missed_blocks_counter": "0",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1p8msp72naxvq8l22zdqfdfj789yqqcud9w8t7u": {
+          "address": "did:com:valcons1p8msp72naxvq8l22zdqfdfj789yqqcud9w8t7u",
+          "index_offset": "405657",
+          "jailed_until": "2019-10-04T11:40:26.202508903Z",
+          "missed_blocks_counter": "0",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1y0zmkc0egrdk3vg6ax3lppx56x4y2c2y0a70n4": {
+          "address": "did:com:valcons1y0zmkc0egrdk3vg6ax3lppx56x4y2c2y0a70n4",
+          "index_offset": "324370",
+          "jailed_until": "2019-10-08T00:00:35.862392312Z",
+          "missed_blocks_counter": "0",
+          "start_height": "0",
+          "tombstoned": false
+        }
+      }
+    },
+    "mint": {
+      "minter": {
+        "annual_provisions": "0.000000000000000000",
+        "inflation": "0.000000000000000000"
+      },
+      "params": {
+        "blocks_per_year": "6311520",
+        "goal_bonded": "0.000000000000000001",
+        "inflation_max": "0.000000000000000001",
+        "inflation_min": "0.000000000000000000",
+        "inflation_rate_change": "0.000000000000000001",
+        "mint_denom": "ucommercio"
+      }
+    },
+    "memberships": {
+      "memberships": null,
+      "minters": null
+    },
+    "auth": {
+      "accounts": [
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "0",
+            "address": "did:com:1xwd66m5jr74u28kvrgjswwru5y0rhvgkvwz3zs",
+            "coins": [
+              {
+                "amount": "45682411750000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "23"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "1",
+            "address": "did:com:1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxcty5jw",
+            "coins": [],
+            "public_key": null,
+            "sequence": "1"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "2",
+            "address": "did:com:1p8vdenej8y3lu7d9chnfp5xlthx00exdjefwfg",
+            "coins": [],
+            "public_key": null,
+            "sequence": "1"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "3",
+            "address": "did:com:1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7aj4vrvl",
+            "coins": [],
+            "public_key": null,
+            "sequence": "1"
+          }
+        },
+        {
+          "type": "cosmos-sdk/ModuleAccount",
+          "value": {
+            "BaseAccount": {
+              "account_number": "4",
+              "address": "did:com:1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8s5lhfv",
+              "coins": [],
+              "public_key": null,
+              "sequence": "0"
+            },
+            "name": "distribution",
+            "permissions": null
+          }
+        },
+        {
+          "type": "cosmos-sdk/ModuleAccount",
+          "value": {
+            "BaseAccount": {
+              "account_number": "5",
+              "address": "did:com:1fl48vsnmsdzcv85q5d2q4z5ajdha8yu3zsjyey",
+              "coins": [
+                {
+                  "amount": "649001250000",
+                  "denom": "ucommercio"
+                }
+              ],
+              "public_key": null,
+              "sequence": "0"
+            },
+            "name": "bonded_tokens_pool",
+            "permissions": [
+              "burner",
+              "staking"
+            ]
+          }
+        },
+        {
+          "type": "cosmos-sdk/ModuleAccount",
+          "value": {
+            "BaseAccount": {
+              "account_number": "6",
+              "address": "did:com:1tygms3xhhs3yv487phx3dw4a95jn7t7lksw40s",
+              "coins": [
+                {
+                  "amount": "49750000000",
+                  "denom": "ucommercio"
+                }
+              ],
+              "public_key": null,
+              "sequence": "0"
+            },
+            "name": "not_bonded_tokens_pool",
+            "permissions": [
+              "burner",
+              "staking"
+            ]
+          }
+        },
+        {
+          "type": "cosmos-sdk/ModuleAccount",
+          "value": {
+            "BaseAccount": {
+              "account_number": "7",
+              "address": "did:com:10d07y265gmmuvt4z0w9aw880jnsr700jdfgwkq",
+              "coins": [],
+              "public_key": null,
+              "sequence": "0"
+            },
+            "name": "gov",
+            "permissions": [
+              "burner"
+            ]
+          }
+        },
+        {
+          "type": "cosmos-sdk/ModuleAccount",
+          "value": {
+            "BaseAccount": {
+              "account_number": "8",
+              "address": "did:com:1m3h30wlvsf8llruxtpukdvsy0km2kum8l6un8n",
+              "coins": [],
+              "public_key": null,
+              "sequence": "0"
+            },
+            "name": "mint",
+            "permissions": [
+              "minter"
+            ]
+          }
+        },
+        {
+          "type": "cosmos-sdk/ModuleAccount",
+          "value": {
+            "BaseAccount": {
+              "account_number": "9",
+              "address": "did:com:17xpfvakm2amg962yls6f84z3kell8c5l8jcttw",
+              "coins": [],
+              "public_key": null,
+              "sequence": "0"
+            },
+            "name": "fee_collector",
+            "permissions": null
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "10",
+            "address": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+            "coins": [
+              {
+                "amount": "1401000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "11",
+            "address": "did:com:1yj7dwn2hp4qpqy9rp4l6eh78qc6pv86ketjmlg",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "12",
+            "address": "did:com:1whq997up94nxq6asrcvqx0f5unza5jqfpscgmd",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "13",
+            "address": "did:com:1c7w0a9mf29hdcfslhcrs9hy58pcejrquklfp5s",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "14",
+            "address": "did:com:1ttuht376rvvj4cswj3ewgkh38keyyhmw5tlep2",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "15",
+            "address": "did:com:1jpqfpv7tclzqgjgjv7f46y96yuhkyxepj73x0t",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "16",
+            "address": "did:com:1hnjwqcwugsdn9q5vrzwr0zmtkg6v8ckutlvl06",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "17",
+            "address": "did:com:128xa3y7as0hpq600mghwz8krah76mtq5kuasnc",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "18",
+            "address": "did:com:1k3svpcjv5y743jem6k5jcn7w6vjxptt6uyxgp5",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "19",
+            "address": "did:com:102aet32mr4l98ujzyrlal7q40un70jvcwfl6cn",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "20",
+            "address": "did:com:13ew9x73g687x8u4dacvw8g84rh04dv88pys8fl",
+            "coins": [
+              {
+                "amount": "2000000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "5"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "21",
+            "address": "did:com:1yzmp0quh3v6c945ltyet7zku7gqvhcdzjwq8um",
+            "coins": [
+              {
+                "amount": "2000000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "3"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "22",
+            "address": "did:com:14zk9u8894eg7fhgw0dsesnqzmlrx85ga9rvnjc",
+            "coins": [
+              {
+                "amount": "2000000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "1"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "23",
+            "address": "did:com:1gn4nh2wszgjnk8chzepa03mumkl96c0s4lll5z",
+            "coins": [
+              {
+                "amount": "997800000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "4"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "24",
+            "address": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+            "coins": [
+              {
+                "amount": "2000000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "101"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "25",
+            "address": "did:com:12q3ma7ryzjyazly6m8m4ck4fq5mylwkyzz7sye",
+            "coins": [
+              {
+                "amount": "2200000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "26",
+            "address": "did:com:125rn2jetwy6rtwd7pfhwvx5p38g9zme32a4sqd",
+            "coins": [
+              {
+                "amount": "52000000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "27",
+            "address": "did:com:1xu3ey77fxvkvf92yqpjp2ajm6qdu3fr9jf53qj",
+            "coins": [
+              {
+                "amount": "52000000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "28",
+            "address": "did:com:1hxsqapk7w6gv648hjdezyjrxz7pjm0clraf5qy",
+            "coins": [
+              {
+                "amount": "2000000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "2"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "29",
+            "address": "did:com:1gpxnqpe6645d77a5yqwjaldzqtkqmlh2vhwmyd",
+            "coins": [
+              {
+                "amount": "536000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "9"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "30",
+            "address": "did:com:1l0xaatswnm5rpmpg4klatp6exkfm6khd08z52k",
+            "coins": [
+              {
+                "amount": "2000000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "1"
+          }
+        }
+      ],
+      "params": {
+        "max_memo_characters": "256",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10"
+      }
+    },
+    "government": {
+      "government_address": "did:com:1xwd66m5jr74u28kvrgjswwru5y0rhvgkvwz3zs"
+    }
+  }
+}
