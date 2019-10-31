@@ -19,6 +19,7 @@ rm -rf Linux-AMD64.zip
 
 
 ```bash
+cd ~/
 rm -rf commercio-chains
 mkdir commercio-chains && cd commercio-chains
 git clone https://github.com/commercionetwork/chains.git .
