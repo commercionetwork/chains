@@ -4,7 +4,7 @@
 
 ## 1. Quick update
 
-### 1. Installing biniries
+### 1. Install binaries
 
 ```bash
 service cnd stop
@@ -88,15 +88,16 @@ cncli config chain-id $CHAINID
 
 ## 2. Slow update
 
-### 1. Installing requirements
+### 1. Install requirements
 In order to update the OS so that you can work properly, execute the following commands:
 
 ```shell
+apt update && apt upgrade -y
 snap refresh go
 ```
 
 ### 2. Get chain data
-Before update the node, get chain data of commercio-testnet4000
+Before update the node, get commercio-testnet4000 chain data 
 
 ```shell
 rm -rf commercio-chains
