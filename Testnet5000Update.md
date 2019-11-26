@@ -1,6 +1,6 @@
 # Commercio.network testnet 5000 Update
 
-**ATTENTION**: This guide is only for updating from commercio-testnet5000 to commercio-testnet5000 and for full nodes or validators that have followed the instructions reported here [Installing a full node](https://docs.commercio.network/nodes/full-node-installation.html#_1-installing-the-software-requirements)
+**ATTENTION**: This guide is only for updating from commercio-testnet4000 to commercio-testnet5000 and for full nodes or validators that have followed the instructions reported here [Installing a full node](https://docs.commercio.network/nodes/full-node-installation.html#_1-installing-the-software-requirements)
 
 ## 1. Quick update
 
