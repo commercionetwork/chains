@@ -1,0 +1,5499 @@
+{
+  "genesis_time": "2019-11-26T15:30:00Z",
+  "chain_id": "commercio-testnet5000",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "validators": [
+    {
+      "address": "485D2C4154DE89BAFCC37A49D55E67F77D19A76C",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "uINAp+jU94LrkhvQGN/uZzKPJuynD2ARPscAxTqrVbg="
+      },
+      "power": "100000",
+      "name": "larry"
+    },
+    {
+      "address": "95E4128DD1D1432D1613BCF705BCE8503C295110",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "nYoNwyon84ns+TmV0wSICI+KO1af79rqxsBXtscwd1E="
+      },
+      "power": "49750",
+      "name": "noder1a"
+    },
+    {
+      "address": "CD03BBB06E0A3E9E42C8CBEBD9CAD2BDEC579582",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "kuPE1XhiH1vYrM36vlKO8gCKlFVyCS5wtLPLu7gciik="
+      },
+      "power": "100000",
+      "name": "adam"
+    },
+    {
+      "address": "C6FE3334D0146D252CF37A0660749740D48151E7",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "W6/ybmVHztv5c3DPvfG27ld/6mF5wCFqUyOreZwp9d0="
+      },
+      "power": "100000",
+      "name": "bono"
+    },
+    {
+      "address": "F9742047DD71D328A1264B1FB0F63252D41852BB",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "JgEUACGGWfHqorKpGMEpLFUYBGucVr/AT901otlD5pE="
+      },
+      "power": "100000",
+      "name": "edge"
+    },
+    {
+      "address": "CC132BA85048A7E4005827529FD61BA152E21FDF",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "M5cFUCiU4Yadd7nOc+cX3DmLozv8/8AehhLGhsGc0ME="
+      },
+      "power": "50000",
+      "name": "2WS"
+    },
+    {
+      "address": "E908964DC7EE039B391B46179E15B01E3EBCA930",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "l6EHelJKACg2+sPPxYux8ICU137bMREmAsfK4qHvD8c="
+      },
+      "power": "50000",
+      "name": "NYM"
+    }
+  ],
+  "app_hash": "",
+  "app_state": {
+    "government": {
+      "government_address": "did:com:1xwd66m5jr74u28kvrgjswwru5y0rhvgkvwz3zs"
+    },
+    "supply": {
+      "supply": [
+        {
+          "amount": "47498264960000",
+          "denom": "ucommercio"
+        }
+      ]
+    },
+    "accreditations": {
+      "liquidity_pool_amount": [],
+      "invites": null,
+      "trusted_service_providers": [
+        "did:com:1xwd66m5jr74u28kvrgjswwru5y0rhvgkvwz3zs"
+      ],
+      "credentials": null,
+      "stable_credits_denom": "uccc",
+      "memberships": [
+        {
+          "owner": "did:com:1xwd66m5jr74u28kvrgjswwru5y0rhvgkvwz3zs",
+          "membership_type": "black"
+        }
+      ]
+    },
+    "genutil": null,
+    "pricefeed": {
+      "oracles": [
+        "did:com:1xwd66m5jr74u28kvrgjswwru5y0rhvgkvwz3zs"
+      ],
+      "assets": [
+        "ucommercio"
+      ],
+      "raw_prices": [
+        {
+          "oracle": "did:com:1xwd66m5jr74u28kvrgjswwru5y0rhvgkvwz3zs",
+          "price": {
+            "asset_name": "ucommercio",
+            "value": "1.000000000000000000",
+            "expiry": "100000000"
+          },
+          "created": "0"
+        }
+      ]
+    },
+    "staking": {
+      "delegations": [
+        {
+          "delegator_address": "did:com:1p8vdenej8y3lu7d9chnfp5xlthx00exdjefwfg",
+          "shares": "100000000000.000000000000000000",
+          "validator_address": "did:com:valoper1p8vdenej8y3lu7d9chnfp5xlthx00exd36sgym"
+        },
+        {
+          "delegator_address": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "shares": "50000000000.000000000000000000",
+          "validator_address": "did:com:valoper1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4stah8l"
+        },
+        {
+          "delegator_address": "did:com:1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7aj4vrvl",
+          "shares": "100000000000.000000000000000000",
+          "validator_address": "did:com:valoper1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7a3k49pv"
+        },
+        {
+          "delegator_address": "did:com:1yzmp0quh3v6c945ltyet7zku7gqvhcdzjwq8um",
+          "shares": "50000000000.000000000000000000",
+          "validator_address": "did:com:valoper1yzmp0quh3v6c945ltyet7zku7gqvhcdz3dep3g"
+        },
+        {
+          "delegator_address": "did:com:1xwd66m5jr74u28kvrgjswwru5y0rhvgkvwz3zs",
+          "shares": "100000000000.000000000000000000",
+          "validator_address": "did:com:valoper1xwd66m5jr74u28kvrgjswwru5y0rhvgk0dmh0r"
+        },
+        {
+          "delegator_address": "did:com:1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxcty5jw",
+          "shares": "100000000000.000000000000000000",
+          "validator_address": "did:com:valoper1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxmgajla"
+        },
+        {
+          "delegator_address": "did:com:1whhetkmcypx7meg43f9lgmrfg8f6v8e9tcz7q0",
+          "shares": "50000000000.000000000000000000",
+          "validator_address": "did:com:valoper1whhetkmcypx7meg43f9lgmrfg8f6v8e9gmmcdu"
+        },
+        {
+          "delegator_address": "did:com:13ew9x73g687x8u4dacvw8g84rh04dv88pys8fl",
+          "shares": "50000000000.000000000000000000",
+          "validator_address": "did:com:valoper13ew9x73g687x8u4dacvw8g84rh04dv88z8fpyv"
+        },
+        {
+          "delegator_address": "did:com:14zk9u8894eg7fhgw0dsesnqzmlrx85ga9rvnjc",
+          "shares": "50000000000.000000000000000000",
+          "validator_address": "did:com:valoper14zk9u8894eg7fhgw0dsesnqzmlrx85gaxq44lt"
+        },
+        {
+          "delegator_address": "did:com:1hxsqapk7w6gv648hjdezyjrxz7pjm0clraf5qy",
+          "shares": "50000000000.000000000000000000",
+          "validator_address": "did:com:valoper1hxsqapk7w6gv648hjdezyjrxz7pjm0clq7sjdh"
+        },
+        {
+          "delegator_address": "did:com:1l0xaatswnm5rpmpg4klatp6exkfm6khd08z52k",
+          "shares": "50000000000.000000000000000000",
+          "validator_address": "did:com:valoper1l0xaatswnm5rpmpg4klatp6exkfm6khdvymj89"
+        }
+      ],
+      "exported": true,
+      "last_total_power": "549750",
+      "last_validator_powers": [
+        {
+          "Address": "did:com:valoper1p8vdenej8y3lu7d9chnfp5xlthx00exd36sgym",
+          "Power": "100000"
+        },
+        {
+          "Address": "did:com:valoper1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4stah8l",
+          "Power": "49750"
+        },
+        {
+          "Address": "did:com:valoper1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7a3k49pv",
+          "Power": "100000"
+        },
+        {
+          "Address": "did:com:valoper1xwd66m5jr74u28kvrgjswwru5y0rhvgk0dmh0r",
+          "Power": "100000"
+        },
+        {
+          "Address": "did:com:valoper1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxmgajla",
+          "Power": "100000"
+        },
+        {
+          "Address": "did:com:valoper1whhetkmcypx7meg43f9lgmrfg8f6v8e9gmmcdu",
+          "Power": "50000"
+        },
+        {
+          "Address": "did:com:valoper14zk9u8894eg7fhgw0dsesnqzmlrx85gaxq44lt",
+          "Power": "50000"
+        }
+      ],
+      "params": {
+        "bond_denom": "ucommercio",
+        "max_entries": 7,
+        "max_validators": 100,
+        "unbonding_time": "1814400000000000"
+      },
+      "redelegations": null,
+      "unbonding_delegations": null,
+      "validators": [
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-14T19:00:00Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepqhzp5pflg6nmc96ujr0gp3hlwvueg7fhv5u8kqyf7cuqv2w4t2kuqg3khm8",
+          "delegator_shares": "100000000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "larry",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper1p8vdenej8y3lu7d9chnfp5xlthx00exd36sgym",
+          "status": 2,
+          "tokens": "100000000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-20T08:49:16.283901643Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepqnk9qmse2ylecnm8e8x2axpygpz8c5w6knlha46kxcptmd3eswags8fmhxw",
+          "delegator_shares": "50000000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "noder1a",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4stah8l",
+          "status": 2,
+          "tokens": "49750000000",
+          "unbonding_height": "101",
+          "unbonding_time": "2019-11-21T15:39:38.446852931Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-14T19:00:00Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepqjt3uf4tcvg04hk9vehatu55w7gqg49z4wgyjuu95k09mhwqu3g5set3krw",
+          "delegator_shares": "100000000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "adam",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7a3k49pv",
+          "status": 2,
+          "tokens": "100000000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-18T10:43:39.138201835Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepqttukthnux2ru4w2x044xg9qpy38s5nyz2z9f4vn0fpme0eh3062s3jqdva",
+          "delegator_shares": "50000000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "ArcoTestNode",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": true,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper1yzmp0quh3v6c945ltyet7zku7gqvhcdz3dep3g",
+          "status": 1,
+          "tokens": "49007480000",
+          "unbonding_height": "240512",
+          "unbonding_time": "2019-12-06T18:14:55.859796335Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-14T19:00:00Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepqtwhlymn9gl8dh7tnwr8mmudkaethl6np08qzz6jnyw4hn8pf7hws4wczdy",
+          "delegator_shares": "100000000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "bono",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper1xwd66m5jr74u28kvrgjswwru5y0rhvgk0dmh0r",
+          "status": 2,
+          "tokens": "100000000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-14T19:00:00Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepqycq3gqppsevlr64zk2533sff9323sprtn3ttlsz0m5669k2ru6gsq2fyzf",
+          "delegator_shares": "100000000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "edge",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxmgajla",
+          "status": 2,
+          "tokens": "100000000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-11-14T15:33:09.121444282Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepqxwts25pgjnscd8thh8888echmsuchgemlnluq85xztrgdsvu6rqs5a9f46",
+          "delegator_shares": "50000000000.000000000000000000",
+          "description": {
+            "details": "https://www.2winsolutions.com/",
+            "identity": "2WS",
+            "moniker": "2WS",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper1whhetkmcypx7meg43f9lgmrfg8f6v8e9gmmcdu",
+          "status": 2,
+          "tokens": "50000000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-15T03:50:55.693338866Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepq9k49qkgx6s0wusg9upleq37gx2zuz6s3ey8h2f94xs2su0x8rmeq52rn4x",
+          "delegator_shares": "50000000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "freddie",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": true,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper13ew9x73g687x8u4dacvw8g84rh04dv88z8fpyv",
+          "status": 1,
+          "tokens": "49007480000",
+          "unbonding_height": "307148",
+          "unbonding_time": "2019-12-10T22:05:09.846106716Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-18T13:04:53.373746331Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepqj7ssw7jjfgqzsdh6c08utza37zqff4m7mvc3zfszcl9w9g00plrsmk7usj",
+          "delegator_shares": "50000000000.000000000000000000",
+          "description": {
+            "details": "Milan based start up, working on decentralized web",
+            "identity": "",
+            "moniker": "NYM",
+            "security_contact": "",
+            "website": "https://www.nymlab.it"
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper14zk9u8894eg7fhgw0dsesnqzmlrx85gaxq44lt",
+          "status": 2,
+          "tokens": "50000000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-09-30T13:20:08.668436259Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepqc9pqgx9m8d3nyxy429kzz0jptu7axp9s7y486pctc87src9uqn2sqd8vvv",
+          "delegator_shares": "50000000000.000000000000000000",
+          "description": {
+            "details": "Solutions for Document Capture & Recognition",
+            "identity": "cappe73",
+            "moniker": "fourservicesol",
+            "security_contact": "",
+            "website": "www.4servicesolution.it"
+          },
+          "jailed": true,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper1hxsqapk7w6gv648hjdezyjrxz7pjm0clq7sjdh",
+          "status": 1,
+          "tokens": "49501250000",
+          "unbonding_height": "214693",
+          "unbonding_time": "2019-12-05T03:28:21.24032563Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2019-10-15T11:45:05.733365132Z"
+          },
+          "consensus_pubkey": "did:com:valconspub1zcjduepq73e0enphy4qhxdenfcdh8e7p6a954crsfatpxuk6cgg42z0knw6q8a90v8",
+          "delegator_shares": "50000000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "LFNODE",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": true,
+          "min_self_delegation": "1",
+          "operator_address": "did:com:valoper1l0xaatswnm5rpmpg4klatp6exkfm6khdvymj89",
+          "status": 0,
+          "tokens": "49750000000",
+          "unbonding_height": "0",
+          "unbonding_time": "2019-11-05T14:10:38.861308462Z"
+        }
+      ]
+    },
+    "docs": {
+      "documents": [
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "2216413fe43b5fde4c25e624ab57a76a"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e36ef5970.0a0000277f3f0000011d.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "12"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "0486d60d-b14c-44b1-8f6f-3f880f0dc9a9"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "3eff59ce716c0ef4b8c4d262c66ee55a"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/8//16e4a3f8860.0a0000277f3f0000014d.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "40"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "0c0e3869-3456-47d5-85bd-712ced3dab3d"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "4a1ca5de76f83ee90d60f5a5a5676dd8"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e36df1560.0a0000277f3f00000154.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "-1"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "1503a6ae-ebec-405d-8473-ce932f84afb8"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "6159840b5481116ecc78707e4219e9b3"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/6//16e42f9e640.0a0000277f3f00000138.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "26"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "1629b16d-3646-49cc-a06e-763826f8aabe"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "636d275c8d62aef9a4342b14a8e76b3e"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e36e93ef0.0a0000277f3f00000114.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "9"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "1a36fada-865c-45f3-a2c0-48f396d83895"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "9a422d65fd9f6bfd5bebb22455abd21b"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/7//16e469b1940.0a0000277f3f0000014f.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "31"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "1c0f4118-3ce5-40b3-b587-5dc0ba913a6a"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "0deae71be1ede9124551d36e12fec50e"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/8//16e4a5a6b30.0a0000277f3f00000127.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "47"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "1cd2ec2d-f3b2-41c7-a37e-396fbec300ca"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "69ce3279e9b2f8561ac498077e0bf6dd"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/7//16e47283640.0a0000277f3f00000139.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "39"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "1d1277c5-1523-4c9a-a514-5382b659a330"
+        },
+        {
+          "checksum": null,
+          "content_uri": "https://example.com/document",
+          "encryption_data": null,
+          "metadata": {
+            "content_uri": "https://example.com/document/metadata",
+            "schema": {
+              "uri": "https://example.com/custom/metadata/schema",
+              "version": "1.0.0"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1a8wrhe7m7qn5arefw6mhgfesh0vxfezgqlsawr"
+          ],
+          "sender": "did:com:1xwd66m5jr74u28kvrgjswwru5y0rhvgkvwz3zs",
+          "uuid": "278fb51a-3e1b-45f9-954d-90cb4185ded6"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "10035e4440c292c0343e46f7528a6e9f"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/7//16e469afde8.0a0000277f3f0000014e.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "32"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "290b3a6a-7dca-4989-bc3c-1d5a66bee1e3"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "daac0b87f035a0fe3ed8137028a9af7e"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/6//16e42f569d0.0a0000277f3f00000139.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "22"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "2f05f68a-2b63-4175-8e18-c33a37e3c034"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "5d908946ec394778d0894cd554b66589"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/6//16e42f9fdb0.0a0000277f3f0000013a.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "27"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "3284e500-4eef-4b37-ad24-938d2ebf6cd0"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "398b1e5ad11e59fbd66bf3a6c5824f53"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/7//16e468f1320.0a0000277f3f00000135.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "28"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "35c2f29b-1e41-457c-8266-97ff91aae4bc"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "f6fd0cecd8e1c8e6f67ead6006834c04"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/8//16e4a4d7e98.0a0000277f3f00000117.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "45"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "3869dc1f-81bd-4263-9b76-a3e0ab5f22ba"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "a430d4da3d5b25f8e8ec8413bb56ed95"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/8//16e4a4a1f50.0a0000277f3f00000113.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "44"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "38e0d0e8-2102-4fcf-94fe-420e5b6a3e61"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "1eafc808d8d0d855369c62f61924d2ff"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/8//16e4a426aa8.0a0000277f3f00000122.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "43"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "48397f26-6ec0-4c1f-91e2-597ef95b67ac"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "77a8101e25450044fefff1f9191c4c1b"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/7//16e4727ff90.0a0000277f3f00000137.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "38"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "5a99a09e-c8ca-44bb-8581-d2328c6e486c"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "1405e9d1c85493b857fa6ef326245e42"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/7//16e4720d3a0.0a0000277f3f00000136.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "37"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "64c91110-fc2a-4ce3-bf28-1a3cee801c8a"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "d5cdc40ff44404fe379bc73b694be3d3"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e37b3ca80.0a0000277f3f0000012e.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "17"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "684ff0f1-e653-40b2-9420-912d2e941a3e"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "7815696ecbf1c96e6894b779456d330e"
+          },
+          "content_uri": "https://www.vargroup.it/managed-security-services/",
+          "encryption_data": null,
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "1.1.0"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "688a1ef0-04da-4524-b7ca-6e5e3b7e61dc"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "7815696ecbf1c96e6894b779456d330e"
+          },
+          "content_uri": "https://www.vargroup.it/managed-security-services/",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "1.1.0"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "688a1ef0-04da-4524-b7ca-6e5e3b7e61dd"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "7815696ecbf1c96e6894b779456d330e"
+          },
+          "content_uri": "https://www.vargroup.it/managed-security-services/",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "1.1.0"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "688a1ef0-04da-4524-b7ca-6e5e3b7e61de"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "7815696ecbf1c96e6894b779456d330e"
+          },
+          "content_uri": "https://www.vargroup.it/managed-security-services/",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "1.1.0"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "688a1ef0-04da-4524-b7ca-6e5e3b7e61df"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "7815696ecbf1c96e6894b779456d330e"
+          },
+          "content_uri": "https://www.vargroup.it/managed-security-services/",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "1.1.0"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "688a1ef0-04da-4524-b7ca-6e5e3b7e61e1"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "7815696ecbf1c96e6894b779456d330e"
+          },
+          "content_uri": "https://www.vargroup.it/managed-security-services/",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "1234567890"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "688a1ef0-04da-4524-b7ca-6e5e3b7e61e2"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "7815696ecbf1c96e6894b779456d330e"
+          },
+          "content_uri": "https://www.vargroup.it/managed-security-services/",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "1234567890"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "688a1ef0-04da-4524-b7ca-6e5e3b7e61e3"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "7815696ecbf1c96e6894b779456d330e"
+          },
+          "content_uri": "https://www.vargroup.it/managed-security-services/",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "1234567890"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "688a1ef0-04da-4524-b7ca-6e5e3b7e61e7"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "7815696ecbf1c96e6894b779456d330e"
+          },
+          "content_uri": "https://www.vargroup.it/managed-security-services/",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "1234567891"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "688a1ef0-04da-4524-b7ca-6e5e3b7e61e8"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "7815696ecbf1c96e6894b779456d330e"
+          },
+          "content_uri": "https://www.vargroup.it/managed-security-services/",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "1234567891"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "688a1ef0-04da-4524-b7ca-6e5e3b7e61e9"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "7815696ecbf1c96e6894b779456d330e"
+          },
+          "content_uri": "https://www.vargroup.it/managed-security-services/",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "1.1.0"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "688a1ef0-04da-4524-b7ca-6e5e3b7e66de"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "7815696ecbf1c96e6894b779456d330e"
+          },
+          "content_uri": "https://www.vargroup.it/managed-security-services/",
+          "encryption_data": null,
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "1.0.0"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "6a881ef0-04da-4524-b7ca-6e5e3b7e61dc"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "34774b11ec747d7ca20a6ed00b994338"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/8//16e4a4f3030.0a0000277f3f00000130.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "46"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "71159dbe-6c6a-4c4f-b45e-51a75b6e55a6"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "2173364c5275e00c2457e508b5662404"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e36f7b610.0a0000277f3f00000124.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "14"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "714e9945-533d-4fb3-ba09-9696818b6d3a"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "5a510c71dfa8c9abd2abc43fc9151a3a"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/6//16e406aa428.0a0000277f3f00000133.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "21"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "77cd1c11-b539-478a-b8bf-bfdc3d44b1fe"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "e4b764bc0f77f5177025865e4ef8c5e3"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e36dbae48.0a0000277f3f00000151.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "-1"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "828672bf-ed29-427e-9a44-9f935555b1e5"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "e50e3ed702be2ae5fbcc3fcc234f5888"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/7//16e4690f398.0a0000277f3f00000139.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "29"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "87951f8b-96c3-43e4-82f4-772a5b32a3a7"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "2077f95e6dd4b609af0af9adcb4b2559"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/8//16e4a40cc98.0a0000277f3f00000155.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "42"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "8c724e6b-515c-462c-92e1-9fb43b73f07e"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "73fc4bf207ce49f0e8faca003a774096"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/6//16e42f598b0.0a0000277f3f0000013a.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "23"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "91373380-f066-43b5-b5e1-2783977943c2"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "311fb9f547b79c247af581e4c70d66bd"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e36eba438.0a0000277f3f00000117.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "10"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "97359d12-379a-45c6-be8a-a01f7a906cc4"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "55c9eed2d56591273f749abdc74a6df0"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/8//16e4a5ec090.0a0000277f3f0000012b.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "48"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "99ecdd9a-64f9-4e56-9a42-77b087135df4"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "19d65636b244a49ea79e03d0019db0f6"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e37b3f190.0a0000277f3f00000118.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "18"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "9e7e817f-44c6-4e50-b29d-f73befad2d4f"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "f45424a7fa1ff6d4782a4517700046df"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e36eccd18.0a0000277f3f0000011a.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "11"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "a78a4704-79e0-4a0a-8362-d6a9b5187928"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "7cf1f5b66727e98d278a0befb018ebff"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e36f7f0a8.0a0000277f3f00000126.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "16"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "abb65ccd-a43b-42d6-b495-b4128b2866e4"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "951532ef44cd81c8fcecabd8ebcebadb"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/6//16e42f736c0.0a0000277f3f0000013c.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "25"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "ade60bf0-7ed1-42ae-ab68-a48177f12ec6"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "c18c793bd559f581e64b420327952586"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e36f78f00.0a0000277f3f00000123.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "15"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "b5e0094c-70ba-49b1-8969-dab20ffbbd5b"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "75320f4e1f47cd41850d823548240d0a"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/8//16e4a3fa3b8.0a0000277f3f00000151.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "41"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "b9ec9d6b-fb3f-4838-b918-8514d1a40856"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "6f07cf3bb3fe9165ff3f691bb94ab1c2"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e36e86048.0a0000277f3f00000112.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "7"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "bb369194-8d62-4127-9580-8270e9a402f1"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "44ef7ce9f7109d477a008e33f8e46002"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/7//16e469b5ba8.0a0000277f3f00000137.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "33"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "c21233d0-e26f-4b4a-8eee-8d58dd747826"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "01bcc275c191034900754a3d097fd546"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e36e52fe0.0a0000277f3f00000158.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "-1"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "c6e11943-a0c6-4080-b03d-2d58f3f5584a"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "69c11fc4475c5fe33369bf6cf2e66952"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/5//16e3b955240.0a0000277f3f00000126.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "19"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "c93bf17e-35c7-4ffe-9ea4-ab7be4e51f2a"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "fe0f584b0454285b0114e11e247037e9"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e36e8e518.0a0000277f3f00000113.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "8"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "ca7761dd-43e7-4e89-8077-3d92d8deb367"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "06322db0992efb5f42178313aea09fc8"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e36d8dba0.0a0000277f3f0000014d.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "-1"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "cbd9afd8-8715-4ebc-b8e5-a7bbbd699474"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "108f758ed84d5c4d3f25828c80cc8b4c"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/7//16e469ba1f8.0a0000277f3f0000013c.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "34"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "d2a697d8-9ef1-4a04-816f-808126b6b44c"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "b16b8dbb0b4ed503e5b75f3fa22f7474"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/7//16e469266b0.0a0000277f3f00000140.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "30"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "d58549c5-af54-46a6-9404-be6289c17bc0"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "5d55eea87e31fd616a2cfa6b144a6332"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e36f233e8.0a0000277f3f0000011f.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "13"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "e0762b8e-0d00-4440-8b92-47624043a074"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "7ff5da2a7345e09d4e8fbd7f8f18cfe9"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e36e6ba68.0a0000277f3f0000010f.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "-1"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "e0f51850-30f5-4f14-ba99-e66fb26600df"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "3cc10da7f217ebfbbbb43c3db4e33fde"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/7//16e47213930.0a0000277f3f0000013a.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "36"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "e6150a51-9164-4e63-9c99-4020c6afcd35"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "e6a2586264d180616e6fac6eea0d1222"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/6//16e42f75600.0a0000277f3f0000013e.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "24"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "e72a370c-5233-46b6-b2ed-08666875747f"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "a7f2a249b857659580e7457c4af75ec6"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/5//16e3c5aa9c8.0a0000277f3f00000132.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "20"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "ebd56810-9072-4a7a-9a31-a54e7841fc50"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "e3d2b39dfde5e925cc50459c442cbff1"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/4//16e36debb88.0a0000277f3f00000153.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "-1"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "f26000aa-915b-48b1-ac21-8b231218eca0"
+        },
+        {
+          "checksum": {
+            "algorithm": "md5",
+            "value": "7d043966243fe0b6a7c761017fa900d7"
+          },
+          "content_uri": "/opt/Mida/Recorder/REC/1/1/2019/11/7//16e47210668.0a0000277f3f00000138.0.0.wav",
+          "encryption_data": {
+            "encrypted_data": [
+              "content_uri"
+            ],
+            "keys": [
+              {
+                "recipient": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+                "value": "C639A572E14D5075C526FDDD43E4ECF6B095EA17783D32EF3D2710AF9F359DD4"
+              }
+            ]
+          },
+          "metadata": {
+            "content_uri": "https://www.vargroup.it/managed-security-services/",
+            "schema": {
+              "uri": "https://www.vargroup.it/managed-security-services/metadata/schema",
+              "version": "35"
+            },
+            "schema_type": ""
+          },
+          "recipients": [
+            "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56"
+          ],
+          "sender": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "uuid": "f617d31e-983c-4c07-a85c-e747dea36529"
+        }
+      ],
+      "receipts": [],
+      "supported_metadata_schemes": null,
+      "trusted_metadata_schema_proposers": null
+    },
+    "auth": {
+      "accounts": [
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "5",
+            "address": "did:com:1p8vdenej8y3lu7d9chnfp5xlthx00exdjefwfg",
+            "coins": [
+              {
+                "amount": "584959",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "1"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "27",
+            "address": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+            "coins": [
+              {
+                "amount": "1996794383",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": {
+              "type": "tendermint/PubKeySecp256k1",
+              "value": "A2LI01hYyy76qNPCxq7+gYshtefvK30FeVL0TpK6VpDI"
+            },
+            "sequence": "455"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "6",
+            "address": "did:com:1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7aj4vrvl",
+            "coins": [
+              {
+                "amount": "590462",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "1"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "24",
+            "address": "did:com:1yzmp0quh3v6c945ltyet7zku7gqvhcdzjwq8um",
+            "coins": [
+              {
+                "amount": "2000057612",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": {
+              "type": "tendermint/PubKeySecp256k1",
+              "value": "A5Hf+314Z5Iycub/nNZtx+Tu5Xhu9uXHZiNjs0vG0qTL"
+            },
+            "sequence": "4"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "14",
+            "address": "did:com:1yj7dwn2hp4qpqy9rp4l6eh78qc6pv86ketjmlg",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "3",
+            "address": "did:com:1xwd66m5jr74u28kvrgjswwru5y0rhvgkvwz3zs",
+            "coins": [
+              {
+                "amount": "45630311270969",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": {
+              "type": "tendermint/PubKeySecp256k1",
+              "value": "ApueghuwhVl8tH1ccl7ZdBDf73KebXjumKabh0sVXacR"
+            },
+            "sequence": "31"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "30",
+            "address": "did:com:1xu3ey77fxvkvf92yqpjp2ajm6qdu3fr9jf53qj",
+            "coins": [
+              {
+                "amount": "52000000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "32",
+            "address": "did:com:1gpxnqpe6645d77a5yqwjaldzqtkqmlh2vhwmyd",
+            "coins": [
+              {
+                "amount": "537000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "9"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "26",
+            "address": "did:com:1gn4nh2wszgjnk8chzepa03mumkl96c0s4lll5z",
+            "coins": [
+              {
+                "amount": "997800000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "4"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "13",
+            "address": "did:com:1g5cxz9p7dqux80sw5tljwg2pwz6x7zlq84km56",
+            "coins": [
+              {
+                "amount": "1401000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "34",
+            "address": "did:com:1gkfhddf8hxj38x74zjxla072wyppej7xv9psfg",
+            "coins": [
+              {
+                "amount": "52000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "4",
+            "address": "did:com:1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxcty5jw",
+            "coins": [
+              {
+                "amount": "594522",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "1"
+          }
+        },
+        {
+          "type": "cosmos-sdk/ModuleAccount",
+          "value": {
+            "BaseAccount": {
+              "account_number": "8",
+              "address": "did:com:1fl48vsnmsdzcv85q5d2q4z5ajdha8yu3zsjyey",
+              "coins": [
+                {
+                  "amount": "549750000000",
+                  "denom": "ucommercio"
+                }
+              ],
+              "public_key": null,
+              "sequence": "0"
+            },
+            "name": "bonded_tokens_pool",
+            "permissions": [
+              "burner",
+              "staking"
+            ]
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "28",
+            "address": "did:com:12q3ma7ryzjyazly6m8m4ck4fq5mylwkyzz7sye",
+            "coins": [
+              {
+                "amount": "2200000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "20",
+            "address": "did:com:128xa3y7as0hpq600mghwz8krah76mtq5kuasnc",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "29",
+            "address": "did:com:125rn2jetwy6rtwd7pfhwvx5p38g9zme32a4sqd",
+            "coins": [
+              {
+                "amount": "52000000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/ModuleAccount",
+          "value": {
+            "BaseAccount": {
+              "account_number": "9",
+              "address": "did:com:1tygms3xhhs3yv487phx3dw4a95jn7t7lksw40s",
+              "coins": [
+                {
+                  "amount": "197266210000",
+                  "denom": "ucommercio"
+                }
+              ],
+              "public_key": null,
+              "sequence": "0"
+            },
+            "name": "not_bonded_tokens_pool",
+            "permissions": [
+              "burner",
+              "staking"
+            ]
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "17",
+            "address": "did:com:1ttuht376rvvj4cswj3ewgkh38keyyhmw5tlep2",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "36",
+            "address": "did:com:1tnwhmwda7r8xly9qg7hefcapyydsnsr4e09m8t",
+            "coins": [
+              {
+                "amount": "998849",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": {
+              "type": "tendermint/PubKeySecp256k1",
+              "value": "AuwP6L3pfpCfhbliMaAX025iztu/pXmMy+5/VWoSxDAX"
+            },
+            "sequence": "3"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "15",
+            "address": "did:com:1whq997up94nxq6asrcvqx0f5unza5jqfpscgmd",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "35",
+            "address": "did:com:1whhetkmcypx7meg43f9lgmrfg8f6v8e9tcz7q0",
+            "coins": [
+              {
+                "amount": "2000170762",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": {
+              "type": "tendermint/PubKeySecp256k1",
+              "value": "AnOcV7q4jhEaJjGyCLyRcwNjnhNBZagHSdYsaCSFPBdc"
+            },
+            "sequence": "1"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "22",
+            "address": "did:com:102aet32mr4l98ujzyrlal7q40un70jvcwfl6cn",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/ModuleAccount",
+          "value": {
+            "BaseAccount": {
+              "account_number": "10",
+              "address": "did:com:10d07y265gmmuvt4z0w9aw880jnsr700jdfgwkq",
+              "coins": [],
+              "public_key": null,
+              "sequence": "0"
+            },
+            "name": "gov",
+            "permissions": [
+              "burner"
+            ]
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "23",
+            "address": "did:com:13ew9x73g687x8u4dacvw8g84rh04dv88pys8fl",
+            "coins": [
+              {
+                "amount": "2000144941",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": {
+              "type": "tendermint/PubKeySecp256k1",
+              "value": "Azd6+rXTrHhm/LYZPlomL1ukOoFyyd6fjPkBZliLQCCE"
+            },
+            "sequence": "7"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "18",
+            "address": "did:com:1jpqfpv7tclzqgjgjv7f46y96yuhkyxepj73x0t",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/ModuleAccount",
+          "value": {
+            "BaseAccount": {
+              "account_number": "7",
+              "address": "did:com:1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8s5lhfv",
+              "coins": [
+                {
+                  "amount": "70276",
+                  "denom": "ucommercio"
+                }
+              ],
+              "public_key": null,
+              "sequence": "0"
+            },
+            "name": "distribution",
+            "permissions": null
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "25",
+            "address": "did:com:14zk9u8894eg7fhgw0dsesnqzmlrx85ga9rvnjc",
+            "coins": [
+              {
+                "amount": "2000296229",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "1"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "21",
+            "address": "did:com:1k3svpcjv5y743jem6k5jcn7w6vjxptt6uyxgp5",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "37",
+            "address": "did:com:1k5wrdtmd5ngqx4pngwtlmlahv8yz7gk2unrrqm",
+            "coins": [
+              {
+                "amount": "99001001",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "31",
+            "address": "did:com:1hxsqapk7w6gv648hjdezyjrxz7pjm0clraf5qy",
+            "coins": [
+              {
+                "amount": "2000123035",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "2"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "19",
+            "address": "did:com:1hnjwqcwugsdn9q5vrzwr0zmtkg6v8ckutlvl06",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "16",
+            "address": "did:com:1c7w0a9mf29hdcfslhcrs9hy58pcejrquklfp5s",
+            "coins": [
+              {
+                "amount": "100000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/ModuleAccount",
+          "value": {
+            "BaseAccount": {
+              "account_number": "11",
+              "address": "did:com:1m3h30wlvsf8llruxtpukdvsy0km2kum8l6un8n",
+              "coins": [],
+              "public_key": null,
+              "sequence": "0"
+            },
+            "name": "mint",
+            "permissions": [
+              "minter"
+            ]
+          }
+        },
+        {
+          "type": "cosmos-sdk/ModuleAccount",
+          "value": {
+            "BaseAccount": {
+              "account_number": "12",
+              "address": "did:com:17xpfvakm2amg962yls6f84z3kell8c5l8jcttw",
+              "coins": [],
+              "public_key": null,
+              "sequence": "0"
+            },
+            "name": "fee_collector",
+            "permissions": null
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "account_number": "33",
+            "address": "did:com:1l0xaatswnm5rpmpg4klatp6exkfm6khd08z52k",
+            "coins": [
+              {
+                "amount": "2000000000",
+                "denom": "ucommercio"
+              }
+            ],
+            "public_key": null,
+            "sequence": "1"
+          }
+        }
+      ],
+      "params": {
+        "max_memo_characters": "256",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10"
+      }
+    },
+    "gov": {
+      "deposit_params": {
+        "max_deposit_period": "1209600000000000",
+        "min_deposit": [
+          {
+            "amount": "100000000",
+            "denom": "ucommercio"
+          }
+        ]
+      },
+      "deposits": null,
+      "proposals": [],
+      "starting_proposal_id": "1",
+      "tally_params": {
+        "quorum": "0.510000000000000000",
+        "threshold": "0.510000000000000000",
+        "veto": "0.334000000000000000"
+      },
+      "votes": null,
+      "voting_params": {
+        "voting_period": "1209600000000000"
+      }
+    },
+    "tbr": {
+      "pool_amount": [
+        {
+          "amount": "12499022293514.171758726412717057",
+          "denom": "ucommercio"
+        }
+      ],
+      "year_number": "0",
+      "yearly_pool_amount": [
+        {
+          "amount": "2499022293514.171758726412717057",
+          "denom": "ucommercio"
+        }
+      ]
+    },
+    "slashing": {
+      "missed_blocks": {
+        "did:com:valcons16hl9t3zsx690u5f7p4djpqy2efshtukxxs7g6l": [
+          {
+            "index": "0",
+            "missed": true
+          },
+          {
+            "index": "1",
+            "missed": true
+          }
+        ],
+        "did:com:valcons1ayyfvnw8acpekwgmgcteu9dsrclte2fsg7ye4n": [
+          {
+            "index": "0",
+            "missed": false
+          },
+          {
+            "index": "1",
+            "missed": false
+          },
+          {
+            "index": "2",
+            "missed": false
+          },
+          {
+            "index": "3",
+            "missed": false
+          },
+          {
+            "index": "4",
+            "missed": false
+          },
+          {
+            "index": "5",
+            "missed": false
+          },
+          {
+            "index": "6",
+            "missed": false
+          },
+          {
+            "index": "7",
+            "missed": false
+          },
+          {
+            "index": "8",
+            "missed": false
+          },
+          {
+            "index": "9",
+            "missed": false
+          },
+          {
+            "index": "10",
+            "missed": false
+          },
+          {
+            "index": "11",
+            "missed": false
+          },
+          {
+            "index": "12",
+            "missed": false
+          },
+          {
+            "index": "13",
+            "missed": false
+          },
+          {
+            "index": "14",
+            "missed": false
+          },
+          {
+            "index": "15",
+            "missed": false
+          },
+          {
+            "index": "16",
+            "missed": false
+          },
+          {
+            "index": "17",
+            "missed": false
+          },
+          {
+            "index": "18",
+            "missed": false
+          },
+          {
+            "index": "19",
+            "missed": false
+          },
+          {
+            "index": "20",
+            "missed": false
+          },
+          {
+            "index": "21",
+            "missed": false
+          },
+          {
+            "index": "22",
+            "missed": false
+          },
+          {
+            "index": "23",
+            "missed": false
+          },
+          {
+            "index": "24",
+            "missed": false
+          },
+          {
+            "index": "25",
+            "missed": false
+          },
+          {
+            "index": "26",
+            "missed": false
+          },
+          {
+            "index": "27",
+            "missed": false
+          },
+          {
+            "index": "28",
+            "missed": false
+          },
+          {
+            "index": "29",
+            "missed": false
+          },
+          {
+            "index": "30",
+            "missed": false
+          },
+          {
+            "index": "31",
+            "missed": false
+          },
+          {
+            "index": "33",
+            "missed": false
+          },
+          {
+            "index": "34",
+            "missed": false
+          },
+          {
+            "index": "35",
+            "missed": false
+          },
+          {
+            "index": "36",
+            "missed": false
+          },
+          {
+            "index": "37",
+            "missed": false
+          },
+          {
+            "index": "38",
+            "missed": false
+          },
+          {
+            "index": "39",
+            "missed": false
+          },
+          {
+            "index": "40",
+            "missed": false
+          },
+          {
+            "index": "41",
+            "missed": false
+          },
+          {
+            "index": "42",
+            "missed": false
+          },
+          {
+            "index": "43",
+            "missed": false
+          },
+          {
+            "index": "44",
+            "missed": false
+          },
+          {
+            "index": "45",
+            "missed": false
+          },
+          {
+            "index": "46",
+            "missed": false
+          },
+          {
+            "index": "47",
+            "missed": false
+          },
+          {
+            "index": "48",
+            "missed": false
+          },
+          {
+            "index": "49",
+            "missed": false
+          },
+          {
+            "index": "50",
+            "missed": false
+          },
+          {
+            "index": "51",
+            "missed": false
+          },
+          {
+            "index": "52",
+            "missed": false
+          },
+          {
+            "index": "53",
+            "missed": false
+          },
+          {
+            "index": "54",
+            "missed": false
+          },
+          {
+            "index": "55",
+            "missed": false
+          },
+          {
+            "index": "56",
+            "missed": false
+          },
+          {
+            "index": "57",
+            "missed": false
+          },
+          {
+            "index": "58",
+            "missed": false
+          },
+          {
+            "index": "59",
+            "missed": false
+          },
+          {
+            "index": "60",
+            "missed": false
+          },
+          {
+            "index": "61",
+            "missed": false
+          },
+          {
+            "index": "62",
+            "missed": false
+          },
+          {
+            "index": "63",
+            "missed": false
+          },
+          {
+            "index": "64",
+            "missed": false
+          },
+          {
+            "index": "65",
+            "missed": false
+          },
+          {
+            "index": "66",
+            "missed": false
+          },
+          {
+            "index": "67",
+            "missed": false
+          },
+          {
+            "index": "68",
+            "missed": false
+          },
+          {
+            "index": "69",
+            "missed": false
+          },
+          {
+            "index": "70",
+            "missed": false
+          },
+          {
+            "index": "71",
+            "missed": false
+          },
+          {
+            "index": "72",
+            "missed": false
+          },
+          {
+            "index": "73",
+            "missed": false
+          },
+          {
+            "index": "74",
+            "missed": false
+          },
+          {
+            "index": "75",
+            "missed": false
+          },
+          {
+            "index": "76",
+            "missed": false
+          },
+          {
+            "index": "77",
+            "missed": false
+          },
+          {
+            "index": "78",
+            "missed": false
+          },
+          {
+            "index": "79",
+            "missed": false
+          },
+          {
+            "index": "80",
+            "missed": false
+          },
+          {
+            "index": "81",
+            "missed": false
+          },
+          {
+            "index": "82",
+            "missed": false
+          },
+          {
+            "index": "83",
+            "missed": false
+          },
+          {
+            "index": "84",
+            "missed": false
+          },
+          {
+            "index": "85",
+            "missed": false
+          },
+          {
+            "index": "86",
+            "missed": false
+          },
+          {
+            "index": "87",
+            "missed": false
+          },
+          {
+            "index": "88",
+            "missed": false
+          },
+          {
+            "index": "89",
+            "missed": false
+          },
+          {
+            "index": "90",
+            "missed": false
+          },
+          {
+            "index": "91",
+            "missed": false
+          },
+          {
+            "index": "92",
+            "missed": false
+          },
+          {
+            "index": "93",
+            "missed": false
+          },
+          {
+            "index": "94",
+            "missed": false
+          },
+          {
+            "index": "95",
+            "missed": false
+          },
+          {
+            "index": "96",
+            "missed": false
+          },
+          {
+            "index": "97",
+            "missed": false
+          },
+          {
+            "index": "98",
+            "missed": false
+          },
+          {
+            "index": "99",
+            "missed": false
+          }
+        ],
+        "did:com:valcons1cmlrxdxsz3kj2t8n0grxqayhgr2gz5089w680q": [
+          {
+            "index": "0",
+            "missed": false
+          },
+          {
+            "index": "1",
+            "missed": false
+          },
+          {
+            "index": "2",
+            "missed": false
+          },
+          {
+            "index": "3",
+            "missed": false
+          },
+          {
+            "index": "4",
+            "missed": false
+          },
+          {
+            "index": "5",
+            "missed": false
+          },
+          {
+            "index": "6",
+            "missed": false
+          },
+          {
+            "index": "7",
+            "missed": false
+          },
+          {
+            "index": "8",
+            "missed": false
+          },
+          {
+            "index": "9",
+            "missed": false
+          },
+          {
+            "index": "10",
+            "missed": false
+          },
+          {
+            "index": "11",
+            "missed": false
+          },
+          {
+            "index": "12",
+            "missed": false
+          },
+          {
+            "index": "13",
+            "missed": false
+          },
+          {
+            "index": "14",
+            "missed": false
+          },
+          {
+            "index": "15",
+            "missed": false
+          },
+          {
+            "index": "16",
+            "missed": false
+          },
+          {
+            "index": "17",
+            "missed": false
+          },
+          {
+            "index": "18",
+            "missed": false
+          },
+          {
+            "index": "19",
+            "missed": false
+          },
+          {
+            "index": "20",
+            "missed": false
+          },
+          {
+            "index": "21",
+            "missed": false
+          },
+          {
+            "index": "22",
+            "missed": false
+          },
+          {
+            "index": "23",
+            "missed": false
+          },
+          {
+            "index": "24",
+            "missed": false
+          },
+          {
+            "index": "25",
+            "missed": false
+          },
+          {
+            "index": "26",
+            "missed": false
+          },
+          {
+            "index": "27",
+            "missed": false
+          },
+          {
+            "index": "30",
+            "missed": false
+          },
+          {
+            "index": "31",
+            "missed": false
+          },
+          {
+            "index": "32",
+            "missed": false
+          },
+          {
+            "index": "33",
+            "missed": false
+          },
+          {
+            "index": "34",
+            "missed": false
+          },
+          {
+            "index": "35",
+            "missed": false
+          },
+          {
+            "index": "36",
+            "missed": false
+          },
+          {
+            "index": "37",
+            "missed": false
+          },
+          {
+            "index": "38",
+            "missed": false
+          },
+          {
+            "index": "39",
+            "missed": false
+          },
+          {
+            "index": "40",
+            "missed": false
+          },
+          {
+            "index": "41",
+            "missed": false
+          },
+          {
+            "index": "42",
+            "missed": false
+          },
+          {
+            "index": "43",
+            "missed": false
+          },
+          {
+            "index": "44",
+            "missed": false
+          },
+          {
+            "index": "45",
+            "missed": false
+          },
+          {
+            "index": "46",
+            "missed": false
+          },
+          {
+            "index": "47",
+            "missed": false
+          },
+          {
+            "index": "48",
+            "missed": false
+          },
+          {
+            "index": "49",
+            "missed": false
+          },
+          {
+            "index": "50",
+            "missed": false
+          },
+          {
+            "index": "51",
+            "missed": false
+          },
+          {
+            "index": "52",
+            "missed": false
+          },
+          {
+            "index": "53",
+            "missed": false
+          },
+          {
+            "index": "54",
+            "missed": false
+          },
+          {
+            "index": "55",
+            "missed": false
+          },
+          {
+            "index": "56",
+            "missed": false
+          },
+          {
+            "index": "57",
+            "missed": false
+          },
+          {
+            "index": "58",
+            "missed": false
+          },
+          {
+            "index": "59",
+            "missed": false
+          },
+          {
+            "index": "60",
+            "missed": false
+          },
+          {
+            "index": "61",
+            "missed": false
+          },
+          {
+            "index": "62",
+            "missed": false
+          },
+          {
+            "index": "63",
+            "missed": false
+          },
+          {
+            "index": "64",
+            "missed": false
+          },
+          {
+            "index": "65",
+            "missed": false
+          },
+          {
+            "index": "66",
+            "missed": false
+          },
+          {
+            "index": "67",
+            "missed": false
+          },
+          {
+            "index": "68",
+            "missed": false
+          },
+          {
+            "index": "69",
+            "missed": false
+          },
+          {
+            "index": "70",
+            "missed": false
+          },
+          {
+            "index": "71",
+            "missed": false
+          },
+          {
+            "index": "72",
+            "missed": false
+          },
+          {
+            "index": "73",
+            "missed": false
+          },
+          {
+            "index": "74",
+            "missed": false
+          },
+          {
+            "index": "76",
+            "missed": false
+          },
+          {
+            "index": "77",
+            "missed": false
+          },
+          {
+            "index": "78",
+            "missed": false
+          },
+          {
+            "index": "79",
+            "missed": false
+          },
+          {
+            "index": "80",
+            "missed": false
+          },
+          {
+            "index": "81",
+            "missed": false
+          },
+          {
+            "index": "82",
+            "missed": false
+          },
+          {
+            "index": "83",
+            "missed": false
+          },
+          {
+            "index": "84",
+            "missed": false
+          },
+          {
+            "index": "85",
+            "missed": false
+          },
+          {
+            "index": "86",
+            "missed": false
+          },
+          {
+            "index": "88",
+            "missed": false
+          },
+          {
+            "index": "90",
+            "missed": false
+          },
+          {
+            "index": "91",
+            "missed": false
+          },
+          {
+            "index": "92",
+            "missed": false
+          },
+          {
+            "index": "93",
+            "missed": false
+          },
+          {
+            "index": "94",
+            "missed": false
+          },
+          {
+            "index": "95",
+            "missed": false
+          },
+          {
+            "index": "96",
+            "missed": false
+          },
+          {
+            "index": "97",
+            "missed": false
+          },
+          {
+            "index": "98",
+            "missed": false
+          },
+          {
+            "index": "99",
+            "missed": false
+          }
+        ],
+        "did:com:valcons1e5pmhvrwpglfuskge04anjkjhhk909vz0295mv": [
+          {
+            "index": "0",
+            "missed": false
+          },
+          {
+            "index": "1",
+            "missed": false
+          },
+          {
+            "index": "2",
+            "missed": false
+          },
+          {
+            "index": "3",
+            "missed": false
+          },
+          {
+            "index": "4",
+            "missed": false
+          },
+          {
+            "index": "5",
+            "missed": false
+          },
+          {
+            "index": "6",
+            "missed": false
+          },
+          {
+            "index": "7",
+            "missed": false
+          },
+          {
+            "index": "8",
+            "missed": false
+          },
+          {
+            "index": "9",
+            "missed": false
+          },
+          {
+            "index": "10",
+            "missed": false
+          },
+          {
+            "index": "11",
+            "missed": false
+          },
+          {
+            "index": "12",
+            "missed": false
+          },
+          {
+            "index": "13",
+            "missed": false
+          },
+          {
+            "index": "14",
+            "missed": false
+          },
+          {
+            "index": "15",
+            "missed": false
+          },
+          {
+            "index": "16",
+            "missed": false
+          },
+          {
+            "index": "17",
+            "missed": false
+          },
+          {
+            "index": "18",
+            "missed": false
+          },
+          {
+            "index": "19",
+            "missed": false
+          },
+          {
+            "index": "20",
+            "missed": false
+          },
+          {
+            "index": "21",
+            "missed": false
+          },
+          {
+            "index": "22",
+            "missed": false
+          },
+          {
+            "index": "23",
+            "missed": false
+          },
+          {
+            "index": "24",
+            "missed": false
+          },
+          {
+            "index": "25",
+            "missed": false
+          },
+          {
+            "index": "26",
+            "missed": false
+          },
+          {
+            "index": "27",
+            "missed": false
+          },
+          {
+            "index": "28",
+            "missed": false
+          },
+          {
+            "index": "29",
+            "missed": false
+          },
+          {
+            "index": "30",
+            "missed": false
+          },
+          {
+            "index": "31",
+            "missed": false
+          },
+          {
+            "index": "32",
+            "missed": false
+          },
+          {
+            "index": "33",
+            "missed": false
+          },
+          {
+            "index": "34",
+            "missed": false
+          },
+          {
+            "index": "35",
+            "missed": false
+          },
+          {
+            "index": "36",
+            "missed": false
+          },
+          {
+            "index": "37",
+            "missed": false
+          },
+          {
+            "index": "38",
+            "missed": false
+          },
+          {
+            "index": "39",
+            "missed": false
+          },
+          {
+            "index": "40",
+            "missed": false
+          },
+          {
+            "index": "41",
+            "missed": false
+          },
+          {
+            "index": "42",
+            "missed": false
+          },
+          {
+            "index": "43",
+            "missed": false
+          },
+          {
+            "index": "44",
+            "missed": false
+          },
+          {
+            "index": "45",
+            "missed": false
+          },
+          {
+            "index": "46",
+            "missed": false
+          },
+          {
+            "index": "47",
+            "missed": false
+          },
+          {
+            "index": "48",
+            "missed": false
+          },
+          {
+            "index": "49",
+            "missed": false
+          },
+          {
+            "index": "50",
+            "missed": false
+          },
+          {
+            "index": "51",
+            "missed": false
+          },
+          {
+            "index": "52",
+            "missed": false
+          },
+          {
+            "index": "53",
+            "missed": false
+          },
+          {
+            "index": "54",
+            "missed": false
+          },
+          {
+            "index": "55",
+            "missed": false
+          },
+          {
+            "index": "56",
+            "missed": false
+          },
+          {
+            "index": "57",
+            "missed": false
+          },
+          {
+            "index": "58",
+            "missed": false
+          },
+          {
+            "index": "59",
+            "missed": false
+          },
+          {
+            "index": "60",
+            "missed": false
+          },
+          {
+            "index": "61",
+            "missed": false
+          },
+          {
+            "index": "62",
+            "missed": false
+          },
+          {
+            "index": "63",
+            "missed": false
+          },
+          {
+            "index": "64",
+            "missed": false
+          },
+          {
+            "index": "65",
+            "missed": false
+          },
+          {
+            "index": "66",
+            "missed": false
+          },
+          {
+            "index": "67",
+            "missed": false
+          },
+          {
+            "index": "68",
+            "missed": false
+          },
+          {
+            "index": "69",
+            "missed": false
+          },
+          {
+            "index": "70",
+            "missed": false
+          },
+          {
+            "index": "71",
+            "missed": false
+          },
+          {
+            "index": "72",
+            "missed": false
+          },
+          {
+            "index": "73",
+            "missed": false
+          },
+          {
+            "index": "74",
+            "missed": false
+          },
+          {
+            "index": "75",
+            "missed": false
+          },
+          {
+            "index": "76",
+            "missed": false
+          },
+          {
+            "index": "77",
+            "missed": false
+          },
+          {
+            "index": "78",
+            "missed": false
+          },
+          {
+            "index": "79",
+            "missed": false
+          },
+          {
+            "index": "80",
+            "missed": false
+          },
+          {
+            "index": "81",
+            "missed": false
+          },
+          {
+            "index": "82",
+            "missed": false
+          },
+          {
+            "index": "83",
+            "missed": false
+          },
+          {
+            "index": "84",
+            "missed": false
+          },
+          {
+            "index": "85",
+            "missed": false
+          },
+          {
+            "index": "86",
+            "missed": false
+          },
+          {
+            "index": "87",
+            "missed": false
+          },
+          {
+            "index": "88",
+            "missed": false
+          },
+          {
+            "index": "89",
+            "missed": false
+          },
+          {
+            "index": "90",
+            "missed": false
+          },
+          {
+            "index": "91",
+            "missed": false
+          },
+          {
+            "index": "92",
+            "missed": false
+          },
+          {
+            "index": "93",
+            "missed": false
+          },
+          {
+            "index": "94",
+            "missed": false
+          },
+          {
+            "index": "95",
+            "missed": false
+          },
+          {
+            "index": "96",
+            "missed": false
+          },
+          {
+            "index": "97",
+            "missed": false
+          },
+          {
+            "index": "98",
+            "missed": false
+          },
+          {
+            "index": "99",
+            "missed": false
+          }
+        ],
+        "did:com:valcons1esfjh2zsfzn7gqzcyaffl4sm59fwy87l3hk7n0": [],
+        "did:com:valcons1fpwjcs25m6ym4lxr0fya2hn87a73nfmvcjsu2r": [
+          {
+            "index": "0",
+            "missed": false
+          },
+          {
+            "index": "3",
+            "missed": false
+          },
+          {
+            "index": "4",
+            "missed": false
+          },
+          {
+            "index": "5",
+            "missed": false
+          },
+          {
+            "index": "6",
+            "missed": false
+          },
+          {
+            "index": "7",
+            "missed": false
+          },
+          {
+            "index": "8",
+            "missed": false
+          },
+          {
+            "index": "9",
+            "missed": false
+          },
+          {
+            "index": "10",
+            "missed": false
+          },
+          {
+            "index": "11",
+            "missed": false
+          },
+          {
+            "index": "18",
+            "missed": false
+          },
+          {
+            "index": "19",
+            "missed": false
+          },
+          {
+            "index": "20",
+            "missed": false
+          },
+          {
+            "index": "21",
+            "missed": false
+          },
+          {
+            "index": "22",
+            "missed": false
+          },
+          {
+            "index": "23",
+            "missed": false
+          },
+          {
+            "index": "24",
+            "missed": false
+          },
+          {
+            "index": "25",
+            "missed": false
+          },
+          {
+            "index": "26",
+            "missed": false
+          },
+          {
+            "index": "27",
+            "missed": false
+          },
+          {
+            "index": "28",
+            "missed": false
+          },
+          {
+            "index": "29",
+            "missed": false
+          },
+          {
+            "index": "30",
+            "missed": false
+          },
+          {
+            "index": "31",
+            "missed": false
+          },
+          {
+            "index": "32",
+            "missed": false
+          },
+          {
+            "index": "33",
+            "missed": false
+          },
+          {
+            "index": "34",
+            "missed": false
+          },
+          {
+            "index": "35",
+            "missed": false
+          },
+          {
+            "index": "36",
+            "missed": false
+          },
+          {
+            "index": "37",
+            "missed": false
+          },
+          {
+            "index": "38",
+            "missed": false
+          },
+          {
+            "index": "39",
+            "missed": false
+          },
+          {
+            "index": "40",
+            "missed": false
+          },
+          {
+            "index": "41",
+            "missed": false
+          },
+          {
+            "index": "42",
+            "missed": false
+          },
+          {
+            "index": "43",
+            "missed": false
+          },
+          {
+            "index": "44",
+            "missed": false
+          },
+          {
+            "index": "45",
+            "missed": false
+          },
+          {
+            "index": "46",
+            "missed": false
+          },
+          {
+            "index": "47",
+            "missed": false
+          },
+          {
+            "index": "48",
+            "missed": false
+          },
+          {
+            "index": "49",
+            "missed": false
+          },
+          {
+            "index": "50",
+            "missed": false
+          },
+          {
+            "index": "51",
+            "missed": false
+          },
+          {
+            "index": "52",
+            "missed": false
+          },
+          {
+            "index": "53",
+            "missed": false
+          },
+          {
+            "index": "54",
+            "missed": false
+          },
+          {
+            "index": "55",
+            "missed": false
+          },
+          {
+            "index": "56",
+            "missed": false
+          },
+          {
+            "index": "57",
+            "missed": false
+          },
+          {
+            "index": "58",
+            "missed": false
+          },
+          {
+            "index": "59",
+            "missed": false
+          },
+          {
+            "index": "60",
+            "missed": false
+          },
+          {
+            "index": "61",
+            "missed": false
+          },
+          {
+            "index": "62",
+            "missed": false
+          },
+          {
+            "index": "63",
+            "missed": false
+          },
+          {
+            "index": "64",
+            "missed": false
+          },
+          {
+            "index": "65",
+            "missed": false
+          },
+          {
+            "index": "66",
+            "missed": false
+          },
+          {
+            "index": "67",
+            "missed": false
+          },
+          {
+            "index": "68",
+            "missed": false
+          },
+          {
+            "index": "69",
+            "missed": false
+          },
+          {
+            "index": "70",
+            "missed": false
+          },
+          {
+            "index": "71",
+            "missed": false
+          },
+          {
+            "index": "72",
+            "missed": false
+          },
+          {
+            "index": "73",
+            "missed": false
+          },
+          {
+            "index": "74",
+            "missed": false
+          },
+          {
+            "index": "75",
+            "missed": false
+          },
+          {
+            "index": "76",
+            "missed": false
+          },
+          {
+            "index": "77",
+            "missed": false
+          },
+          {
+            "index": "78",
+            "missed": false
+          },
+          {
+            "index": "79",
+            "missed": false
+          },
+          {
+            "index": "80",
+            "missed": false
+          },
+          {
+            "index": "81",
+            "missed": false
+          },
+          {
+            "index": "82",
+            "missed": false
+          },
+          {
+            "index": "83",
+            "missed": false
+          },
+          {
+            "index": "84",
+            "missed": false
+          },
+          {
+            "index": "85",
+            "missed": false
+          },
+          {
+            "index": "86",
+            "missed": false
+          },
+          {
+            "index": "87",
+            "missed": false
+          },
+          {
+            "index": "91",
+            "missed": false
+          },
+          {
+            "index": "92",
+            "missed": false
+          },
+          {
+            "index": "93",
+            "missed": false
+          },
+          {
+            "index": "94",
+            "missed": false
+          },
+          {
+            "index": "95",
+            "missed": false
+          },
+          {
+            "index": "96",
+            "missed": false
+          },
+          {
+            "index": "97",
+            "missed": false
+          },
+          {
+            "index": "98",
+            "missed": false
+          },
+          {
+            "index": "99",
+            "missed": false
+          }
+        ],
+        "did:com:valcons1jhjp9rw369pj69snhnmst08g2q7zj5gssneujz": [
+          {
+            "index": "0",
+            "missed": false
+          },
+          {
+            "index": "1",
+            "missed": false
+          }
+        ],
+        "did:com:valcons1l96zq37aw8fj3gfxfv0mpa3j2t2ps54mft0m6a": [
+          {
+            "index": "0",
+            "missed": false
+          },
+          {
+            "index": "1",
+            "missed": false
+          },
+          {
+            "index": "2",
+            "missed": false
+          },
+          {
+            "index": "3",
+            "missed": false
+          },
+          {
+            "index": "4",
+            "missed": false
+          },
+          {
+            "index": "5",
+            "missed": false
+          },
+          {
+            "index": "6",
+            "missed": false
+          },
+          {
+            "index": "7",
+            "missed": false
+          },
+          {
+            "index": "8",
+            "missed": false
+          },
+          {
+            "index": "9",
+            "missed": false
+          },
+          {
+            "index": "10",
+            "missed": false
+          },
+          {
+            "index": "11",
+            "missed": false
+          },
+          {
+            "index": "12",
+            "missed": false
+          },
+          {
+            "index": "13",
+            "missed": false
+          },
+          {
+            "index": "14",
+            "missed": false
+          },
+          {
+            "index": "15",
+            "missed": false
+          },
+          {
+            "index": "16",
+            "missed": false
+          },
+          {
+            "index": "17",
+            "missed": false
+          },
+          {
+            "index": "18",
+            "missed": false
+          },
+          {
+            "index": "19",
+            "missed": false
+          },
+          {
+            "index": "20",
+            "missed": false
+          },
+          {
+            "index": "21",
+            "missed": false
+          },
+          {
+            "index": "22",
+            "missed": false
+          },
+          {
+            "index": "23",
+            "missed": false
+          },
+          {
+            "index": "24",
+            "missed": false
+          },
+          {
+            "index": "25",
+            "missed": false
+          },
+          {
+            "index": "26",
+            "missed": false
+          },
+          {
+            "index": "27",
+            "missed": false
+          },
+          {
+            "index": "28",
+            "missed": false
+          },
+          {
+            "index": "29",
+            "missed": false
+          },
+          {
+            "index": "30",
+            "missed": false
+          },
+          {
+            "index": "31",
+            "missed": false
+          },
+          {
+            "index": "32",
+            "missed": false
+          },
+          {
+            "index": "33",
+            "missed": false
+          },
+          {
+            "index": "34",
+            "missed": false
+          },
+          {
+            "index": "35",
+            "missed": false
+          },
+          {
+            "index": "36",
+            "missed": false
+          },
+          {
+            "index": "37",
+            "missed": false
+          },
+          {
+            "index": "38",
+            "missed": false
+          },
+          {
+            "index": "39",
+            "missed": false
+          },
+          {
+            "index": "40",
+            "missed": false
+          },
+          {
+            "index": "41",
+            "missed": false
+          },
+          {
+            "index": "42",
+            "missed": false
+          },
+          {
+            "index": "43",
+            "missed": false
+          },
+          {
+            "index": "44",
+            "missed": false
+          },
+          {
+            "index": "45",
+            "missed": false
+          },
+          {
+            "index": "46",
+            "missed": false
+          },
+          {
+            "index": "47",
+            "missed": false
+          },
+          {
+            "index": "48",
+            "missed": false
+          },
+          {
+            "index": "49",
+            "missed": false
+          },
+          {
+            "index": "50",
+            "missed": false
+          },
+          {
+            "index": "51",
+            "missed": false
+          },
+          {
+            "index": "52",
+            "missed": false
+          },
+          {
+            "index": "53",
+            "missed": false
+          },
+          {
+            "index": "54",
+            "missed": false
+          },
+          {
+            "index": "55",
+            "missed": false
+          },
+          {
+            "index": "56",
+            "missed": false
+          },
+          {
+            "index": "57",
+            "missed": false
+          },
+          {
+            "index": "58",
+            "missed": false
+          },
+          {
+            "index": "59",
+            "missed": false
+          },
+          {
+            "index": "60",
+            "missed": false
+          },
+          {
+            "index": "61",
+            "missed": false
+          },
+          {
+            "index": "62",
+            "missed": false
+          },
+          {
+            "index": "63",
+            "missed": false
+          },
+          {
+            "index": "64",
+            "missed": false
+          },
+          {
+            "index": "65",
+            "missed": false
+          },
+          {
+            "index": "66",
+            "missed": false
+          },
+          {
+            "index": "67",
+            "missed": false
+          },
+          {
+            "index": "68",
+            "missed": false
+          },
+          {
+            "index": "69",
+            "missed": false
+          },
+          {
+            "index": "70",
+            "missed": false
+          },
+          {
+            "index": "71",
+            "missed": false
+          },
+          {
+            "index": "72",
+            "missed": false
+          },
+          {
+            "index": "73",
+            "missed": false
+          },
+          {
+            "index": "74",
+            "missed": false
+          },
+          {
+            "index": "75",
+            "missed": false
+          },
+          {
+            "index": "76",
+            "missed": false
+          },
+          {
+            "index": "77",
+            "missed": false
+          },
+          {
+            "index": "78",
+            "missed": false
+          },
+          {
+            "index": "79",
+            "missed": false
+          },
+          {
+            "index": "80",
+            "missed": false
+          },
+          {
+            "index": "81",
+            "missed": false
+          },
+          {
+            "index": "82",
+            "missed": false
+          },
+          {
+            "index": "83",
+            "missed": false
+          },
+          {
+            "index": "84",
+            "missed": false
+          },
+          {
+            "index": "85",
+            "missed": false
+          },
+          {
+            "index": "86",
+            "missed": false
+          },
+          {
+            "index": "87",
+            "missed": false
+          },
+          {
+            "index": "88",
+            "missed": false
+          },
+          {
+            "index": "89",
+            "missed": false
+          },
+          {
+            "index": "90",
+            "missed": false
+          },
+          {
+            "index": "91",
+            "missed": false
+          },
+          {
+            "index": "92",
+            "missed": false
+          },
+          {
+            "index": "93",
+            "missed": false
+          },
+          {
+            "index": "94",
+            "missed": false
+          },
+          {
+            "index": "95",
+            "missed": false
+          },
+          {
+            "index": "96",
+            "missed": false
+          },
+          {
+            "index": "97",
+            "missed": false
+          },
+          {
+            "index": "98",
+            "missed": false
+          },
+          {
+            "index": "99",
+            "missed": false
+          }
+        ],
+        "did:com:valcons1p8d6l6rwz2hrfyzzven7tclqsawsnfdfj9wf3v": [
+          {
+            "index": "0",
+            "missed": true
+          },
+          {
+            "index": "1",
+            "missed": true
+          }
+        ],
+        "did:com:valcons1p8msp72naxvq8l22zdqfdfj789yqqcud9w8t7u": [
+          {
+            "index": "0",
+            "missed": true
+          },
+          {
+            "index": "1",
+            "missed": true
+          }
+        ],
+        "did:com:valcons1y0zmkc0egrdk3vg6ax3lppx56x4y2c2y0a70n4": [
+          {
+            "index": "0",
+            "missed": true
+          },
+          {
+            "index": "1",
+            "missed": true
+          }
+        ]
+      },
+      "params": {
+        "downtime_jail_duration": "600000000000",
+        "max_evidence_age": "120000000000",
+        "min_signed_per_window": "0.050000000000000000",
+        "signed_blocks_window": "1000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.005000000000000000"
+      },
+      "signing_infos": {
+        "did:com:valcons16hl9t3zsx690u5f7p4djpqy2efshtukxxs7g6l": {
+          "address": "did:com:valcons16hl9t3zsx690u5f7p4djpqy2efshtukxxs7g6l",
+          "index_offset": "2",
+          "jailed_until": "2019-10-15T16:10:38.861308462Z",
+          "missed_blocks_counter": "2",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1ayyfvnw8acpekwgmgcteu9dsrclte2fsg7ye4n": {
+          "address": "did:com:valcons1ayyfvnw8acpekwgmgcteu9dsrclte2fsg7ye4n",
+          "index_offset": "1060061",
+          "jailed_until": "1970-01-01T00:00:00Z",
+          "missed_blocks_counter": "0",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1cmlrxdxsz3kj2t8n0grxqayhgr2gz5089w680q": {
+          "address": "did:com:valcons1cmlrxdxsz3kj2t8n0grxqayhgr2gz5089w680q",
+          "index_offset": "1119998",
+          "jailed_until": "1970-01-01T00:00:00Z",
+          "missed_blocks_counter": "0",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1e5pmhvrwpglfuskge04anjkjhhk909vz0295mv": {
+          "address": "did:com:valcons1e5pmhvrwpglfuskge04anjkjhhk909vz0295mv",
+          "index_offset": "1119998",
+          "jailed_until": "1970-01-01T00:00:00Z",
+          "missed_blocks_counter": "0",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1esfjh2zsfzn7gqzcyaffl4sm59fwy87l3hk7n0": {
+          "address": "did:com:valcons1esfjh2zsfzn7gqzcyaffl4sm59fwy87l3hk7n0",
+          "index_offset": "177263",
+          "jailed_until": "1970-01-01T00:00:00Z",
+          "missed_blocks_counter": "0",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1fpwjcs25m6ym4lxr0fya2hn87a73nfmvcjsu2r": {
+          "address": "did:com:valcons1fpwjcs25m6ym4lxr0fya2hn87a73nfmvcjsu2r",
+          "index_offset": "1119998",
+          "jailed_until": "1970-01-01T00:00:00Z",
+          "missed_blocks_counter": "0",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1jhjp9rw369pj69snhnmst08g2q7zj5gssneujz": {
+          "address": "did:com:valcons1jhjp9rw369pj69snhnmst08g2q7zj5gssneujz",
+          "index_offset": "367323",
+          "jailed_until": "2019-10-31T17:39:38.446852931Z",
+          "missed_blocks_counter": "0",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1l96zq37aw8fj3gfxfv0mpa3j2t2ps54mft0m6a": {
+          "address": "did:com:valcons1l96zq37aw8fj3gfxfv0mpa3j2t2ps54mft0m6a",
+          "index_offset": "1119998",
+          "jailed_until": "1970-01-01T00:00:00Z",
+          "missed_blocks_counter": "0",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1p8d6l6rwz2hrfyzzven7tclqsawsnfdfj9wf3v": {
+          "address": "did:com:valcons1p8d6l6rwz2hrfyzzven7tclqsawsnfdfj9wf3v",
+          "index_offset": "2",
+          "jailed_until": "2019-11-15T20:14:55.859796335Z",
+          "missed_blocks_counter": "2",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1p8msp72naxvq8l22zdqfdfj789yqqcud9w8t7u": {
+          "address": "did:com:valcons1p8msp72naxvq8l22zdqfdfj789yqqcud9w8t7u",
+          "index_offset": "2",
+          "jailed_until": "2019-11-20T00:05:09.846106716Z",
+          "missed_blocks_counter": "2",
+          "start_height": "0",
+          "tombstoned": false
+        },
+        "did:com:valcons1y0zmkc0egrdk3vg6ax3lppx56x4y2c2y0a70n4": {
+          "address": "did:com:valcons1y0zmkc0egrdk3vg6ax3lppx56x4y2c2y0a70n4",
+          "index_offset": "2",
+          "jailed_until": "2019-11-14T05:28:21.24032563Z",
+          "missed_blocks_counter": "2",
+          "start_height": "0",
+          "tombstoned": false
+        }
+      }
+    },
+    "crisis": {
+      "constant_fee": {
+        "amount": "1000",
+        "denom": "ucommercio"
+      }
+    },
+    "bank": {
+      "blocked_accounts": [
+        "did:com:102aet32mr4l98ujzyrlal7q40un70jvcwfl6cn",
+        "did:com:1k3svpcjv5y743jem6k5jcn7w6vjxptt6uyxgp5"
+      ],
+      "send_enabled": true
+    },
+    "nft": {
+      "collections": {},
+      "owners": null
+    },
+    "distribution": {
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "community_tax": "0.020000000000000000",
+      "delegator_starting_infos": [
+        {
+          "delegator_address": "did:com:1p8vdenej8y3lu7d9chnfp5xlthx00exdjefwfg",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "100000000000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper1p8vdenej8y3lu7d9chnfp5xlthx00exd36sgym"
+        },
+        {
+          "delegator_address": "did:com:1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4ngy32v",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "49750000000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4stah8l"
+        },
+        {
+          "delegator_address": "did:com:1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7aj4vrvl",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "100000000000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7a3k49pv"
+        },
+        {
+          "delegator_address": "did:com:1yzmp0quh3v6c945ltyet7zku7gqvhcdzjwq8um",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "49007480000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper1yzmp0quh3v6c945ltyet7zku7gqvhcdz3dep3g"
+        },
+        {
+          "delegator_address": "did:com:1xwd66m5jr74u28kvrgjswwru5y0rhvgkvwz3zs",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "100000000000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper1xwd66m5jr74u28kvrgjswwru5y0rhvgk0dmh0r"
+        },
+        {
+          "delegator_address": "did:com:1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxcty5jw",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "100000000000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxmgajla"
+        },
+        {
+          "delegator_address": "did:com:1whhetkmcypx7meg43f9lgmrfg8f6v8e9tcz7q0",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "50000000000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper1whhetkmcypx7meg43f9lgmrfg8f6v8e9gmmcdu"
+        },
+        {
+          "delegator_address": "did:com:13ew9x73g687x8u4dacvw8g84rh04dv88pys8fl",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "49007480000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper13ew9x73g687x8u4dacvw8g84rh04dv88z8fpyv"
+        },
+        {
+          "delegator_address": "did:com:14zk9u8894eg7fhgw0dsesnqzmlrx85ga9rvnjc",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "50000000000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper14zk9u8894eg7fhgw0dsesnqzmlrx85gaxq44lt"
+        },
+        {
+          "delegator_address": "did:com:1hxsqapk7w6gv648hjdezyjrxz7pjm0clraf5qy",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "49501250000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper1hxsqapk7w6gv648hjdezyjrxz7pjm0clq7sjdh"
+        },
+        {
+          "delegator_address": "did:com:1l0xaatswnm5rpmpg4klatp6exkfm6khd08z52k",
+          "starting_info": {
+            "creation_height": "0",
+            "previous_period": "1",
+            "stake": "49750000000.000000000000000000"
+          },
+          "validator_address": "did:com:valoper1l0xaatswnm5rpmpg4klatp6exkfm6khdvymj89"
+        }
+      ],
+      "delegator_withdraw_infos": [],
+      "fee_pool": {
+        "community_pool": [
+          {
+            "amount": "70276.000000000000000000",
+            "denom": "ucommercio"
+          }
+        ]
+      },
+      "outstanding_rewards": [
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper1p8vdenej8y3lu7d9chnfp5xlthx00exd36sgym"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4stah8l"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7a3k49pv"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper1yzmp0quh3v6c945ltyet7zku7gqvhcdz3dep3g"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper1xwd66m5jr74u28kvrgjswwru5y0rhvgk0dmh0r"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxmgajla"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper1whhetkmcypx7meg43f9lgmrfg8f6v8e9gmmcdu"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper13ew9x73g687x8u4dacvw8g84rh04dv88z8fpyv"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper14zk9u8894eg7fhgw0dsesnqzmlrx85gaxq44lt"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper1hxsqapk7w6gv648hjdezyjrxz7pjm0clq7sjdh"
+        },
+        {
+          "outstanding_rewards": null,
+          "validator_address": "did:com:valoper1l0xaatswnm5rpmpg4klatp6exkfm6khdvymj89"
+        }
+      ],
+      "previous_proposer": "did:com:valcons1l96zq37aw8fj3gfxfv0mpa3j2t2ps54mft0m6a",
+      "validator_accumulated_commissions": [
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper1p8vdenej8y3lu7d9chnfp5xlthx00exd36sgym"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4stah8l"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7a3k49pv"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper1yzmp0quh3v6c945ltyet7zku7gqvhcdz3dep3g"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper1xwd66m5jr74u28kvrgjswwru5y0rhvgk0dmh0r"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxmgajla"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper1whhetkmcypx7meg43f9lgmrfg8f6v8e9gmmcdu"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper13ew9x73g687x8u4dacvw8g84rh04dv88z8fpyv"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper14zk9u8894eg7fhgw0dsesnqzmlrx85gaxq44lt"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper1hxsqapk7w6gv648hjdezyjrxz7pjm0clq7sjdh"
+        },
+        {
+          "accumulated": null,
+          "validator_address": "did:com:valoper1l0xaatswnm5rpmpg4klatp6exkfm6khdvymj89"
+        }
+      ],
+      "validator_current_rewards": [
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper1p8vdenej8y3lu7d9chnfp5xlthx00exd36sgym"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4stah8l"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7a3k49pv"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper1yzmp0quh3v6c945ltyet7zku7gqvhcdz3dep3g"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper1xwd66m5jr74u28kvrgjswwru5y0rhvgk0dmh0r"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxmgajla"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper1whhetkmcypx7meg43f9lgmrfg8f6v8e9gmmcdu"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper13ew9x73g687x8u4dacvw8g84rh04dv88z8fpyv"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper14zk9u8894eg7fhgw0dsesnqzmlrx85gaxq44lt"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper1hxsqapk7w6gv648hjdezyjrxz7pjm0clq7sjdh"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": null
+          },
+          "validator_address": "did:com:valoper1l0xaatswnm5rpmpg4klatp6exkfm6khdvymj89"
+        }
+      ],
+      "validator_historical_rewards": [
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper1p8vdenej8y3lu7d9chnfp5xlthx00exd36sgym"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper1zfhgwfgex8rc9t00pk6jm6xj6vx5cjr4stah8l"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper1rk94nkzyxcq7c5u3x6v6uftvjgtcwm7a3k49pv"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper1yzmp0quh3v6c945ltyet7zku7gqvhcdz3dep3g"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper1xwd66m5jr74u28kvrgjswwru5y0rhvgk0dmh0r"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper1fn2a8eej6zxyd3cc39ex8j0dwg42gnkxmgajla"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper1whhetkmcypx7meg43f9lgmrfg8f6v8e9gmmcdu"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper13ew9x73g687x8u4dacvw8g84rh04dv88z8fpyv"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper14zk9u8894eg7fhgw0dsesnqzmlrx85gaxq44lt"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper1hxsqapk7w6gv648hjdezyjrxz7pjm0clq7sjdh"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": null,
+            "reference_count": 2
+          },
+          "validator_address": "did:com:valoper1l0xaatswnm5rpmpg4klatp6exkfm6khdvymj89"
+        }
+      ],
+      "validator_slash_events": [],
+      "withdraw_addr_enabled": true
+    },
+    "mint": {
+      "cdps": [],
+      "credits_denom": "",
+      "pool_amount": []
+    },
+    "id": {
+      "deposit_pool": [],
+      "deposit_requests": null,
+      "did_documents": null,
+      "handled_power_up_requests": null,
+      "power_up_requests": null
+    }
+  }
+}
