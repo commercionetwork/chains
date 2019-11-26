@@ -1,13 +1,13 @@
 # Commercio.network testnet 5000 Update
 
-**ATTENTION**: This guide is only for updating from commercio-testent5000 to commercio-testent5000 and for full nodes or validators that have followed the instructions reported here [Installing a full node](https://docs.commercio.network/nodes/full-node-installation.html#_1-installing-the-software-requirements)
+**ATTENTION**: This guide is only for updating from commercio-testnet5000 to commercio-testnet5000 and for full nodes or validators that have followed the instructions reported here [Installing a full node](https://docs.commercio.network/nodes/full-node-installation.html#_1-installing-the-software-requirements)
 
 ## 1. Quick update
 
 ### 1. Install binaries
 
 ```bash
-service cnd stop
+systemctl stop cnd
 pkill cncli
 cd ~/go/bin
 wget "https://github.com/commercionetwork/commercionetwork/releases/download/v1.3.2/Linux-AMD64.zip"
@@ -111,13 +111,12 @@ cd commercio-testnet5000
 Compile binaries 
 
 ```shell
-service cnd stop
+systemctl stop cnd
 pkill cncli
 git init . 
 git remote add origin https://github.com/commercionetwork/commercionetwork.git
 git pull
 git checkout tags/$(cat .data | grep -oP 'Release\s+\K\S+')
-go mod tidy
 make install
 ```
 
