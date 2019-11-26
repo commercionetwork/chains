@@ -12,7 +12,9 @@ pkill cncli
 cd ~/go/bin
 wget "https://github.com/commercionetwork/commercionetwork/releases/download/v1.3.2/Linux-AMD64.zip"
 unzip -o Linux-AMD64.zip 
+mv Linux-AMD64/cn* .
 rm -rf Linux-AMD64.zip
+rm -rf Linux-AMD64
 ```
 
 ### 2. Get chain data
