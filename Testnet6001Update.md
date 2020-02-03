@@ -2,6 +2,8 @@
 
 **ATTENTION**: This guide is only for updating from commercio-testnet5000 or commercio-testnet6000 (failed chain) to commercio-testnet6001 and for full nodes or validators that have followed the instructions reported here [Installing a full node](https://docs.commercio.network/nodes/full-node-installation.html#_1-installing-the-software-requirements)
 
+**The upgrade is scheduled for 16.00 CET (15.00 UTC) on Friday 7/02/2020**
+
 ## **BEFORE YOU START**
 After genesis time the chain may not be started immediately: if the consensus is not reached, the first block will not be released.   
 It is important that 2/3 of the validator nodes must be on-line.    
