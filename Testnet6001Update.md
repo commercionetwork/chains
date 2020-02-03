@@ -90,7 +90,7 @@ cncli config chain-id $CHAINID
 
 
 
-## 1. Quick update from **commercio-testnet5000**
+## 2. Quick update from **commercio-testnet5000**
 
 ### 1. Install binaries
 
@@ -191,7 +191,7 @@ cncli config chain-id $CHAINID
 
 
 
-## 2. Slow update from **commercio-testnet5000**
+## 3. Slow update from **commercio-testnet5000**
 
 ### 1. Install requirements
 In order to update the OS so that you can work properly, execute the following commands:
