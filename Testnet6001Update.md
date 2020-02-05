@@ -15,6 +15,8 @@ It is important that 2/3 of the validator nodes must be on-line.
 
 
 ```bash
+systemctl stop cnd
+pkill cncli
 cd ~/
 rm -rf commercio-chains
 mkdir commercio-chains && cd commercio-chains
