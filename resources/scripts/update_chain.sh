@@ -87,10 +87,12 @@ GENESIS_CHECKSUM=$(cat .data | grep -oP 'Seeds\s+\K\S+')
 printf "${GREEN}[OK]${NC} Stop all services\n"
 
 if [ "$EXISTS_CND_SERVICE" ]; then
-    systemctl stop $DEMON_BIN
+   printf "${GREEN}[OK]${NC} Stop cnd service\n"
+   systemctl stop $DEMON_BIN
 fi
 
 if [ "$EXISTS_CNCLI_SERVICE" ]; then
+ 	printf "${GREEN}[OK]${NC} Stop cnd service\n"
     systemctl stop $CLI_BIN
 fi
 pkill $CLI_BIN
@@ -144,10 +146,10 @@ mv ~/.cnd/config/config.toml.tmp ~/.cnd/config/config.toml
 sed -e "s|seeds = \".*\"|seeds = \"$SEEDS\"|g" ~/.cnd/config/config.toml >~/.cnd/config/config.toml.tmp
 mv ~/.cnd/config/config.toml.tmp ~/.cnd/config/config.toml
 
-printf "Restart services\n"
+printf "${GREEN}[OK]${NC} Restart services\n"
 
 if [ ! "$EXISTS_CND_SERVICE" ]; then
-    printf "${ORANGE_BOLD}[WARN]${NC} Service $CLI_BIN seems not present in you system. Do you want install it? Type \"y\" or \"n\" and press \"Enter\" [Default n] ? "
+    printf "${ORANGE_BOLD}[WARN]${NC} Service $DEMON_BIN seems not present in you system. Do you want install it? Type \"y\" or \"n\" and press \"Enter\" [Default n] ? "
     read INSTALL_CND_SERVICE
     while [ ! $INSTALL_CND_SERVICE = "y" ] && [ ! $INSTALL_CND_SERVICE = "n" ]; do
         printf "${ORANGE_BOLD}[WARN]${NC} Choose [y/n] "
@@ -177,15 +179,17 @@ LimitNOFILE=4096
 [Install]
 WantedBy=multi-user.target
 EOF
-        START_TIME=$(date "+%Y-%m-%d|%H")
-        systemctl enable $DEMON_BIN
-        systemctl start $DEMON_BIN
 
     fi
 
 fi
 
-if [ ! "$EXISTS_CND_SERVICE" ]; then
+START_TIME=$(date "+%Y-%m-%d\|%H")
+systemctl enable $DEMON_BIN
+systemctl start $DEMON_BIN
+
+
+if [ ! "$INSTALL_CNCLI_SERVICE" ]; then
     printf "${ORANGE_BOLD}[WARN]${NC} Service $CLI_BIN seems not present in you system. Do you want install it? Type \"y\" or \"n\" and press \"Enter\" [Default n] ? "
     read INSTALL_CNCLI_SERVICE
     while [ ! $INSTALL_CNCLI_SERVICE = "y" ] && [ ! $INSTALL_CNCLI_SERVICE = "n" ]; do
@@ -215,22 +219,28 @@ LimitNOFILE=4096
 [Install]
 WantedBy=multi-user.target
 EOF
-        systemctl enable $CLI_BIN
-        systemctl start $CLI_BIN
     fi
 fi
+
+EXISTS_CNCLI_SERVICE=$(systemctl list-units --full -all | fgrep cncli.service)
+if [ "$EXISTS_CNCLI_SERVICE" ]; then
+	systemctl enable $CLI_BIN
+	systemctl start $CLI_BIN
+fi
+
 
 printf "${GREEN}[OK]${NC} Test if chain correctly started\n"
 sleep 10
 
 #cnd[7825]: I[2020-02-20|12:04:10.340] starting ABCI with Tendermint
 #nd.service                                                                     loaded    active   running   Commercio Node
-CONTROL_RUNNING=$(systemctl list-units --full -all | fgrep cncli.service | fgrep running)
+CONTROL_RUNNING=$(systemctl list-units --full -all | fgrep cnd.service | fgrep running)
 
 CONTROL_START=$(egrep "cnd\[[0-9]+\].+I\[$START_TIME.+\] starting ABCI with Tendermint" /var/log/syslog)
 
 #cnd[7983]: E[2020-02-20|12:23:52.911] dialing failed
-CONTROL_ERROR=$(egrep "cnd\[[0-9]+\].+E\[$START_TIME.+\]" /var/log/syslog)
+CONTROL_ERROR=$(tail -20 /var/log/syslog | egrep "cnd\[[0-9]+\]: E\[$START_TIME.+\]")
+
 
 if [ ! "$CONTROL_RUNNING" ]; then
     printf "${GREEN}[OK]${NC} Service not running: verify your configurations and proced manually\n"
@@ -242,7 +252,7 @@ if [ ! "$CONTROL_START" ]; then
     exit
 fi
 
-printf "Your service start and running.\n"
+printf "${GREEN}[OK]${NC} Your service start and running.\n"
 
 if [ "$CONTROL_ERROR" ]; then
     printf "${RED_BOLD}[ERR]${NC} Some errors with your service. Please control your logs with command 'tail -100 /var/log/syslog' \n"
