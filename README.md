@@ -1,6 +1,14 @@
 # Commercio.network Chains
 This repository contains all the data related to the different chains that a Commercio.network validator can connect to.
 
+# Current Chains
+
+## Mainnet: `commercio-2_1`
+## Testnet: `commercio-testnet9001`
+## Devnet: `commercio-devnet05`
+
+
+
 ## Getting Started
 **IMPORTANT BEFORE YOU START**: If you are already a validator you need see section [Update chain](#update-chain) procedure.    
 If you are thinking of creating a new server instance, use the following procedure.      
