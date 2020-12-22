@@ -4,9 +4,11 @@ This repository contains all the data related to the different chains that a Com
 # Current Chains
 
 ## Mainnet: `commercio-2_1`
-## Testnet: `commercio-testnet9001`
-## Devnet: `commercio-devnet05`
+## Testnet: `commercio-testnet10k`
+----
 
+## Devnet: `commercio-devnet06`
+**Attention**: Devnet chain is only for internal develop
 
 
 ## Getting Started
