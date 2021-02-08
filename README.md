@@ -7,7 +7,7 @@ This repository contains all the data related to the different chains that a Com
 ## Testnet: `commercio-testnet10k1`
 ----
 
-## Devnet: `commercio-devnet06`
+## Devnet: `commercio-devnet07`
 **Attention**: Devnet chain is only for internal develop
 
 
