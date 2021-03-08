@@ -1,0 +1,289 @@
+{
+  "genesis_time": "2021-03-08T08:00:00Z",
+  "chain_id": "commercio-meeting01",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "3000",
+        "min_signed_per_window": "0.050000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.005000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "ucommercio",
+        "amount": "1000"
+      }
+    },
+    "commerciomint": {
+      "positions": [],
+      "pool_amount": [],
+      "credits_denom": "uccc",
+      "collateral_rate": "2.000000000000000000"
+    },
+    "docs": {
+      "documents": null,
+      "receipts": null,
+      "supported_metadata_schemes": null,
+      "trusted_metadata_schema_proposers": null
+    },
+    "vbr": {
+      "pool_amount": [
+        {
+          "denom": "ucommercio",
+          "amount": "12500000000000.000000000000000000"
+        }
+      ],
+      "yearly_pool_amount": null,
+      "year_number": "0"
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "did:com:1u3nt0tpd3ghd2trn20cppgtj3qsas7l60xetwq",
+            "coins": [
+              {
+                "denom": "ucommercio",
+                "amount": "10010000000"
+              }
+            ],
+            "public_key": "",
+            "account_number": 0,
+            "sequence": 0
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "did:com:1xyaj8ngk59urv96rz7l3smta2cm3ncn4amswmq",
+            "coins": [
+              {
+                "denom": "ucommercio",
+                "amount": "1000000000"
+              }
+            ],
+            "public_key": "",
+            "account_number": 0,
+            "sequence": 0
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "did:com:1pamyjgen8dftwq93sfzq3wxf2h6uxd7gjka0cl",
+            "coins": [
+              {
+                "denom": "ucommercio",
+                "amount": "1000000000"
+              }
+            ],
+            "public_key": "",
+            "account_number": 0,
+            "sequence": 0
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "did:com:155upr5a9h2496ud3sp48mm0jk06t9mzwjcyslm",
+            "coins": [
+              {
+                "denom": "ucommercio",
+                "amount": "46296960000000"
+              }
+            ],
+            "public_key": "",
+            "account_number": 0,
+            "sequence": 0
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "did:com:1tkhej302nzynl57t537skcwrjy07pffgty0a7k",
+            "coins": [
+              {
+                "denom": "ucommercio",
+                "amount": "1000000000"
+              }
+            ],
+            "public_key": "",
+            "account_number": 0,
+            "sequence": 0
+          }
+        }
+      ]
+    },
+    "pricefeed": {
+      "oracles": [
+        "did:com:1tkhej302nzynl57t537skcwrjy07pffgty0a7k"
+      ],
+      "assets": [
+        "ucommercio"
+      ],
+      "raw_prices": [
+        {
+          "oracle": "did:com:1tkhej302nzynl57t537skcwrjy07pffgty0a7k",
+          "price": {
+            "asset_name": "ucommercio",
+            "value": "1.000000000000000000",
+            "expiry": "100000000"
+          },
+          "created": "0"
+        }
+      ],
+      "denom_blacklist": [
+        "uccc"
+      ]
+    },
+    "genutil": {
+      "gentxs": [
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "Init-node",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "did:com:1u3nt0tpd3ghd2trn20cppgtj3qsas7l60xetwq",
+                  "validator_address": "did:com:valoper1u3nt0tpd3ghd2trn20cppgtj3qsas7l6v9qdrn",
+                  "pubkey": "did:com:valconspub1zcjduepq8tj3twzn9f9pvfkjfev48tqfwawm02m0qganj6jfmd6atqmnv94qyu5vtl",
+                  "value": {
+                    "denom": "ucommercio",
+                    "amount": "10000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "ApYW2cXkd7zG3EVavPn9N4HA2uF3FEpH7/Dnbdnviah2"
+                },
+                "signature": "ja8wj58cidKteTqoGwIbsgU7nMOYUqBDpk1PdEL9iHUl8hX3TLIVZtr+SIpfwdzscj2gnNxOrakBWEdtX4OtHw=="
+              }
+            ],
+            "memo": "ffd1155412f3f3fc1b371b740508d8e8731066ba@134.122.54.181:26656"
+          }
+        }
+      ]
+    },
+    "params": null,
+    "supply": {
+      "supply": []
+    },
+    "accreditations": {
+      "liquidity_pool_amount": [],
+      "invites": null,
+      "trusted_service_providers": [
+        "did:com:155upr5a9h2496ud3sp48mm0jk06t9mzwjcyslm",
+        "did:com:1pamyjgen8dftwq93sfzq3wxf2h6uxd7gjka0cl"
+      ],
+      "stable_credits_denom": "uccc",
+      "memberships": [
+        {
+          "owner": "did:com:155upr5a9h2496ud3sp48mm0jk06t9mzwjcyslm",
+          "membership_type": "black"
+        }
+      ]
+    },
+    "creditrisk": {
+      "pool": []
+    },
+    "id": {
+      "did_documents": null,
+      "power_up_requests": null
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 0,
+        "bond_denom": "ucommercio"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "bank": {
+      "send_enabled": true,
+      "blocked_accounts": []
+    },
+    "government": {
+      "government_address": "did:com:155upr5a9h2496ud3sp48mm0jk06t9mzwjcyslm",
+      "tumbler_address": "did:com:1xyaj8ngk59urv96rz7l3smta2cm3ncn4amswmq"
+    }
+  }
+}
