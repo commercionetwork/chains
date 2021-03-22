@@ -3,8 +3,8 @@ This repository contains all the data related to the different chains that a Com
 
 # Current Chains
 
-## Mainnet: `commercio-2_1`
-## Testnet: `commercio-testnet10k1`
+## Mainnet: `commercio-2_2`
+## Testnet: `commercio-testnet10k2`
 ----
 
 ## Devnet: `commercio-devnet07`
