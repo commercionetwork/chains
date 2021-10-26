@@ -7,62 +7,80 @@ This repository contains all the data related to the different chains that a Com
 
 ### Persistent Peers list
 
-We Can Consulting Spa
+#### We Can Consulting Spa
 dfaaf7a522b402a52551d298659d059c628dfe57@35.176.21.232:26656
 
-APConsulting Srl
+---
+#### APConsulting Srl
 027f3f907ee75483285d503c2eac143db8804afb@18.157.241.218:26656
 
-5Giornate Srl
+---
+#### 5Giornate Srl
 4e2d2e4cfd7decabafa11f1ae7e0a59756b3ff98@52.47.96.177:26656
 
-CPHolding Srl
+---
+#### CPHolding Srl
 07490eaa07ff84fc237c26d375cb8d6915f00da5@52.58.194.255:26656
 
-Jadochain23 Srl
+---
+#### Jadochain23 Srl
 a05ea1165d1b5cbe25633ced63f3545e333e85b7@54.170.169.168:26656
 
-Infominds Spa
+---
+#### Infominds Spa
 42a724ad22ae4a621b98baaa1a9e29b209b473d3@185.161.193.102:26656
 daed964b5e82bd074f6f5e552e0e90514a9c11a9@185.161.193.103:26656
 
-eglue-v3
+---
+#### eglue-v3
 4a6a547a38d2e9170f15ba30cde37e3fa9f0955f@108.128.171.148:26656
 
-2CSolution
+---
+#### 2CSolution
 617ae023b642af69c832399980dc6527ddec13a0@35.176.229.43:26656
 
-4Chain
+---
+#### 4Chain
 ffc7ecf24a26c51837671d22166b273b229038a4@18.132.92.229:26656
 
-bluit
+---
+#### bluit
 a2417b3d1e47fe502a6d1a8964f52904dd20b0b4@35.157.212.238:26656
 
-Flamingo
+---
+#### Flamingo
 c8525304ba1005f7ea207d57d739ea43e5a603fd@15.236.221.91:26656
 
-NSSP
+---
+#### NSSP
 d435b388b80a2d8f316411e64ca371620b6ced28@15.236.228.182:26656
 
-SPAZIOPROFESSIONISTA
+---
+#### SPAZIOPROFESSIONISTA
 2596f7fe733dec114cdd590eb0bb06ca5d16c12f@18.133.35.165:26656
 
-StudioBortoletto
+---
+#### StudioBortoletto
 53529ed1fa49e0c70b8cd52d86eecc72750cdf8c@18.200.52.241:26656
 
-BortolettoCentroPaghe
+---
+#### BortolettoCentroPaghe
 c24ec40f8a4ffc3a21ed13de58da095209478ab1@63.32.146.106:26656
 
-CPNE
+---
+#### CPNE
 f7d65afbb95a9e405cb2c70176231ac83fd1dc0d@18.192.168.160:26656
 
-La Fiume Mobili
+---
+#### La Fiume Mobili
 10e69c7ea2d08a84a224116ae4da8955f0ff236f@3.10.147.9:26656
 
-Corvallis
+---
+#### Corvallis
 05f3ac48231d82bf555d489f53cea2870d267dd6@78.26.127.221:26656
 
-Commercio/Tradenet
+---
+#### Commercio/Tradenet
 3f26a7d3269e352574e760d4b08d045aa40ebbf2@64.225.78.169:26656
 e84b1b8cdb6563170466912f082829c2e4d28ab1@64.225.64.179:26656
 01f615a56a7ba14d39e4eaf2bfd00a885cc4e629@64.227.113.198:26656
