@@ -5,6 +5,10 @@ This repository contains all the data related to the different chains that a Com
 
 ## Mainnet: `commercio-3`
 
+## Warning
+
+Use https://quicksync.commercio.network with the dump to start a new node.    
+**Don't start from genesis**
 ### Seeds list
 
 8d3ac30a774245019f7b94d7a0713fd8caccaa03@seed-01.commercio.network:26656
@@ -32,7 +36,8 @@ persistent_peers = "3f26a7d3269e352574e760d4b08d045aa40ebbf2@persistent-01.comme
 
 ## Testnet: `commercio-testnet11k`
 
-
+Use https://quicksync.commercio.network with the dump to start a new node.    
+**Don't start from genesis**
 ### Seeds list
 
 a750af543e9e475c17af98cf3166f2a9f260c318@64.225.66.179:26656
