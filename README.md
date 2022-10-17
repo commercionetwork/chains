@@ -74,16 +74,16 @@ cloud provider like Amazon AWS, Google Cloud, Microsoft Azure, Alibaba Cloud or 
 
 Here's a friendly Digital Ocean $50 credit Coupon link: https://m.do.co/c/132ef6958ef7.
 
-## 1. Setup chain version 2.2.0
+## 1. Setup chain version 4.1.0
 For the sake of simplicity, we will assume you have selected the following DigitalOcean configuration.  
 Please not that this is just an example, but any configuration similar to this one will work perfectly fine.      
 
 | Characteristic | Specification |
 | :------------: | :-----------: |
-| Operative System | Ubuntu 18.04 |
+| Operative System | Ubuntu 18.04/20.04/22.04 |
 | Number of CPUs | 2 |
-| RAM | 4GB |
-| SSD | 80GB | 
+| RAM | 32GB |
+| SSD | 300GB | 
 
 Also, we need to make sure the following requirements are met: 
 * Allow incoming connections on port `26656`
@@ -128,7 +128,7 @@ make install
 Test if you have the correct binaries version:
 
 ```shell
-cnd version
+commercionetworkd version
 # Should output the same version written inside the .data file
 ```
 
@@ -145,48 +145,48 @@ export PATH="\$GOPATH/bin:\$PATH"
 EOF
 ```
 
-Init the `.cnd` folder with the basic configuration
+Init the `.commercionetwork` folder with the basic configuration
 
 ```shell
-pkill cnd
-cnd unsafe-reset-all
+pkill commercionetworkd
+commercionetworkd unsafe-reset-all
 
-# If you get a error because .cnd folder is not present don't worry 
-cnd init $NODENAME
+# If you get a error because .commercionetwork folder is not present don't worry 
+commercionetworkd init $NODENAME
 ```
 
 Install `genesis.json` file
 
 ```shell
-pkill cnd
-rm -rf ~/.cnd/config/genesis.json
-cp genesis.json ~/.cnd/config
+pkill commercionetworkd
+rm -rf ~/.commercionetwork/config/genesis.json
+cp genesis.json ~/.commercionetwork/config
 ```
 
 Change the persistent peers inside `config.toml` file
 
 ```shell
-sed -e "s|persistent_peers = \".*\"|persistent_peers = \"$(cat .data | grep -oP 'Persistent peers\s+\K\S+')\"|g" ~/.cnd/config/config.toml > ~/.cnd/config/config.toml.tmp
-mv ~/.cnd/config/config.toml.tmp  ~/.cnd/config/config.toml
+sed -e "s|persistent_peers = \".*\"|persistent_peers = \"$(cat .data | grep -oP 'Persistent peers\s+\K\S+')\"|g" ~/.commercionetwork/config/config.toml > ~/.commercionetwork/config/config.toml.tmp
+mv ~/.commercionetwork/config/config.toml.tmp  ~/.commercionetwork/config/config.toml
 ```
 
 Change the seeds inside the `config.toml` file
 ```shell
-sed -e "s|seeds = \".*\"|seeds = \"$(cat .data | grep -oP 'Seeds\s+\K\S+')\"|g" ~/.cnd/config/config.toml > ~/.cnd/config/config.toml.tmp
-mv ~/.cnd/config/config.toml.tmp  ~/.cnd/config/config.toml
+sed -e "s|seeds = \".*\"|seeds = \"$(cat .data | grep -oP 'Seeds\s+\K\S+')\"|g" ~/.commercionetwork/config/config.toml > ~/.commercionetwork/config/config.toml.tmp
+mv ~/.commercionetwork/config/config.toml.tmp  ~/.commercionetwork/config/config.toml
 ```
 
 ## 5. Configure the service
 
 ```shell
-tee /etc/systemd/system/cnd.service > /dev/null <<EOF  
+tee /etc/systemd/system/commercionetworkd.service > /dev/null <<EOF  
 [Unit]
 Description=Commercio Node
 After=network-online.target
 
 [Service]
 User=root
-ExecStart=/root/go/bin/cnd start
+ExecStart=/root/go/bin/commercionetworkd start
 Restart=always
 RestartSec=3
 LimitNOFILE=4096
@@ -198,9 +198,9 @@ EOF
 
 **Optional**. You can quick sync with the follow procedure:
 ```shell
-wget "https://quicksync.commercio.network/$CHAINID.latest.tgz" -P ~/.cnd/
+wget "https://quicksync.commercio.network/$CHAINID.latest.tgz" -P ~/.commercionetwork/
 # Check if the checksum matches the one present inside https://quicksync.commercio.network
-cd ~/.cnd/
+cd ~/.commercionetwork/
 tar -zxf $(echo $CHAINID).latest.tgz
 ```
 
@@ -209,8 +209,8 @@ Now you can start full node. Enable and try to start service
 
 ```shell
 # Start the node  
-systemctl enable cnd  
-systemctl start cnd
+systemctl enable commercionetworkd  
+systemctl start commercionetworkd
 ```
 
 
@@ -221,11 +221,11 @@ Control if the sync was started. Use `ctrl+c` to interrupt `tail` command
 tail -100f /var/log/syslog
 # OUTPUT SHOULD BE LIKE BELOW
 #
-# Aug 13 16:30:20 commerciotestnet-node4 cnd[351]: I[2019-08-13|16:30:20.722] Executed block                               module=state height=1 validTxs=0 invalidTxs=0
-# Aug 13 16:30:20 commerciotestnet-node4 cnd[351]: I[2019-08-13|16:30:20.728] Committed state                              module=state height=1 txs=0 appHash=9815044185EB222CE9084AA467A156DFE6B4A0B1BAAC6751DE86BB31C83C4B08
-# Aug 13 16:30:20 commerciotestnet-node4 cnd[351]: I[2019-08-13|16:30:20.745] Executed block                               module=state height=2 validTxs=0 invalidTxs=0
-# Aug 13 16:30:20 commerciotestnet-node4 cnd[351]: I[2019-08-13|16:30:20.751] Committed state                              module=state height=2 txs=0 appHash=96BFD9C8714A79193A7913E5F091470691B195E1E6F028BC46D6B1423F7508A5
-# Aug 13 16:30:20 commerciotestnet-node4 cnd[351]: I[2019-08-13|16:30:20.771] Executed block                               module=state height=3 validTxs=0 invalidTxs=0
+# Aug 13 16:30:20 commerciotestnet-node4 commercionetworkd[351]: I[2019-08-13|16:30:20.722] Executed block                               module=state height=1 validTxs=0 invalidTxs=0
+# Aug 13 16:30:20 commerciotestnet-node4 commercionetworkd[351]: I[2019-08-13|16:30:20.728] Committed state                              module=state height=1 txs=0 appHash=9815044185EB222CE9084AA467A156DFE6B4A0B1BAAC6751DE86BB31C83C4B08
+# Aug 13 16:30:20 commerciotestnet-node4 commercionetworkd[351]: I[2019-08-13|16:30:20.745] Executed block                               module=state height=2 validTxs=0 invalidTxs=0
+# Aug 13 16:30:20 commerciotestnet-node4 commercionetworkd[351]: I[2019-08-13|16:30:20.751] Committed state                              module=state height=2 txs=0 appHash=96BFD9C8714A79193A7913E5F091470691B195E1E6F028BC46D6B1423F7508A5
+# Aug 13 16:30:20 commerciotestnet-node4 commercionetworkd[351]: I[2019-08-13|16:30:20.771] Executed block                               module=state height=3 validTxs=0 invalidTxs=0
 ```
 
 ## 6. Add wallet key, get tokens and create a validator
@@ -291,7 +291,7 @@ cncli tx staking create-validator \
 Your validator is active if the following command returns anything:
 
 ```shell
-cncli query staking validators --chain-id $CHAINID | fgrep $(cnd tendermint show-validator)
+cncli query staking validators --chain-id $CHAINID | fgrep $(commercionetworkd tendermint show-validator)
 ```
 You should now see your validator inside the [Commercio.network explorer](https://test.explorer.commercio.network)
 
@@ -314,26 +314,26 @@ You should find `Update type`.
 
 ## 1. Update with "getting started" procedure
 This type is similar to the "getting started" procedure.   
-You need to delete or move the `~/.cnd` folder and start as fresh.    
-You can mantain your wallet that is installed in `~/.cncli` folder or in your `ledger` device, or recreate it with mnemonic.   
+You need to delete or move the `~/.commercionetwork` folder and start as fresh.    
+You can mantain your wallet that is installed in `~/.commercionetwork` folder or in your `ledger` device, or recreate it with mnemonic.   
 You can create new wallet if you prefered and use a new account to become a validator.   
 
 ```shell
-systemctl stop cnd
-pkill cnd #We want be sure that chain process was stopped ;)
+systemctl stop commercionetworkd
+pkill commercionetworkd #We want be sure that chain process was stopped ;)
 ```
 
-Delete `~/.cnd` folder
+Delete `~/.commercionetwork` folder
 
 ```shell
-rm -rf ~/.cnd
+rm -rf ~/.commercionetwork
 ```
 
 or move it (if you want keep the old testnet state for your porpouses). 
 Use `<previous-chain-version>` name for copy name for example
 
 ```shell
-cp -r ~/.cnd ~/.cnd.<previous-chain-version>
+cp -r ~/.commercionetwork ~/.commercionetwork.<previous-chain-version>
 ```
 
 Now you can start follow "getting started" procedure.
@@ -390,8 +390,7 @@ This procedure is quite simple using commands below
 
 ```shell
 systemctl stop cnd
-cp -r ~/.cnd ~/.cnd.[OLD VERSION]
-cp -r ~/.cncli ~/.cncli.[OLD VERSION]
+cp -r ~/.commercionetwork ~/.commercionetwork.[OLD VERSION]
 # Save binaries also
 cp -r /root/go/bin/cnd /root/go/bin/cnd.[OLD VERSION]
 cp -r /root/go/bin/cncli /root/go/bin/cncli.[OLD VERSION]
@@ -510,7 +509,7 @@ Init the `.commercionetworkd` folder with the basic configuration
 pkill cnd
 commercionetworkd unsafe-reset-all
 
-# If you get a error because .cnd folder is not present don't worry 
+# If you get a error because .commercionetwork folder is not present don't worry 
 cnd init $NODENAME
 ```
 
@@ -557,9 +556,9 @@ EOF
 
 **Optional**. You can quick sync with the follow procedure:
 ```shell
-wget "https://quicksync.commercio.network/$CHAINID.latest.tgz" -P ~/.cnd/
+wget "https://quicksync.commercio.network/$CHAINID.latest.tgz" -P ~/.commercionetwork/
 # Check if the checksum matches the one present inside https://quicksync.commercio.network
-cd ~/.cnd/
+cd ~/.commercionetwork/
 tar -zxf $(echo $CHAINID).latest.tgz
 ```
 
@@ -673,8 +672,8 @@ You should find `Update type`.
 
 ## 1. Update with "getting started" procedure
 This type is similar to the "getting started" procedure.   
-You need to delete or move the `~/.cnd` folder and start as fresh.    
-You can mantain your wallet that is installed in `~/.cncli` folder or in your `ledger` device, or recreate it with mnemonic.   
+You need to delete or move the `~/.commercionetwork` folder and start as fresh.    
+You can mantain your wallet that is installed in `~/.commercionetwork` folder or in your `ledger` device, or recreate it with mnemonic.   
 You can create new wallet if you prefered and use a new account to become a validator.   
 
 ```shell
@@ -682,17 +681,17 @@ systemctl stop cnd
 pkill cnd #We want be sure that chain process was stopped ;)
 ```
 
-Delete `~/.cnd` folder
+Delete `~/.commercionetwork` folder
 
 ```shell
-rm -rf ~/.cnd
+rm -rf ~/.commercionetwork
 ```
 
 or move it (if you want keep the old testnet state for your porpouses). 
 Use `<previous-chain-version>` name for copy name for example
 
 ```shell
-cp -r ~/.cnd ~/.cnd.<previous-chain-version>
+cp -r ~/.commercionetwork ~/.commercionetwork.<previous-chain-version>
 ```
 
 Now you can start follow "getting started" procedure.
@@ -749,8 +748,7 @@ This procedure is quite simple using commands below
 
 ```shell
 systemctl stop cnd
-cp -r ~/.cnd ~/.cnd.[OLD VERSION]
-cp -r ~/.cncli ~/.cncli.[OLD VERSION]
+cp -r ~/.commercionetwork ~/.commercionetwork.[OLD VERSION]
 # Save binaries also
 cp -r /root/go/bin/cnd /root/go/bin/cnd.[OLD VERSION]
 cp -r /root/go/bin/cncli /root/go/bin/cncli.[OLD VERSION]
