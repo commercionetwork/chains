@@ -17,12 +17,12 @@ Use https://quicksync.commercio.network with the dump to start a new node.
 ### Persistent Peers list
 
 3f26a7d3269e352574e760d4b08d045aa40ebbf2@persistent-01.commercio.network:26656
-e84b1b8cdb6563170466912f082829c2e4d28ab1@209.250.247.45:26656
 542a55fff599ea07e2b4841febff4a78cf8db2aa@persistent-05.commercio.network:26656
 01f615a56a7ba14d39e4eaf2bfd00a885cc4e629@persistent-03.commercio.network:26656
 15767f4961b501eb67e740aa60c1608bf65679f3@persistent-02.commercio.network:26656
 d6e07b5f0a69bd4d6f4e6e931f00fbcb992a8654@persistent-04.commercio.network:26656
 e2bd5ac83f0d2fde72571568b9a4203f7e76067d@64.225.95.231:26656
+49fdf20f845573429a695c15729c60f52bb5ab19@84.46.241.230:26656
 
 ------------------
 
@@ -31,7 +31,7 @@ e2bd5ac83f0d2fde72571568b9a4203f7e76067d@64.225.95.231:26656
 seeds = "8d3ac30a774245019f7b94d7a0713fd8caccaa03@seed-01.commercio.network:26656,68ccfc9a1574923e344993d49253d8169f592f9e@seed-02.commercio.network:26656"
 ### Persistent Peers
 
-persistent_peers = "3f26a7d3269e352574e760d4b08d045aa40ebbf2@persistent-01.commercio.network:26656,e84b1b8cdb6563170466912f082829c2e4d28ab1@209.250.247.45:26656,542a55fff599ea07e2b4841febff4a78cf8db2aa@persistent-05.commercio.network:26656,01f615a56a7ba14d39e4eaf2bfd00a885cc4e629@persistent-03.commercio.network:26656,15767f4961b501eb67e740aa60c1608bf65679f3@persistent-02.commercio.network:26656,d6e07b5f0a69bd4d6f4e6e931f00fbcb992a8654@persistent-04.commercio.network:26656,e2bd5ac83f0d2fde72571568b9a4203f7e76067d@64.225.95.231:26656"
+persistent_peers = "3f26a7d3269e352574e760d4b08d045aa40ebbf2@persistent-01.commercio.network:26656,542a55fff599ea07e2b4841febff4a78cf8db2aa@persistent-05.commercio.network:26656,01f615a56a7ba14d39e4eaf2bfd00a885cc4e629@persistent-03.commercio.network:26656,15767f4961b501eb67e740aa60c1608bf65679f3@persistent-02.commercio.network:26656,d6e07b5f0a69bd4d6f4e6e931f00fbcb992a8654@persistent-04.commercio.network:26656,e2bd5ac83f0d2fde72571568b9a4203f7e76067d@64.225.95.231:26656,49fdf20f845573429a695c15729c60f52bb5ab19@84.46.241.230:26656"
 
 
 ## Testnet: `commercio-testnet11k`
@@ -62,7 +62,7 @@ persistent_peers = "263855c2a4f599633a5a86c79823365616a3f5cd@46.101.146.48:26656
 ----
 
 ## Devnet: `commercio-devnet09`
-**Attention**: Devnet chain is only for internal develop
+**Warning**: Devnet chain is only for internal develop
 
 
 ## Getting Started
@@ -232,7 +232,7 @@ tail -100f /var/log/syslog
 Inside the testnet we don't use the Ledger. 
 However, if you wish to do so, please add the `--ledger` flat to any command.
     
-**ATTENTION**  
+**WARNING**  
 Please remember to copy the 24 words seed phrase in a secure place.  
 They are your memonic and if you loose them you lose all your tokens and the whole access to your validator.  
 
@@ -337,7 +337,7 @@ cp -r ~/.commercionetwork ~/.commercionetwork.<previous-chain-version>
 ```
 
 Now you can start follow "getting started" procedure.
-**ATTENTION**: before go haed with "getting started" procedure read follow changes about some steps
+**WARNING**: before go haed with "getting started" procedure read follow changes about some steps
 
 In [`step 1`](##1-Setup) in order to update the OS so that you can work properly, execute the following commands:
 
@@ -590,7 +590,7 @@ tail -100f /var/log/syslog
 Inside the testnet we don't use the Ledger. 
 However, if you wish to do so, please add the `--ledger` flat to any command.
     
-**ATTENTION**  
+**WARNING**  
 Please remember to copy the 24 words seed phrase in a secure place.  
 They are your memonic and if you loose them you lose all your tokens and the whole access to your validator.  
 
@@ -695,7 +695,7 @@ cp -r ~/.commercionetwork ~/.commercionetwork.<previous-chain-version>
 ```
 
 Now you can start follow "getting started" procedure.
-**ATTENTION**: before go haed with "getting started" procedure read follow changes about some steps
+**WARNING**: before go haed with "getting started" procedure read follow changes about some steps
 
 In [`step 1`](##1-Setup) in order to update the OS so that you can work properly, execute the following commands:
 
