@@ -61,10 +61,6 @@ persistent_peers = "263855c2a4f599633a5a86c79823365616a3f5cd@46.101.146.48:26656
 
 ----
 
-## Devnet: `commercio-devnet09`
-**Warning**: Devnet chain is only for internal develop
-
-
 ## Getting Started
 **IMPORTANT BEFORE YOU START**: If you are already a validator you need see section [Update chain](#update-chain) procedure.    
 If you are thinking of creating a new server instance, use the following procedure.      
