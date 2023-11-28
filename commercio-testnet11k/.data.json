@@ -6,5 +6,5 @@
   "Genesis_Checksum": "4d46a226f80668a8c119f2d78fece910f7aa639d690a15654d263f00862f95c6",
   "Ordered_Checksum": "4d46a226f80668a8c119f2d78fece910f7aa639d690a15654d263f00862f95c6",
   "Trust_rpc1": "157.230.110.18:26657",
-  "Trust_rpc1": "46.101.146.48:26657"
+  "Trust_rpc2": "46.101.146.48:26657"
 }
